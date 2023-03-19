@@ -1,0 +1,13 @@
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.6.xsd">
+
+    <include file="database/human/query/migration/V202211282230_init_master_database_structure.xml"/>
+    <include file="database/human/query/migration/V202211282230_init_master_avatar_data.xml"/>
+    <include file="database/human/query/migration/V202211282230_init_master_emergency_data.xml"/>
+    <include file="database/human/query/migration/V202211282230_init_master_parkingDetail_data.xml"/>
+    <include file="database/human/query/migration/V202211282230_init_master_roomDetail_data.xml"/>
+    <include file="database/human/query/migration/V202211282230_init_master_user_data.xml"/>
+    <include file="database/human/query/migration/V202302261000_add_keycloak_id_column_into_user_table.xml"/>
+</databaseChangeLog>

@@ -1,0 +1,19 @@
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.6.xsd
+        http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd">
+
+    <changeSet id="V202302172200_add_permission_table_structure" author="trungkien.nguyen"
+               labels="V202302172200_add_permission_table_structure">
+        <ext:createCollection  collectionName="Service"/>
+        <ext:createCollection collectionName="Permission"/>
+        <ext:createCollection collectionName="AccountSetting"/>
+        <rollback>
+            <ext:dropCollection collectionName="Service"/>
+            <ext:dropCollection collectionName="Permission"/>
+            <ext:dropCollection collectionName="AccountSetting"/>
+        </rollback>
+    </changeSet>
+</databaseChangeLog>

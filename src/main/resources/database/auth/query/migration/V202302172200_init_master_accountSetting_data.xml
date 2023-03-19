@@ -1,0 +1,1004 @@
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.6.xsd
+        http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd">
+
+    <changeSet id="V202302172200_init_master_accountSetting_data" author="trungkien.nguyen"
+               labels="V202302172200_init_master_accountSetting_data">
+        <ext:insertMany collectionName="AccountSetting">
+            <ext:documents>
+                [
+                    {
+                        "accountId": 1,
+                        "roleId": 1,
+                        "permissionId": 2,
+                        "status": true
+                    },
+                    {
+                        "accountId": 1,
+                        "roleId": 1,
+                        "permissionId": 3,
+                        "status": true
+                    },
+                    {
+                        "accountId": 1,
+                        "roleId": 1,
+                        "permissionId": 4,
+                        "status": true
+                    },
+                    {
+                        "accountId": 1,
+                        "roleId": 1,
+                        "permissionId": 5,
+                        "status": true
+                    },
+                    {
+                        "accountId": 1,
+                        "roleId": 1,
+                        "permissionId": 6,
+                        "status": true
+                    },
+                    {
+                        "accountId": 1,
+                        "roleId": 1,
+                        "permissionId": 7,
+                        "status": true
+                    },
+                    {
+                        "accountId": 1,
+                        "roleId": 1,
+                        "permissionId": 8,
+                        "status": true
+                    },
+                    {
+                        "accountId": 1,
+                        "roleId": 1,
+                        "permissionId": 10,
+                        "status": true
+                    },
+                    {
+                        "accountId": 1,
+                        "roleId": 1,
+                        "permissionId": 11,
+                        "status": true
+                    },
+                    {
+                        "accountId": 1,
+                        "roleId": 1,
+                        "permissionId": 12,
+                        "status": true
+                    },
+                    {
+                        "accountId": 1,
+                        "roleId": 1,
+                        "permissionId": 13,
+                        "status": true
+                    },
+                    {
+                        "accountId": 1,
+                        "roleId": 1,
+                        "permissionId": 15,
+                        "status": true
+                    },
+                    {
+                        "accountId": 1,
+                        "roleId": 1,
+                        "permissionId": 16,
+                        "status": true
+                    },
+                    {
+                        "accountId": 1,
+                        "roleId": 1,
+                        "permissionId": 17,
+                        "status": true
+                    },
+                    {
+                        "accountId": 1,
+                        "roleId": 1,
+                        "permissionId": 18,
+                        "status": true
+                    },
+                    {
+                        "accountId": 1,
+                        "roleId": 1,
+                        "permissionId": 20,
+                        "status": true
+                    },
+                    {
+                        "accountId": 1,
+                        "roleId": 1,
+                        "permissionId": 21,
+                        "status": true
+                    },
+                    {
+                        "accountId": 1,
+                        "roleId": 1,
+                        "permissionId": 22,
+                        "status": true
+                    },
+                    {
+                        "accountId": 1,
+                        "roleId": 1,
+                        "permissionId": 23,
+                        "status": true
+                    },
+                    {
+                        "accountId": 1,
+                        "roleId": 1,
+                        "permissionId": 25,
+                        "status": true
+                    },
+                    {
+                        "accountId": 1,
+                        "roleId": 1,
+                        "permissionId": 26,
+                        "status": true
+                    },
+                    {
+                        "accountId": 1,
+                        "roleId": 1,
+                        "permissionId": 27,
+                        "status": true
+                    },
+                    {
+                        "accountId": 1,
+                        "roleId": 1,
+                        "permissionId": 28,
+                        "status": true
+                    },
+                    {
+                        "accountId": 1,
+                        "roleId": 1,
+                        "permissionId": 29,
+                        "status": true
+                    },
+                    {
+                        "accountId": 1,
+                        "roleId": 1,
+                        "permissionId": 30,
+                        "status": true
+                    },
+                    {
+                        "accountId": 1,
+                        "roleId": 1,
+                        "permissionId": 31,
+                        "status": true
+                    },
+                    {
+                        "accountId": 1,
+                        "roleId": 1,
+                        "permissionId": 33,
+                        "status": true
+                    },
+                    {
+                        "accountId": 1,
+                        "roleId": 1,
+                        "permissionId": 35,
+                        "status": true
+                    },
+                    {
+                        "accountId": 1,
+                        "roleId": 1,
+                        "permissionId": 36,
+                        "status": true
+                    },
+                    {
+                        "accountId": 1,
+                        "roleId": 1,
+                        "permissionId": 37,
+                        "status": true
+                    },
+                    {
+                        "accountId": 1,
+                        "roleId": 1,
+                        "permissionId": 38,
+                        "status": true
+                    },
+                    {
+                        "accountId": 1,
+                        "roleId": 1,
+                        "permissionId": 39,
+                        "status": true
+                    },
+                    {
+                        "accountId": 1,
+                        "roleId": 1,
+                        "permissionId": 40,
+                        "status": true
+                    },
+                    {
+                        "accountId": 1,
+                        "roleId": 1,
+                        "permissionId": 42,
+                        "status": true
+                    },
+                    {
+                        "accountId": 1,
+                        "roleId": 1,
+                        "permissionId": 43,
+                        "status": true
+                    },
+                    {
+                        "accountId": 1,
+                        "roleId": 1,
+                        "permissionId": 44,
+                        "status": true
+                    },
+                    {
+                        "accountId": 1,
+                        "roleId": 1,
+                        "permissionId": 45,
+                        "status": true
+                    },
+                    {
+                        "accountId": 1,
+                        "roleId": 1,
+                        "permissionId": 47,
+                        "status": true
+                    },
+                    {
+                        "accountId": 1,
+                        "roleId": 1,
+                        "permissionId": 48,
+                        "status": true
+                    },
+                    {
+                        "accountId": 1,
+                        "roleId": 1,
+                        "permissionId": 49,
+                        "status": true
+                    },
+                    {
+                        "accountId": 1,
+                        "roleId": 1,
+                        "permissionId": 50,
+                        "status": true
+                    },
+                    {
+                        "accountId": 1,
+                        "roleId": 1,
+                        "permissionId": 52,
+                        "status": true
+                    },
+                    {
+                        "accountId": 1,
+                        "roleId": 1,
+                        "permissionId": 53,
+                        "status": true
+                    },
+                    {
+                        "accountId": 1,
+                        "roleId": 1,
+                        "permissionId": 54,
+                        "status": true
+                    },
+                    {
+                        "accountId": 1,
+                        "roleId": 1,
+                        "permissionId": 56,
+                        "status": true
+                    },
+                    {
+                        "accountId": 1,
+                        "roleId": 1,
+                        "permissionId": 57,
+                        "status": true
+                    },
+                    {
+                        "accountId": 1,
+                        "roleId": 1,
+                        "permissionId": 58,
+                        "status": true
+                    },
+                    {
+                        "accountId": 1,
+                        "roleId": 1,
+                        "permissionId": 59,
+                        "status": true
+                    },
+                    {
+                        "accountId": 1,
+                        "roleId": 1,
+                        "permissionId": 61,
+                        "status": true
+                    },
+                    {
+                        "accountId": 1,
+                        "roleId": 1,
+                        "permissionId": 62,
+                        "status": true
+                    },
+                    {
+                        "accountId": 1,
+                        "roleId": 1,
+                        "permissionId": 63,
+                        "status": true
+                    },
+                    {
+                        "accountId": 1,
+                        "roleId": 1,
+                        "permissionId": 64,
+                        "status": true
+                    },
+                    {
+                        "accountId": 1,
+                        "roleId": 1,
+                        "permissionId": 66,
+                        "status": true
+                    },
+                    {
+                        "accountId": 1,
+                        "roleId": 1,
+                        "permissionId": 67,
+                        "status": true
+                    },
+                    {
+                        "accountId": 1,
+                        "roleId": 1,
+                        "permissionId": 68,
+                        "status": true
+                    },
+                    {
+                        "accountId": 1,
+                        "roleId": 1,
+                        "permissionId": 69,
+                        "status": true
+                    },
+                    {
+                        "accountId": 1,
+                        "roleId": 1,
+                        "permissionId": 71,
+                        "status": true
+                    },
+                    {
+                        "accountId": 1,
+                        "roleId": 1,
+                        "permissionId": 72,
+                        "status": true
+                    },
+                    {
+                        "accountId": 1,
+                        "roleId": 1,
+                        "permissionId": 73,
+                        "status": true
+                    },
+                    {
+                        "accountId": 1,
+                        "roleId": 1,
+                        "permissionId": 74,
+                        "status": true
+                    },
+                    {
+                        "accountId": 1,
+                        "roleId": 1,
+                        "permissionId": 76,
+                        "status": true
+                    },
+                    {
+                        "accountId": 1,
+                        "roleId": 1,
+                        "permissionId": 77,
+                        "status": true
+                    },
+                    {
+                        "accountId": 1,
+                        "roleId": 1,
+                        "permissionId": 78,
+                        "status": true
+                    },
+                    {
+                        "accountId": 1,
+                        "roleId": 1,
+                        "permissionId": 79,
+                        "status": true
+                    },
+                    {
+                        "accountId": 1,
+                        "roleId": 1,
+                        "permissionId": 81,
+                        "status": true
+                    },
+                    {
+                        "accountId": 1,
+                        "roleId": 1,
+                        "permissionId": 82,
+                        "status": true
+                    },
+                    {
+                        "accountId": 1,
+                        "roleId": 1,
+                        "permissionId": 83,
+                        "status": true
+                    },
+                    {
+                        "accountId": 1,
+                        "roleId": 1,
+                        "permissionId": 84,
+                        "status": true
+                    },
+                    {
+                        "accountId": 1,
+                        "roleId": 1,
+                        "permissionId": 86,
+                        "status": true
+                    },
+                    {
+                        "accountId": 1,
+                        "roleId": 1,
+                        "permissionId": 87,
+                        "status": true
+                    },
+                    {
+                        "accountId": 1,
+                        "roleId": 1,
+                        "permissionId": 88,
+                        "status": true
+                    },
+                    {
+                        "accountId": 1,
+                        "roleId": 1,
+                        "permissionId": 89,
+                        "status": true
+                    },
+                    {
+                        "accountId": 1,
+                        "roleId": 1,
+                        "permissionId": 91,
+                        "status": true
+                    },
+                    {
+                        "accountId": 1,
+                        "roleId": 1,
+                        "permissionId": 92,
+                        "status": true
+                    },
+                    {
+                        "accountId": 1,
+                        "roleId": 1,
+                        "permissionId": 93,
+                        "status": true
+                    },
+                    {
+                        "accountId": 1,
+                        "roleId": 1,
+                        "permissionId": 95,
+                        "status": true
+                    },
+                    {
+                        "accountId": 1,
+                        "roleId": 1,
+                        "permissionId": 96,
+                        "status": true
+                    },
+                    {
+                        "accountId": 1,
+                        "roleId": 1,
+                        "permissionId": 97,
+                        "status": true
+                    },
+                    {
+                        "accountId": 1,
+                        "roleId": 1,
+                        "permissionId": 99,
+                        "status": true
+                    },
+                    {
+                        "accountId": 1,
+                        "roleId": 1,
+                        "permissionId": 100,
+                        "status": true
+                    },
+                    {
+                        "accountId": 1,
+                        "roleId": 1,
+                        "permissionId": 101,
+                        "status": true
+                    },
+                    {
+                        "accountId": 1,
+                        "roleId": 1,
+                        "permissionId": 102,
+                        "status": true
+                    },
+                    {
+                        "accountId": 2,
+                        "roleId": 2,
+                        "permissionId": 2,
+                        "status": true
+                    },
+                    {
+                        "accountId": 2,
+                        "roleId": 2,
+                        "permissionId": 3,
+                        "status": true
+                    },
+                    {
+                        "accountId": 2,
+                        "roleId": 2,
+                        "permissionId": 4,
+                        "status": true
+                    },
+                    {
+                        "accountId": 2,
+                        "roleId": 2,
+                        "permissionId": 5,
+                        "status": true
+                    },
+                    {
+                        "accountId": 2,
+                        "roleId": 2,
+                        "permissionId": 6,
+                        "status": true
+                    },
+                    {
+                        "accountId": 2,
+                        "roleId": 2,
+                        "permissionId": 7,
+                        "status": true
+                    },
+                    {
+                        "accountId": 2,
+                        "roleId": 2,
+                        "permissionId": 8,
+                        "status": true
+                    },
+                    {
+                        "accountId": 2,
+                        "roleId": 2,
+                        "permissionId": 10,
+                        "status": false
+                    },
+                    {
+                        "accountId": 2,
+                        "roleId": 2,
+                        "permissionId": 11,
+                        "status": false
+                    },
+                    {
+                        "accountId": 2,
+                        "roleId": 2,
+                        "permissionId": 12,
+                        "status": false
+                    },
+                    {
+                        "accountId": 2,
+                        "roleId": 2,
+                        "permissionId": 13,
+                        "status": false
+                    },
+                    {
+                        "accountId": 2,
+                        "roleId": 2,
+                        "permissionId": 15,
+                        "status": false
+                    },
+                    {
+                        "accountId": 2,
+                        "roleId": 2,
+                        "permissionId": 16,
+                        "status": true
+                    },
+                    {
+                        "accountId": 2,
+                        "roleId": 2,
+                        "permissionId": 17,
+                        "status": false
+                    },
+                    {
+                        "accountId": 2,
+                        "roleId": 2,
+                        "permissionId": 18,
+                        "status": false
+                    },
+                    {
+                        "accountId": 2,
+                        "roleId": 2,
+                        "permissionId": 20,
+                        "status": true
+                    },
+                    {
+                        "accountId": 2,
+                        "roleId": 2,
+                        "permissionId": 21,
+                        "status": false
+                    },
+                    {
+                        "accountId": 2,
+                        "roleId": 2,
+                        "permissionId": 22,
+                        "status": false
+                    },
+                    {
+                        "accountId": 2,
+                        "roleId": 2,
+                        "permissionId": 23,
+                        "status": false
+                    },
+                    {
+                        "accountId": 2,
+                        "roleId": 2,
+                        "permissionId": 25,
+                        "status": true
+                    },
+                    {
+                        "accountId": 2,
+                        "roleId": 2,
+                        "permissionId": 26,
+                        "status": false
+                    },
+                    {
+                        "accountId": 2,
+                        "roleId": 2,
+                        "permissionId": 27,
+                        "status": false
+                    },
+                    {
+                        "accountId": 2,
+                        "roleId": 2,
+                        "permissionId": 28,
+                        "status": false
+                    },
+                    {
+                        "accountId": 2,
+                        "roleId": 2,
+                        "permissionId": 29,
+                        "status": true
+                    },
+                    {
+                        "accountId": 2,
+                        "roleId": 2,
+                        "permissionId": 30,
+                        "status": true
+                    },
+                    {
+                        "accountId": 2,
+                        "roleId": 2,
+                        "permissionId": 31,
+                        "status": true
+                    },
+                    {
+                        "accountId": 2,
+                        "roleId": 2,
+                        "permissionId": 33,
+                        "status": true
+                    },
+                    {
+                        "accountId": 2,
+                        "roleId": 2,
+                        "permissionId": 35,
+                        "status": false
+                    },
+                    {
+                        "accountId": 2,
+                        "roleId": 2,
+                        "permissionId": 36,
+                        "status": false
+                    },
+                    {
+                        "accountId": 2,
+                        "roleId": 2,
+                        "permissionId": 37,
+                        "status": false
+                    },
+                    {
+                        "accountId": 2,
+                        "roleId": 2,
+                        "permissionId": 38,
+                        "status": false
+                    },
+                    {
+                        "accountId": 2,
+                        "roleId": 2,
+                        "permissionId": 39,
+                        "status": false
+                    },
+                    {
+                        "accountId": 2,
+                        "roleId": 2,
+                        "permissionId": 40,
+                        "status": false
+                    },
+                    {
+                        "accountId": 2,
+                        "roleId": 2,
+                        "permissionId": 42,
+                        "status": false
+                    },
+                    {
+                        "accountId": 2,
+                        "roleId": 2,
+                        "permissionId": 43,
+                        "status": false
+                    },
+                    {
+                        "accountId": 2,
+                        "roleId": 2,
+                        "permissionId": 44,
+                        "status": false
+                    },
+                    {
+                        "accountId": 2,
+                        "roleId": 2,
+                        "permissionId": 45,
+                        "status": false
+                    },
+                    {
+                        "accountId": 2,
+                        "roleId": 2,
+                        "permissionId": 47,
+                        "status": false
+                    },
+                    {
+                        "accountId": 2,
+                        "roleId": 2,
+                        "permissionId": 48,
+                        "status": false
+                    },
+                    {
+                        "accountId": 2,
+                        "roleId": 2,
+                        "permissionId": 49,
+                        "status": false
+                    },
+                    {
+                        "accountId": 2,
+                        "roleId": 2,
+                        "permissionId": 50,
+                        "status": false
+                    },
+                    {
+                        "accountId": 2,
+                        "roleId": 2,
+                        "permissionId": 52,
+                        "status": false
+                    },
+                    {
+                        "accountId": 2,
+                        "roleId": 2,
+                        "permissionId": 53,
+                        "status": false
+                    },
+                    {
+                        "accountId": 2,
+                        "roleId": 2,
+                        "permissionId": 54,
+                        "status": false
+                    },
+                    {
+                        "accountId": 2,
+                        "roleId": 2,
+                        "permissionId": 56,
+                        "status": false
+                    },
+                    {
+                        "accountId": 2,
+                        "roleId": 2,
+                        "permissionId": 57,
+                        "status": false
+                    },
+                    {
+                        "accountId": 2,
+                        "roleId": 2,
+                        "permissionId": 58,
+                        "status": false
+                    },
+                    {
+                        "accountId": 2,
+                        "roleId": 2,
+                        "permissionId": 59,
+                        "status": false
+                    },
+                    {
+                        "accountId": 2,
+                        "roleId": 2,
+                        "permissionId": 61,
+                        "status": false
+                    },
+                    {
+                        "accountId": 2,
+                        "roleId": 2,
+                        "permissionId": 62,
+                        "status": false
+                    },
+                    {
+                        "accountId": 2,
+                        "roleId": 2,
+                        "permissionId": 63,
+                        "status": false
+                    },
+                    {
+                        "accountId": 2,
+                        "roleId": 2,
+                        "permissionId": 64,
+                        "status": false
+                    },
+                    {
+                        "accountId": 2,
+                        "roleId": 2,
+                        "permissionId": 66,
+                        "status": false
+                    },
+                    {
+                        "accountId": 2,
+                        "roleId": 2,
+                        "permissionId": 67,
+                        "status": false
+                    },
+                    {
+                        "accountId": 2,
+                        "roleId": 2,
+                        "permissionId": 68,
+                        "status": false
+                    },
+                    {
+                        "accountId": 2,
+                        "roleId": 2,
+                        "permissionId": 69,
+                        "status": false
+                    },
+                    {
+                        "accountId": 2,
+                        "roleId": 2,
+                        "permissionId": 71,
+                        "status": false
+                    },
+                    {
+                        "accountId": 2,
+                        "roleId": 2,
+                        "permissionId": 72,
+                        "status": false
+                    },
+                    {
+                        "accountId": 2,
+                        "roleId": 2,
+                        "permissionId": 73,
+                        "status": false
+                    },
+                    {
+                        "accountId": 2,
+                        "roleId": 2,
+                        "permissionId": 74,
+                        "status": false
+                    },
+                    {
+                        "accountId": 2,
+                        "roleId": 2,
+                        "permissionId": 76,
+                        "status": false
+                    },
+                    {
+                        "accountId": 2,
+                        "roleId": 2,
+                        "permissionId": 77,
+                        "status": false
+                    },
+                    {
+                        "accountId": 2,
+                        "roleId": 2,
+                        "permissionId": 78,
+                        "status": false
+                    },
+                    {
+                        "accountId": 2,
+                        "roleId": 2,
+                        "permissionId": 79,
+                        "status": false
+                    },
+                    {
+                        "accountId": 2,
+                        "roleId": 2,
+                        "permissionId": 81,
+                        "status": true
+                    },
+                    {
+                        "accountId": 2,
+                        "roleId": 2,
+                        "permissionId": 82,
+                        "status": false
+                    },
+                    {
+                        "accountId": 2,
+                        "roleId": 2,
+                        "permissionId": 83,
+                        "status": true
+                    },
+                    {
+                        "accountId": 2,
+                        "roleId": 2,
+                        "permissionId": 84,
+                        "status": true
+                    },
+                    {
+                        "accountId": 2,
+                        "roleId": 2,
+                        "permissionId": 86,
+                        "status": true
+                    },
+                    {
+                        "accountId": 2,
+                        "roleId": 2,
+                        "permissionId": 87,
+                        "status": true
+                    },
+                    {
+                        "accountId": 2,
+                        "roleId": 2,
+                        "permissionId": 88,
+                        "status": true
+                    },
+                    {
+                        "accountId": 2,
+                        "roleId": 2,
+                        "permissionId": 89,
+                        "status": true
+                    },
+                    {
+                        "accountId": 2,
+                        "roleId": 2,
+                        "permissionId": 91,
+                        "status": false
+                    },
+                    {
+                        "accountId": 2,
+                        "roleId": 2,
+                        "permissionId": 92,
+                        "status": false
+                    },
+                    {
+                        "accountId": 2,
+                        "roleId": 2,
+                        "permissionId": 93,
+                        "status": false
+                    },
+                    {
+                        "accountId": 2,
+                        "roleId": 2,
+                        "permissionId": 95,
+                        "status": false
+                    },
+                    {
+                        "accountId": 2,
+                        "roleId": 2,
+                        "permissionId": 96,
+                        "status": false
+                    },
+                    {
+                        "accountId": 2,
+                        "roleId": 2,
+                        "permissionId": 97,
+                        "status": false
+                    },
+                    {
+                        "accountId": 2,
+                        "roleId": 2,
+                        "permissionId": 99,
+                        "status": false
+                    },
+                    {
+                        "accountId": 2,
+                        "roleId": 2,
+                        "permissionId": 100,
+                        "status": false
+                    },
+                    {
+                        "accountId": 2,
+                        "roleId": 2,
+                        "permissionId": 101,
+                        "status": false
+                    },
+                    {
+                        "accountId": 2,
+                        "roleId": 2,
+                        "permissionId": 102,
+                        "status": false
+                    }
+                ]
+            </ext:documents>
+        </ext:insertMany>
+        <rollback>
+            <ext:dropCollection collectionName="AccountSetting"/>
+        </rollback>
+    </changeSet>
+</databaseChangeLog>

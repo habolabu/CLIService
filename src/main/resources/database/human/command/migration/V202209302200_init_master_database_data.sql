@@ -1,0 +1,102 @@
+-- liquibase formatted sql
+-- 2022-09-30 22:00:00 VN
+-- changeset trungkien.nguyen:V202209302200_init_master_database_data
+INSERT
+IGNORE INTO User(firstName, lastName, address, idCard, phoneNumber, email, gender, dateOfBirth)
+VALUES (N'An', N'Nguyễn Văn', N'123/0 Nguyễn Văn Cừ, Quận 1, TP.HCM', '000000000000',
+    '0000000000', 'ouproject2223@gmail.com', TRUE, '2001-01-01'),
+    (N'Bình', N'Nguyễn Thị', N'123/1 Nguyễn Tuân, Quận 2, TP.HCM', '000000000001',
+    '0000000001', 'ouproject2223@gmail.com', FALSE, '2001-01-02'),
+    (N'Chi', N'Nguyễn Hoàng Thùy', N'123/3 Mai Thị Lựu, Quận 1, TP.HCM', '000000000002',
+    '0000000002', 'ouproject2223@gmail.com', FALSE, '2001-01-03'),
+    (N'Dương', N'Hoàng Đình', N'123/4 Nguyễn Văn Trỗi, Quận 5, TP.HCM', '000000000003',
+    '0000000003', 'ouproject2223@gmail.com', TRUE, '2001-01-04'),
+    (N'Emmy', N'Nguyễn', N'123/5 Hoàng Mai, Quận 1, TP.HCM', '000000000004',
+    '0000000004', 'ouproject2223@gmail.com', FALSE, '2001-01-05'),
+    (N'Giang', N'Hoàng', N'123/6 Nguyễn Đình Chiểu, Quận 6, TP.HCM', '000000000005',
+    '0000000005', 'ouproject2223@gmail.com', TRUE, '2001-01-06'),
+    (N'Huy', N'Đinh Văn', N'123/7 Nguyễn Kiệm, Quận 2, TP.HCM', '000000000006',
+    '0000000006', 'ouproject2223@gmail.com', TRUE, '2001-01-07'),
+    (N'Khang', N'Nguyễn Tiến', N'123/8 Nguyễn Kiệm, Quận 2, TP.HCM', '000000000007',
+    '0000000007', 'ouproject2223@gmail.com', TRUE, '2001-01-08'),
+    (N'Linh', N'Mai Thị', N'123/9 Nguyễn Hoàng, Quận 3, TP.HCM', '000000000008',
+    '0000000008', 'ouproject2223@gmail.com', FALSE, '2001-01-09'),
+    (N'Nga', N'Đinh Thị', N'123/10 Nguyễn Tuân, Quận 2, TP.HCM', '000000000009',
+    '0000000009', 'ouproject2223@gmail.com', FALSE, '2001-01-10'),
+    (N'Minh', N'Khương Văn', N'123/11 Nguyễn Thị Bé, Quận 1, TP.HCM', '000000000010',
+    '0000000010', 'ouproject2223@gmail.com', TRUE, '2001-01-11');
+
+INSERT
+IGNORE INTO Avatar(url, isSelected, userId)
+VALUES ('https://res.cloudinary.com/dzd9sonxs/image/upload/v1664544714/avatar/default-avatar_xh2rub.png', FALSE, 1),
+    ('https://res.cloudinary.com/dzd9sonxs/image/upload/v1664544714/avatar/default-avatar_xh2rub.png', FALSE, 2),
+    ('https://res.cloudinary.com/dzd9sonxs/image/upload/v1664544714/avatar/default-avatar_xh2rub.png', FALSE, 3),
+    ('https://res.cloudinary.com/dzd9sonxs/image/upload/v1664544714/avatar/default-avatar_xh2rub.png', FALSE, 4),
+    ('https://res.cloudinary.com/dzd9sonxs/image/upload/v1664544714/avatar/default-avatar_xh2rub.png', FALSE, 5),
+    ('https://res.cloudinary.com/dzd9sonxs/image/upload/v1664544714/avatar/default-avatar_xh2rub.png', FALSE, 6),
+    ('https://res.cloudinary.com/dzd9sonxs/image/upload/v1664544714/avatar/default-avatar_xh2rub.png', FALSE, 7),
+    ('https://res.cloudinary.com/dzd9sonxs/image/upload/v1664544714/avatar/default-avatar_xh2rub.png', FALSE, 8),
+    ('https://res.cloudinary.com/dzd9sonxs/image/upload/v1664544714/avatar/default-avatar_xh2rub.png', FALSE, 9),
+    ('https://res.cloudinary.com/dzd9sonxs/image/upload/v1664544714/avatar/default-avatar_xh2rub.png', FALSE, 10),
+    ('https://res.cloudinary.com/dzd9sonxs/image/upload/v1664544968/avatar/ava1_yb7y9c.jpg', FALSE, 1),
+    ('https://res.cloudinary.com/dzd9sonxs/image/upload/v1664544966/avatar/ava19_wjij4f.jpg', FALSE, 1),
+    ('https://res.cloudinary.com/dzd9sonxs/image/upload/v1664544966/avatar/ava20_v4tod1.jpg', TRUE, 1),
+    ('https://res.cloudinary.com/dzd9sonxs/image/upload/v1664544968/avatar/ava2_d6kgjw.jpg', FALSE, 2),
+    ('https://res.cloudinary.com/dzd9sonxs/image/upload/v1664544968/avatar/ava3_bmjenu.jpg', FALSE, 2),
+    ('https://res.cloudinary.com/dzd9sonxs/image/upload/v1664544968/avatar/ava4_q0nooa.jpg', FALSE, 2),
+    ('https://res.cloudinary.com/dzd9sonxs/image/upload/v1664544968/avatar/ava5_ay14jm.jpg', TRUE, 2),
+    ('https://res.cloudinary.com/dzd9sonxs/image/upload/v1664544968/avatar/ava6_tnaprq.jpg', FALSE, 2),
+    ('https://res.cloudinary.com/dzd9sonxs/image/upload/v1664544967/avatar/ava7_x8smg4.jpg', FALSE, 2),
+    ('https://res.cloudinary.com/dzd9sonxs/image/upload/v1664544967/avatar/ava8_avmcha.jpg', FALSE, 2),
+    ('https://res.cloudinary.com/dzd9sonxs/image/upload/v1664544967/avatar/ava9_qmhjey.jpg', FALSE, 2),
+    ('https://res.cloudinary.com/dzd9sonxs/image/upload/v1664544967/avatar/ava10_upbds8.jpg', FALSE, 2),
+    ('https://res.cloudinary.com/dzd9sonxs/image/upload/v1664545117/avatar/ava11_frdqci.jpg', TRUE, 3),
+    ('https://res.cloudinary.com/dzd9sonxs/image/upload/v1664544967/avatar/ava12_y4xvyy.jpg', TRUE, 4),
+    ('https://res.cloudinary.com/dzd9sonxs/image/upload/v1664544967/avatar/ava13_vqpfgc.jpg', TRUE, 5),
+    ('https://res.cloudinary.com/dzd9sonxs/image/upload/v1664544966/avatar/ava14_fpzkxi.jpg', TRUE, 6),
+    ('https://res.cloudinary.com/dzd9sonxs/image/upload/v1664544966/avatar/ava15_caii4p.jpg', TRUE, 7),
+    ('https://res.cloudinary.com/dzd9sonxs/image/upload/v1664544966/avatar/ava16_yqz0k0.jpg', TRUE, 8),
+    ('https://res.cloudinary.com/dzd9sonxs/image/upload/v1664544966/avatar/ava17_xlmvlw.jpg', TRUE, 9),
+    ('https://res.cloudinary.com/dzd9sonxs/image/upload/v1664544966/avatar/ava18_qse8nu.jpg', TRUE, 10);
+
+INSERT INTO Emergency (name, address, phoneNumber, userId)
+VALUES (N'Nguyễn Văn A', N'Quận 1, Tp. HCM', '0000000001', 1),
+       (N'Nguyễn Văn B', N'Quận 2, Tp. HCM', '0000000002', 1),
+       (N'Nguyễn Văn C', N'Quận 3, Tp. HCM', '0000000003', 2),
+       (N'Nguyễn Văn D', N'Quận 4, Tp. HCM', '0000000004', 2),
+       (N'Nguyễn Văn E', N'Quận 5, Tp. HCM', '0000000005', 3),
+       (N'Nguyễn Văn F', N'Quận 6, Tp. HCM', '0000000006', 4),
+       (N'Nguyễn Văn G', N'Quận 7, Tp. HCM', '0000000007', 5),
+       (N'Nguyễn Văn H', N'Quận 8, Tp. HCM', '0000000008', 6),
+       (N'Nguyễn Văn I', N'Quận 9, Tp. HCM', '0000000009', 7),
+       (N'Nguyễn Văn K', N'Quận 10, Tp. HCM', '0000000010', 8),
+       (N'Nguyễn Văn L', N'Quận 11, Tp. HCM', '0000000011', 9),
+       (N'Nguyễn Văn M', N'Quận 12, Tp. HCM', '0000000012', 10);
+
+INSERT INTO RoomDetail (userId, roomId)
+VALUES (1, 1),
+       (2, 1),
+       (2, 2),
+       (2, 3),
+       (3, 4),
+       (4, 5),
+       (5, 6),
+       (6, 7),
+       (7, 1),
+       (8, 2),
+       (9, 3),
+       (10, 4);
+
+INSERT INTO ParkingDetail (userId, parkingId, parkingTypeId)
+VALUES (1, 1, 1),
+       (2, 1, 2),
+       (2, 2, 1),
+       (2, 3, 2),
+       (3, 4, 1),
+       (4, 1, 3),
+       (5, 2, 2),
+       (6, 3, 2),
+       (7, 1, 2),
+       (8, 2, 2),
+       (9, 3, 2),
+       (10, 4, 1);

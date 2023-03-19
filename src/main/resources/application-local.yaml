@@ -1,0 +1,74 @@
+datasource:
+  auth-group:
+    command:
+      jdbc-url: ${AUTH_GROUP_COMMAND_URL:jdbc:mysql://localhost:3306/AuthCommandService?createDatabaseIfNotExist=true&charset=utf8mb4}
+      username: ${AUTH_GROUP_COMMAND_USERNAME:root}
+      password: ${AUTH_GROUP_COMMAND_PASSWORD:12345678}
+      driver-class-name: ${AUTH_GROUP_COMMAND_DRIVER_CLASS_NAME:com.mysql.cj.jdbc.Driver}
+      liquibase:
+        enabled: ${AUTH_GROUP_COMMAND_LIQUIBASE_ENABLED:true}
+        change-log: ${AUTH_GROUP_COMMAND_LIQUIBASE_CHANGE_LOG:classpath:database/auth/command/changelog/changelog_master.xml}
+    query:
+      url: ${AUTH_GROUP_QUERY_URL:mongodb://localhost:27017/AuthQueryService?socketTimeoutMS=1000&connectTimeoutMS=1000&serverSelectionTimeoutMS=1000}
+      liquibase:
+        change-log: ${AUTH_GROUP_QUERY_LIQUIBASE_CHANGE_LOG:classpath:database/auth/query/changelog/changelog_master.xml}
+
+  building-group:
+    command:
+      jdbc-url: ${BUILDING_GROUP_COMMAND_URL:jdbc:mysql://localhost:3306/BuildingCommandService?createDatabaseIfNotExist=true&charset=utf8mb4}
+      username: ${BUILDING_GROUP_COMMAND_USERNAME:root}
+      password: ${BUILDING_GROUP_COMMAND_PASSWORD:12345678}
+      driver-class-name: ${BUILDING_GROUP_COMMAND_DRIVER_CLASS_NAME:com.mysql.cj.jdbc.Driver}
+      liquibase:
+        enabled: ${BUILDING_GROUP_COMMAND_LIQUIBASE_ENABLED:true}
+        change-log: ${BUILDING_GROUP_COMMAND_LIQUIBASE_CHANGE_LOG:classpath:database/building/command/changelog/changelog_master.xml}
+    query:
+      url: ${BUILDING_GROUP_QUERY_URL:mongodb://localhost:27017/BuildingQueryService?socketTimeoutMS=1000&connectTimeoutMS=1000&serverSelectionTimeoutMS=1000}
+      liquibase:
+        change-log: ${BUILDING_GROUP_QUERY_LIQUIBASE_CHANGE_LOG:classpath:database/building/query/changelog/changelog_master.xml}
+
+  human-group:
+    command:
+      jdbc-url: ${HUMAN_GROUP_COMMAND_URL:jdbc:mysql://localhost:3306/HumanCommandService?createDatabaseIfNotExist=true&charset=utf8mb4}
+      username: ${HUMAN_GROUP_COMMAND_USERNAME:root}
+      password: ${HUMAN_GROUP_COMMAND_PASSWORD:12345678}
+      driver-class-name: ${HUMAN_GROUP_COMMAND_DRIVER_CLASS_NAME:com.mysql.cj.jdbc.Driver}
+      liquibase:
+        enabled: ${HUMAN_GROUP_COMMAND_LIQUIBASE_ENABLED:true}
+        change-log: ${HUMAN_GROUP_COMMAND_LIQUIBASE_CHANGE_LOG:classpath:database/human/command/changelog/changelog_master.xml}
+    query:
+      url: ${HUMAN_GROUP_QUERY_URL:mongodb://localhost:27017/HumanQueryService?socketTimeoutMS=1000&connectTimeoutMS=1000&serverSelectionTimeoutMS=1000}
+      liquibase:
+        change-log: ${HUMAN_GROUP_QUERY_LIQUIBASE_CHANGE_LOG:classpath:database/human/query/changelog/changelog_master.xml}
+
+  payment-group:
+    command:
+      jdbc-url: ${PAYMENT_GROUP_COMMAND_URL:jdbc:mysql://localhost:3306/PaymentCommandService?createDatabaseIfNotExist=true&charset=utf8mb}
+      username: ${PAYMENT_GROUP_COMMAND_USERNAME:root}
+      password: ${PAYMENT_GROUP_COMMAND_PASSWORD:12345678}
+      driver-class-name: ${PAYMENT_GROUP_COMMAND_DRIVER_CLASS_NAME:com.mysql.cj.jdbc.Driver}
+      liquibase:
+        enabled: ${PAYMENT_GROUP_COMMAND_LIQUIBASE_ENABLED:true}
+        change-log: ${PAYMENT_GROUP_COMMAND_LIQUIBASE_CHANGE_LOG:classpath:database/payment/command/changelog/changelog_master.xml}
+    query:
+      url: ${PAYMENT_GROUP_QUERY_URL:mongodb://localhost:27017/PaymentQueryService?socketTimeoutMS=1000&connectTimeoutMS=1000&serverSelectionTimeoutMS=1000}
+      liquibase:
+        change-log: ${PAYMENT_GROUP_QUERY_LIQUIBASE_CHANGE_LOG:classpath:database/payment/query/changelog/changelog_master.xml}
+
+  activity-group:
+    command:
+      jdbc-url: ${ACTIVITY_GROUP_COMMAND_URL:jdbc:mysql://localhost:3306/ActivityCommandService?createDatabaseIfNotExist=true&charset=utf8mb}
+      username: ${ACTIVITY_GROUP_COMMAND_USERNAME:root}
+      password: ${ACTIVITY_GROUP_COMMAND_PASSWORD:12345678}
+      driver-class-name: ${ACTIVITY_GROUP_COMMAND_DRIVER_CLASS_NAME:com.mysql.cj.jdbc.Driver}
+      liquibase:
+        enabled: ${ACTIVITY_GROUP_COMMAND_LIQUIBASE_ENABLED:true}
+        change-log: ${ACTIVITY_GROUP_COMMAND_LIQUIBASE_CHANGE_LOG:classpath:database/activity/command/changelog/changelog_master.xml}
+    query:
+      url: ${ACTIVITY_GROUP_QUERY_URL:mongodb://localhost:27017/ActivityQueryService?socketTimeoutMS=1000&connectTimeoutMS=1000&serverSelectionTimeoutMS=1000}
+      liquibase:
+        change-log: ${ACTIVITY_GROUP_QUERY_LIQUIBASE_CHANGE_LOG:classpath:database/activity/query/changelog/changelog_master.xml}
+
+logging:
+  level:
+    liquibase: debug

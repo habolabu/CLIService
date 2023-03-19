@@ -1,0 +1,983 @@
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.6.xsd
+        http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd">
+
+    <changeSet id="V202302172200_init_master_permission_data" author="trungkien.nguyen"
+               labels="V202302172200_init_master_permission_data">
+        <ext:insertMany collectionName="Permission">
+            <ext:documents>
+                [
+                    {
+                        "oId": 1,
+                        "name": "COMMENT_PERMISSIONS",
+                        "display": "COMMENT PERMISSIONS",
+                        "parentId": null,
+                        "childOrder": 1,
+                        "type": "label",
+                        "serviceId": 1
+                    },
+                    {
+                        "oId": 2,
+                        "name": "VIEW_COMMENT",
+                        "display": "VIEW COMMENT",
+                        "parentId": 1,
+                        "childOrder": 1,
+                        "type": "permission",
+                        "serviceId": 1
+                    },
+                    {
+                        "oId": 3,
+                        "name": "ADD_NEW_COMMENT",
+                        "display": "ADD NEW COMMENT",
+                        "parentId": 1,
+                        "childOrder": 2,
+                        "type": "permission",
+                        "serviceId": 1
+                    },
+                    {
+                        "oId": 4,
+                        "name": "DELETE_EXIST_COMMENT",
+                        "display": "DELETE EXIST COMMENT",
+                        "parentId": 1,
+                        "childOrder": 3,
+                        "type": "permission",
+                        "serviceId": 1
+                    },
+                    {
+                        "oId": 5,
+                        "name": "MODIFY_EXIST_COMMENT",
+                        "display": "MODIFY EXIST COMMENT",
+                        "parentId": 1,
+                        "childOrder": 4,
+                        "type": "permission",
+                        "serviceId": 1
+                    },
+                    {
+                        "oId": 6,
+                        "name": "VIEW_COMMENT_EMOTION",
+                        "display": "VIEW COMMENT EMOTION",
+                        "parentId": 1,
+                        "childOrder": 5,
+                        "type": "permission",
+                        "serviceId": 1
+                    },
+                    {
+                        "oId": 7,
+                        "name": "REACT_EXIST_COMMENT",
+                        "display": "REACT EXIST COMMENT",
+                        "parentId": 1,
+                        "childOrder": 6,
+                        "type": "permission",
+                        "serviceId": 1
+                    },
+                    {
+                        "oId": 8,
+                        "name": "REMOVE_COMMENT_REACTION",
+                        "display": "REMOVE COMMENT REACTION",
+                        "parentId": 1,
+                        "childOrder": 7,
+                        "type": "permission",
+                        "serviceId": 1
+                    },
+                    {
+                        "oId": 9,
+                        "name": "EMOTION_PERMISSIONS",
+                        "display": "EMOTION PERMISSIONS",
+                        "parentId": null,
+                        "childOrder": 2,
+                        "type": "label",
+                        "serviceId": 1
+                    },
+                    {
+                        "oId": 10,
+                        "name": "VIEW_EMOTION",
+                        "display": "VIEW EMOTION",
+                        "parentId": 9,
+                        "childOrder": 1,
+                        "type": "permission",
+                        "serviceId": 1
+                    },
+                    {
+                        "oId": 11,
+                        "name": "ADD_NEW_EMOTION",
+                        "display": "ADD NEW EMOTION",
+                        "parentId": 9,
+                        "childOrder": 2,
+                        "type": "permission",
+                        "serviceId": 1
+                    },
+                    {
+                        "oId": 12,
+                        "name": "DELETE_EXIST_EMOTION",
+                        "display": "DELETE EXIST EMOTION",
+                        "parentId": 9,
+                        "childOrder": 3,
+                        "type": "permission",
+                        "serviceId": 1
+                    },
+                    {
+                        "oId": 13,
+                        "name": "MODIFY_EXIST_EMOTION",
+                        "display": "MODIFY EXIST EMOTION",
+                        "parentId": 9,
+                        "childOrder": 4,
+                        "type": "permission",
+                        "serviceId": 1
+                    },
+                    {
+                        "oId": 14,
+                        "name": "FEEDBACK_PERMISSIONS",
+                        "display": "FEEDBACK PERMISSIONS",
+                        "parentId": null,
+                        "childOrder": 3,
+                        "type": "label",
+                        "serviceId": 1
+                    },
+                    {
+                        "oId": 15,
+                        "name": "VIEW_FEEDBACK",
+                        "display": "VIEW FEEDBACK",
+                        "parentId": 14,
+                        "childOrder": 1,
+                        "type": "permission",
+                        "serviceId": 1
+                    },
+                    {
+                        "oId": 16,
+                        "name": "ADD_NEW_FEEDBACK",
+                        "display": "ADD NEW FEEDBACK",
+                        "parentId": 14,
+                        "childOrder": 2,
+                        "type": "permission",
+                        "serviceId": 1
+                    },
+                    {
+                        "oId": 17,
+                        "name": "DELETE_EXIST_FEEDBACK",
+                        "display": "DELETE EXIST FEEDBACK",
+                        "parentId": 14,
+                        "childOrder": 3,
+                        "type": "permission",
+                        "serviceId": 1
+                    },
+                    {
+                        "oId": 18,
+                        "name": "MODIFY_EXIST_FEEDBACK",
+                        "display": "MODIFY EXIST FEEDBACK",
+                        "parentId": 14,
+                        "childOrder": 4,
+                        "type": "permission",
+                        "serviceId": 1
+                    },
+                    {
+                        "oId": 19,
+                        "name": "FEEDBACK_TYPE_PERMISSIONS",
+                        "display": "FEEDBACK TYPE PERMISSIONS",
+                        "parentId": null,
+                        "childOrder": 4,
+                        "type": "label",
+                        "serviceId": 1
+                    },
+                    {
+                        "oId": 20,
+                        "name": "VIEW_FEEDBACK_TYPE",
+                        "display": "VIEW FEEDBACK TYPE",
+                        "parentId": 19,
+                        "childOrder": 1,
+                        "type": "permission",
+                        "serviceId": 1
+                    },
+                    {
+                        "oId": 21,
+                        "name": "ADD_NEW_FEEDBACK_TYPE",
+                        "display": "ADD NEW FEEDBACK TYPE",
+                        "parentId": 19,
+                        "childOrder": 2,
+                        "type": "permission",
+                        "serviceId": 1
+                    },
+                    {
+                        "oId": 22,
+                        "name": "DELETE_EXIST_FEEDBACK_TYPE",
+                        "display": "DELETE EXIST FEEDBACK TYPE",
+                        "parentId": 19,
+                        "childOrder": 3,
+                        "type": "permission",
+                        "serviceId": 1
+                    },
+                    {
+                        "oId": 23,
+                        "name": "MODIFY_EXIST_FEEDBACK_TYPE",
+                        "display": "MODIFY EXIST FEEDBACK TYPE",
+                        "parentId": 19,
+                        "childOrder": 4,
+                        "type": "permission",
+                        "serviceId": 1
+                    },
+                    {
+                        "oId": 24,
+                        "name": "POST_PERMISSIONS",
+                        "display": "POST PERMISSIONS",
+                        "parentId": null,
+                        "childOrder": 5,
+                        "type": "label",
+                        "serviceId": 1
+                    },
+                    {
+                        "oId": 25,
+                        "name": "VIEW_POST",
+                        "display": "VIEW POST",
+                        "parentId": 24,
+                        "childOrder": 1,
+                        "type": "permission",
+                        "serviceId": 1
+                    },
+                    {
+                        "oId": 26,
+                        "name": "ADD_NEW_POST",
+                        "display": "ADD NEW POST",
+                        "parentId": 24,
+                        "childOrder": 2,
+                        "type": "permission",
+                        "serviceId": 1
+                    },
+                    {
+                        "oId": 27,
+                        "name": "DELETE_EXIST_POST",
+                        "display": "DELETE EXIST POST",
+                        "parentId": 24,
+                        "childOrder": 3,
+                        "type": "permission",
+                        "serviceId": 1
+                    },
+                    {
+                        "oId": 28,
+                        "name": "MODIFY_EXIST_POST",
+                        "display": "MODIFY EXIST POST",
+                        "parentId": 24,
+                        "childOrder": 4,
+                        "type": "permission",
+                        "serviceId": 1
+                    },
+                    {
+                        "oId": 29,
+                        "name": "VIEW_POST_EMOTION",
+                        "display": "VIEW POST_EMOTION",
+                        "parentId": 24,
+                        "childOrder": 5,
+                        "type": "permission",
+                        "serviceId": 1
+                    },
+                    {
+                        "oId": 30,
+                        "name": "REACT_EXIST_POST",
+                        "display": "REACT EXIST POST",
+                        "parentId": 24,
+                        "childOrder": 6,
+                        "type": "permission",
+                        "serviceId": 1
+                    },
+                    {
+                        "oId": 31,
+                        "name": "REMOVE_POST_REACTION",
+                        "display": "REMOVE POST REACTION",
+                        "parentId": 24,
+                        "childOrder": 7,
+                        "type": "permission",
+                        "serviceId": 1
+                    },
+                    {
+                        "oId": 32,
+                        "name": "PASSWORD_PERMISSIONS",
+                        "display": "PASSWORD PERMISSIONS",
+                        "parentId": null,
+                        "childOrder": 1,
+                        "type": "label",
+                        "serviceId": 2
+                    },
+                    {
+                        "oId": 33,
+                        "name": "ADD_NEW_PASSWORD",
+                        "display": "ADD NEW PASSWORD",
+                        "parentId": 32,
+                        "childOrder": 1,
+                        "type": "permission",
+                        "serviceId": 2
+                    },
+                    {
+                        "oId": 34,
+                        "name": "ROLE_PERMISSIONS",
+                        "display": "ROLE PERMISSIONS",
+                        "parentId": null,
+                        "childOrder": 2,
+                        "type": "label",
+                        "serviceId": 2
+                    },
+                    {
+                        "oId": 35,
+                        "name": "VIEW_ROLE",
+                        "display": "VIEW ROLE",
+                        "parentId": 34,
+                        "childOrder": 1,
+                        "type": "permission",
+                        "serviceId": 2
+                    },
+                    {
+                        "oId": 36,
+                        "name": "ADD_NEW_ROLE",
+                        "display": "ADD NEW ROL",
+                        "parentId": 34,
+                        "childOrder": 2,
+                        "type": "permission",
+                        "serviceId": 2
+                    },
+                    {
+                        "oId": 37,
+                        "name": "DELETE_EXIST_ROLE",
+                        "display": "DELETE EXIST ROLE",
+                        "parentId": 34,
+                        "childOrder": 3,
+                        "type": "permission",
+                        "serviceId": 2
+                    },
+                    {
+                        "oId": 38,
+                        "name": "MODIFY_EXIST_ROLE",
+                        "display": "MODIFY EXIST ROLE",
+                        "parentId": 34,
+                        "childOrder": 4,
+                        "type": "permission",
+                        "serviceId": 2
+                    },
+                    {
+                        "oId": 39,
+                        "name": "VIEW_PERMISSION",
+                        "display": "VIEW PERMISSION",
+                        "parentId": 34,
+                        "childOrder": 5,
+                        "type": "permission",
+                        "serviceId": 2
+                    },
+                    {
+                        "oId": 40,
+                        "name": "GRANT_PERMISSION",
+                        "display": "GRANT PERMISSION",
+                        "parentId": 34,
+                        "childOrder": 6,
+                        "type": "permission",
+                        "serviceId": 2
+                    },
+                    {
+                        "oId": 41,
+                        "name": "APARTMENT_PERMISSIONS",
+                        "display": "APARTMENT PERMISSIONS",
+                        "parentId": null,
+                        "childOrder": 1,
+                        "type": "label",
+                        "serviceId": 3
+                    },
+                    {
+                        "oId": 42,
+                        "name": "VIEW_APARTMENT",
+                        "display": "VIEW APARTMENT",
+                        "parentId": 41,
+                        "childOrder": 1,
+                        "type": "permission",
+                        "serviceId": 3
+                    },
+                    {
+                        "oId": 43,
+                        "name": "ADD_NEW_APARTMENT",
+                        "display": "ADD NEW APARTMENT",
+                        "parentId": 41,
+                        "childOrder": 2,
+                        "type": "permission",
+                        "serviceId": 3
+                    },
+                    {
+                        "oId": 44,
+                        "name": "DELETE_EXIST_APARTMENT",
+                        "display": "DELETE EXIST APARTMENT",
+                        "parentId": 41,
+                        "childOrder": 3,
+                        "type": "permission",
+                        "serviceId": 3
+                    },
+                    {
+                        "oId": 45,
+                        "name": "MODIFY_EXIST_APARTMENT",
+                        "display": "MODIFY EXIST APARTMENT",
+                        "parentId": 41,
+                        "childOrder": 4,
+                        "type": "permission",
+                        "serviceId": 3
+                    },
+                    {
+                        "oId": 46,
+                        "name": "AREA_PERMISSIONS",
+                        "display": "AREA PERMISSIONS",
+                        "parentId": null,
+                        "childOrder": 2,
+                        "type": "label",
+                        "serviceId": 3
+                    },
+                    {
+                        "oId": 47,
+                        "name": "VIEW_AREA",
+                        "display": "VIEW AREA",
+                        "parentId": 46,
+                        "childOrder": 1,
+                        "type": "permission",
+                        "serviceId": 3
+                    },
+                    {
+                        "oId": 48,
+                        "name": "ADD_NEW_AREA",
+                        "display": "ADD NEW AREA",
+                        "parentId": 46,
+                        "childOrder": 2,
+                        "type": "permission",
+                        "serviceId": 3
+                    },
+                    {
+                        "oId": 49,
+                        "name": "DELETE_EXIST_AREA",
+                        "display": "DELETE EXIST AREA",
+                        "parentId": 46,
+                        "childOrder": 3,
+                        "type": "permission",
+                        "serviceId": 3
+                    },
+                    {
+                        "oId": 50,
+                        "name": "MODIFY_EXIST_AREA",
+                        "display": "MODIFY EXIST AREA",
+                        "parentId": 46,
+                        "childOrder": 4,
+                        "type": "permission",
+                        "serviceId": 3
+                    },
+                    {
+                        "oId": 51,
+                        "name": "OWNER_HISTORY_PERMISSIONS",
+                        "display": "OWNER HISTORY PERMISSIONS",
+                        "parentId": null,
+                        "childOrder": 3,
+                        "type": "label",
+                        "serviceId": 3
+                    },
+                    {
+                        "oId": 52,
+                        "name": "ADD_NEW_OWNER_HISTORY",
+                        "display": "ADD NEW OWNER HISTORY",
+                        "parentId": 51,
+                        "childOrder": 1,
+                        "type": "permission",
+                        "serviceId": 3
+                    },
+                    {
+                        "oId": 53,
+                        "name": "DELETE_EXIST_OWNER_HISTORY",
+                        "display": "DELETE EXIST OWNER HISTORY",
+                        "parentId": 51,
+                        "childOrder": 2,
+                        "type": "permission",
+                        "serviceId": 3
+                    },
+                    {
+                        "oId": 54,
+                        "name": "MODIFY_EXIST_OWNER_HISTORY",
+                        "display": "MODIFY EXIST OWNER HISTORY",
+                        "parentId": 51,
+                        "childOrder": 3,
+                        "type": "permission",
+                        "serviceId": 3
+                    },
+                    {
+                        "oId": 55,
+                        "name": "PARKING_PERMISSIONS",
+                        "display": "PARKING PERMISSIONS",
+                        "parentId": null,
+                        "childOrder": 4,
+                        "type": "label",
+                        "serviceId": 3
+                    },
+                    {
+                        "oId": 56,
+                        "name": "VIEW_PARKING",
+                        "display": "VIEW PARKING",
+                        "parentId": 55,
+                        "childOrder": 1,
+                        "type": "permission",
+                        "serviceId": 3
+                    },
+                    {
+                        "oId": 57,
+                        "name": "ADD_NEW_PARKING",
+                        "display": "ADD NEW PARKING",
+                        "parentId": 55,
+                        "childOrder": 2,
+                        "type": "permission",
+                        "serviceId": 3
+                    },
+                    {
+                        "oId": 58,
+                        "name": "DELETE_EXIST_PARKING",
+                        "display": "DELETE EXIST PARKING",
+                        "parentId": 55,
+                        "childOrder": 3,
+                        "type": "permission",
+                        "serviceId": 3
+                    },
+                    {
+                        "oId": 59,
+                        "name": "MODIFY_EXIST_PARKING",
+                        "display": "MODIFY EXIST PARKING",
+                        "parentId": 55,
+                        "childOrder": 4,
+                        "type": "permission",
+                        "serviceId": 3
+                    },
+                    {
+                        "oId": 60,
+                        "name": "PARKING_SPACE_PERMISSIONS",
+                        "display": "PARKING SPACE PERMISSIONS",
+                        "parentId": null,
+                        "childOrder": 5,
+                        "type": "label",
+                        "serviceId": 3
+                    },
+                    {
+                        "oId": 61,
+                        "name": "VIEW_PARKING_SPACE",
+                        "display": "VIEW PARKING SPACE",
+                        "parentId": 60,
+                        "childOrder": 1,
+                        "type": "permission",
+                        "serviceId": 3
+                    },
+                    {
+                        "oId": 62,
+                        "name": "ADD_NEW_PARKING_SPACE",
+                        "display": "ADD NEW PARKING SPACE",
+                        "parentId": 60,
+                        "childOrder": 2,
+                        "type": "permission",
+                        "serviceId": 3
+                    },
+                    {
+                        "oId": 63,
+                        "name": "DELETE_EXIST_PARKING_SPACE",
+                        "display": "DELETE EXIST PARKING SPACE",
+                        "parentId": 60,
+                        "childOrder": 3,
+                        "type": "permission",
+                        "serviceId": 3
+                    },
+                    {
+                        "oId": 64,
+                        "name": "MODIFY_EXIST_PARKING_SPACE",
+                        "display": "MODIFY EXIST PARKING SPACE",
+                        "parentId": 60,
+                        "childOrder": 4,
+                        "type": "permission",
+                        "serviceId": 3
+                    },
+                    {
+                        "oId": 65,
+                        "name": "PARKING_TYPE_PERMISSIONS",
+                        "display": "PARKING TYPE PERMISSIONS",
+                        "parentId": null,
+                        "childOrder": 6,
+                        "type": "label",
+                        "serviceId": 3
+                    },
+                    {
+                        "oId": 66,
+                        "name": "VIEW_PARKING_TYPE",
+                        "display": "VIEW PARKING TYPE",
+                        "parentId": 65,
+                        "childOrder": 1,
+                        "type": "permission",
+                        "serviceId": 3
+                    },
+                    {
+                        "oId": 67,
+                        "name": "ADD_NEW_PARKING_TYPE",
+                        "display": "ADD NEW PARKING TYPE",
+                        "parentId": 65,
+                        "childOrder": 2,
+                        "type": "permission",
+                        "serviceId": 3
+                    },
+                    {
+                        "oId": 68,
+                        "name": "DELETE_EXIST_PARKING_TYPE",
+                        "display": "DELETE EXIST PARKING TYPE",
+                        "parentId": 65,
+                        "childOrder": 3,
+                        "type": "permission",
+                        "serviceId": 3
+                    },
+                    {
+                        "oId": 69,
+                        "name": "MODIFY_EXIST_PARKING_TYPE",
+                        "display": "MODIFY EXIST PARKING TYPE",
+                        "parentId": 65,
+                        "childOrder": 4,
+                        "type": "permission",
+                        "serviceId": 3
+                    },
+                    {
+                        "oId": 70,
+                        "name": "PRICE_TAG_PERMISSIONS",
+                        "display": "PRICE TAG PERMISSIONS",
+                        "parentId": null,
+                        "childOrder": 7,
+                        "type": "label",
+                        "serviceId": 3
+                    },
+                    {
+                        "oId": 71,
+                        "name": "VIEW_PRICE_TAG",
+                        "display": "VIEW PRICE TAG",
+                        "parentId": 70,
+                        "childOrder": 1,
+                        "type": "permission",
+                        "serviceId": 3
+                    },
+                    {
+                        "oId": 72,
+                        "name": "ADD_NEW_PRICE_TAG",
+                        "display": "ADD NEW PRICE TAG",
+                        "parentId": 70,
+                        "childOrder": 2,
+                        "type": "permission",
+                        "serviceId": 3
+                    },
+                    {
+                        "oId": 73,
+                        "name": "DELETE_EXIST_PRICE_TAG",
+                        "display": "DELETE EXIST PRICE TAG",
+                        "parentId": 70,
+                        "childOrder": 3,
+                        "type": "permission",
+                        "serviceId": 3
+                    },
+                    {
+                        "oId": 74,
+                        "name": "MODIFY_EXIST_PRICE_TAG",
+                        "display": "MODIFY EXIST PRICE TAG",
+                        "parentId": 70,
+                        "childOrder": 4,
+                        "type": "permission",
+                        "serviceId": 3
+                    },
+                    {
+                        "oId": 75,
+                        "name": "ROOM_PERMISSIONS",
+                        "display": "ROOM PERMISSIONS",
+                        "parentId": null,
+                        "childOrder": 8,
+                        "type": "label",
+                        "serviceId": 3
+                    },
+                    {
+                        "oId": 76,
+                        "name": "VIEW_ROOM",
+                        "display": "VIEW ROOM",
+                        "parentId": 75,
+                        "childOrder": 1,
+                        "type": "permission",
+                        "serviceId": 3
+                    },
+                    {
+                        "oId": 77,
+                        "name": "ADD_NEW_ROOM",
+                        "display": "ADD NEW ROOM",
+                        "parentId": 75,
+                        "childOrder": 2,
+                        "type": "permission",
+                        "serviceId": 3
+                    },
+                    {
+                        "oId": 78,
+                        "name": "DELETE_EXIST_ROOM",
+                        "display": "DELETE EXIST ROOM",
+                        "parentId": 75,
+                        "childOrder": 3,
+                        "type": "permission",
+                        "serviceId": 3
+                    },
+                    {
+                        "oId": 79,
+                        "name": "MODIFY_EXIST_ROOM",
+                        "display": "MODIFY EXIST ROOM",
+                        "parentId": 75,
+                        "childOrder": 4,
+                        "type": "permission",
+                        "serviceId": 3
+                    },
+                    {
+                        "oId": 80,
+                        "name": "AVATAR_PERMISSIONS",
+                        "display": "AVATAR PERMISSIONS",
+                        "parentId": null,
+                        "childOrder": 1,
+                        "type": "label",
+                        "serviceId": 4
+                    },
+                    {
+                        "oId": 81,
+                        "name": "VIEW_AVATAR",
+                        "display": "VIEW AVATAR",
+                        "parentId": 80,
+                        "childOrder": 1,
+                        "type": "permission",
+                        "serviceId": 4
+                    },
+                    {
+                        "oId": 82,
+                        "name": "ADD_NEW_AVATAR",
+                        "display": "ADD NEW AVATAR",
+                        "parentId": 80,
+                        "childOrder": 2,
+                        "type": "permission",
+                        "serviceId": 4
+                    },
+                    {
+                        "oId": 83,
+                        "name": "DELETE_EXIST_AVATAR",
+                        "display": "DELETE EXIST AVATAR",
+                        "parentId": 80,
+                        "childOrder": 3,
+                        "type": "permission",
+                        "serviceId": 4
+                    },
+                    {
+                        "oId": 84,
+                        "name": "MODIFY_EXIST_AVATAR",
+                        "display": "MODIFY EXIST AVATAR",
+                        "parentId": 80,
+                        "childOrder": 4,
+                        "type": "permission",
+                        "serviceId": 4
+                    },
+                    {
+                        "oId": 85,
+                        "name": "EMERGENCY_PERMISSIONS",
+                        "display": "EMERGENCY PERMISSIONS",
+                        "parentId": null,
+                        "childOrder": 2,
+                        "type": "label",
+                        "serviceId": 4
+                    },
+                    {
+                        "oId": 86,
+                        "name": "VIEW_EMERGENCY",
+                        "display": "VIEW EMERGENCY",
+                        "parentId": 85,
+                        "childOrder": 1,
+                        "type": "permission",
+                        "serviceId": 4
+                    },
+                    {
+                        "oId": 87,
+                        "name": "ADD_NEW_EMERGENCY",
+                        "display": "ADD NEW EMERGENCY",
+                        "parentId": 85,
+                        "childOrder": 2,
+                        "type": "permission",
+                        "serviceId": 4
+                    },
+                    {
+                        "oId": 88,
+                        "name": "DELETE_EXIST_EMERGENCY",
+                        "display": "DELETE EXIST EMERGENCY",
+                        "parentId": 85,
+                        "childOrder": 3,
+                        "type": "permission",
+                        "serviceId": 4
+                    },
+                    {
+                        "oId": 89,
+                        "name": "MODIFY_EXIST_EMERGENCY",
+                        "display": "MODIFY EXIST EMERGENCY",
+                        "parentId": 85,
+                        "childOrder": 4,
+                        "type": "permission",
+                        "serviceId": 4
+                    },
+                    {
+                        "oId": 90,
+                        "name": "PARKING_DETAIL_PERMISSIONS",
+                        "display": "PARKING DETAIL PERMISSIONS",
+                        "parentId": null,
+                        "childOrder": 3,
+                        "type": "label",
+                        "serviceId": 4
+                    },
+                    {
+                        "oId": 91,
+                        "name": "VIEW_PARKING_DETAIL",
+                        "display": "VIEW PARKING DETAIL",
+                        "parentId": 90,
+                        "childOrder": 1,
+                        "type": "permission",
+                        "serviceId": 4
+                    },
+                    {
+                        "oId": 92,
+                        "name": "ADD_NEW_PARKING_DETAIL",
+                        "display": "ADD NEW PARKING DETAIL",
+                        "parentId": 90,
+                        "childOrder": 2,
+                        "type": "permission",
+                        "serviceId": 4
+                    },
+                    {
+                        "oId": 93,
+                        "name": "DELETE_EXIST_PARKING_DETAIL",
+                        "display": "DELETE EXIST PARKING DETAIL",
+                        "parentId": 90,
+                        "childOrder": 3,
+                        "type": "permission",
+                        "serviceId": 4
+                    },
+                    {
+                        "oId": 94,
+                        "name": "ROOM_DETAIL_PERMISSIONS",
+                        "display": "ROOM DETAIL PERMISSIONS",
+                        "parentId": null,
+                        "childOrder": 4,
+                        "type": "label",
+                        "serviceId": 4
+                    },
+                    {
+                        "oId": 95,
+                        "name": "VIEW_ROOM_DETAIL",
+                        "display": "VIEW ROOM DETAIL",
+                        "parentId": 94,
+                        "childOrder": 1,
+                        "type": "permission",
+                        "serviceId": 4
+                    },
+                    {
+                        "oId": 96,
+                        "name": "ADD_NEW_ROOM_DETAIL",
+                        "display": "ADD NEW ROOM DETAIL",
+                        "parentId": 94,
+                        "childOrder": 2,
+                        "type": "permission",
+                        "serviceId": 4
+                    },
+                    {
+                        "oId": 97,
+                        "name": "DELETE_EXIST_ROOM_DETAIL",
+                        "display": "DELETE EXIST ROOM DETAIL",
+                        "parentId": 94,
+                        "childOrder": 3,
+                        "type": "permission",
+                        "serviceId": 4
+                    },
+                    {
+                        "oId": 98,
+                        "name": "USER_PERMISSIONS",
+                        "display": "USER PERMISSIONS",
+                        "parentId": null,
+                        "childOrder": 5,
+                        "type": "label",
+                        "serviceId": 4
+                    },
+                    {
+                        "oId": 99,
+                        "name": "VIEW_USER",
+                        "display": "VIEW USER",
+                        "parentId": 98,
+                        "childOrder": 1,
+                        "type": "permission",
+                        "serviceId": 4
+                    },
+                    {
+                        "oId": 100,
+                        "name": "ADD_NEW_USER",
+                        "display": "ADD NEW USER",
+                        "parentId": 98,
+                        "childOrder": 2,
+                        "type": "permission",
+                        "serviceId": 4
+                    },
+                    {
+                        "oId": 101,
+                        "name": "DELETE_EXIST_USER",
+                        "display": "DELETE EXIST USER",
+                        "parentId": 98,
+                        "childOrder": 3,
+                        "type": "permission",
+                        "serviceId": 4
+                    },
+                    {
+                        "oId": 102,
+                        "name": "MODIFY_EXIST_USER",
+                        "display": "MODIFY EXIST USER",
+                        "parentId": 98,
+                        "childOrder": 4,
+                        "type": "permission",
+                        "serviceId": 4
+                    },
+                    {
+                        "oId": 103,
+                        "name": "BILL_PERMISSIONS",
+                        "display": "BILL PERMISSIONS",
+                        "parentId": null,
+                        "childOrder": 1,
+                        "type": "label",
+                        "serviceId": 5
+                    },
+                    {
+                        "oId": 104,
+                        "name": "VIEW_BILL",
+                        "display": "VIEW BILL",
+                        "parentId": 103,
+                        "childOrder": 1,
+                        "type": "permission",
+                        "serviceId": 5
+                    },
+                    {
+                        "oId": 105,
+                        "name": "STATISTIC",
+                        "display": "STATISTIC",
+                        "parentId": 103,
+                        "childOrder": 2,
+                        "type": "permission",
+                        "serviceId": 5
+                    },
+                    {
+                        "oId": 106,
+                        "name": "APPROVE_BILL",
+                        "display": "APPROVE BILL",
+                        "parentId": 103,
+                        "childOrder": 3,
+                        "type": "permission",
+                        "serviceId": 5
+                    },
+                    {
+                        "oId": 107,
+                        "name": "REJECT_BILL",
+                        "display": "REJECT BILL",
+                        "parentId": 103,
+                        "childOrder": 4,
+                        "type": "permission",
+                        "serviceId": 5
+                    }
+                ]
+            </ext:documents>
+        </ext:insertMany>
+        <rollback>
+            <ext:dropCollection collectionName="Permission"/>
+        </rollback>
+    </changeSet>
+</databaseChangeLog>

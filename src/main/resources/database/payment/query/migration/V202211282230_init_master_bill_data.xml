@@ -1,0 +1,263 @@
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.6.xsd
+        http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd">
+
+    <changeSet id="V202211282230_init_master_bill_data" author="trungkien.nguyen"
+               labels="V202211282230_init_master_bill_data">
+        <ext:insertMany collectionName="Bill">
+            <ext:documents>
+                [
+                    {
+                        "oId": 1,
+                        "total": 1100000,
+                        "paidDate": new ISODate("2022-10-08T21:33:21Z"),
+                        "createdAt": new Date(),
+                        "userId": 1,
+                        "paymentTypeId": 1,
+                        "billStatusId": 4
+                    },
+                    {
+                        "oId": 2,
+                        "total": 1200000,
+                        "paidDate": null,
+                        "createdAt": new Date(),
+                        "userId": 1,
+                        "paymentTypeId": 1,
+                        "billStatusId": 2
+                    },
+                    {
+                        "oId": 3,
+                        "total": 1200000,
+                        "paidDate": null,
+                        "createdAt": new Date(),
+                        "userId": 1,
+                        "paymentTypeId": 1,
+                        "billStatusId": 1
+                    },
+                    {
+                        "oId": 4,
+                        "total": 1400000,
+                        "paidDate": new ISODate("2022-10-08T21:33:21Z"),
+                        "createdAt": new Date(),
+                        "userId": 2,
+                        "paymentTypeId": 1,
+                        "billStatusId": 4
+                    },
+                    {
+                        "oId": 5,
+                        "total": 1500000,
+                        "paidDate": new ISODate("2022-10-08T21:33:21Z"),
+                        "createdAt": new Date(),
+                        "userId": 2,
+                        "paymentTypeId": 1,
+                        "billStatusId": 4
+                    },
+                    {
+                        "oId": 6,
+                        "total": 1600000,
+                        "paidDate": new ISODate("2022-10-08T21:33:21Z"),
+                        "createdAt": new Date(),
+                        "userId": 2,
+                        "paymentTypeId": 1,
+                        "billStatusId": 4
+                    },
+                    {
+                        "oId": 7,
+                        "total": 1700000,
+                        "paidDate": new ISODate("2022-04-04T21:33:21Z"),
+                        "createdAt": new Date(),
+                        "userId": 2,
+                        "paymentTypeId": 1,
+                        "billStatusId": 4
+                    },
+                    {
+                        "oId": 8,
+                        "total": 1800000,
+                        "paidDate": new ISODate("2022-10-08T21:33:21Z"),
+                        "createdAt": new Date(),
+                        "userId": 2,
+                        "paymentTypeId": 1,
+                        "billStatusId": 4
+                    },
+                    {
+                        "oId": 9,
+                        "total": 1900000,
+                        "paidDate": new ISODate("2022-10-08T21:33:21Z"),
+                        "createdAt": new Date(),
+                        "userId": 2,
+                        "paymentTypeId": 1,
+                        "billStatusId": 4
+                    },
+                    {
+                        "oId": 10,
+                        "total": 2000000,
+                        "paidDate": new ISODate("2022-10-08T21:33:21Z"),
+                        "createdAt": new Date(),
+                        "userId": 2,
+                        "paymentTypeId": 1,
+                        "billStatusId": 4
+                    },
+                    {
+                        "oId": 11,
+                        "total": 2100000,
+                        "paidDate": new ISODate("2022-10-08T21:33:21Z"),
+                        "createdAt": new Date(),
+                        "userId": 2,
+                        "paymentTypeId": 1,
+                        "billStatusId": 4
+                    },
+                    {
+                        "oId": 12,
+                        "total": 2200000,
+                        "paidDate": new ISODate("2022-10-08T21:33:21Z"),
+                        "createdAt": new Date(),
+                        "userId": 2,
+                        "paymentTypeId": 1,
+                        "billStatusId": 4
+                    },
+                    {
+                        "oId": 13,
+                        "total": 2300000,
+                        "paidDate": null,
+                        "createdAt": new Date(),
+                        "userId": 2,
+                        "paymentTypeId": 1,
+                        "billStatusId": 2
+                    },
+                    {
+                        "oId": 14,
+                        "total": 2400000,
+                        "paidDate": null,
+                        "createdAt": new Date(),
+                        "userId": 2,
+                        "paymentTypeId": 1,
+                        "billStatusId": 1
+                    },
+                    {
+                        "oId": 15,
+                        "total": 2500000,
+                        "paidDate": new ISODate("2022-10-08T21:33:21Z"),
+                        "createdAt": new Date(),
+                        "userId": 3,
+                        "paymentTypeId": 1,
+                        "billStatusId": 4
+                    },
+                    {
+                        "oId": 16,
+                        "total": 2600000,
+                        "paidDate": new ISODate("2022-10-08T21:33:21Z"),
+                        "createdAt": new Date(),
+                        "userId": 3,
+                        "paymentTypeId": 1,
+                        "billStatusId": 4
+                    },
+                    {
+                        "oId": 17,
+                        "total": 2700000,
+                        "paidDate": null,
+                        "createdAt": new Date(),
+                        "userId": 3,
+                        "paymentTypeId": 1,
+                        "billStatusId": 3
+                    },
+                    {
+                        "oId": 18,
+                        "total": 2800000,
+                        "paidDate": new ISODate("2022-10-08T21:33:21Z"),
+                        "createdAt": new Date(),
+                        "userId": 4,
+                        "paymentTypeId": 1,
+                        "billStatusId": 4
+                    },
+                    {
+                        "oId": 19,
+                        "total": 2900000,
+                        "paidDate": new ISODate("2022-10-08T21:33:21Z"),
+                        "createdAt": new Date(),
+                        "userId": 4,
+                        "paymentTypeId": 1,
+                        "billStatusId": 4
+                    },
+                    {
+                        "oId": 20,
+                        "total": 3000000,
+                        "paidDate": new ISODate("2022-10-08T21:33:21Z"),
+                        "createdAt": new Date(),
+                        "userId": 4,
+                        "paymentTypeId": 1,
+                        "billStatusId": 4
+                    },
+                    {
+                        "oId": 21,
+                        "total": 3100000,
+                        "paidDate": new ISODate("2022-10-08T21:33:21Z"),
+                        "createdAt": new Date(),
+                        "userId": 5,
+                        "paymentTypeId": 1,
+                        "billStatusId": 4
+                    },
+                    {
+                        "oId": 22,
+                        "total": 3200000,
+                        "paidDate": new ISODate("2022-10-08T21:33:21Z"),
+                        "createdAt": new Date(),
+                        "userId": 6,
+                        "paymentTypeId": 1,
+                        "billStatusId": 4
+                    },
+                    {
+                        "oId": 23,
+                        "total": 3300000,
+                        "paidDate": new ISODate("2022-10-08T21:33:21Z"),
+                        "createdAt": new Date(),
+                        "userId": 7,
+                        "paymentTypeId": 1,
+                        "billStatusId": 4
+                    },
+                    {
+                        "oId": 24,
+                        "total": 3400000,
+                        "paidDate": new ISODate("2022-10-08T21:33:21Z"),
+                        "createdAt": new Date(),
+                        "userId": 8,
+                        "paymentTypeId": 1,
+                        "billStatusId": 4
+                    },
+                    {
+                        "oId": 25,
+                        "total": 3500000,
+                        "paidDate": new ISODate("2022-10-08T21:33:21Z"),
+                        "createdAt": new Date(),
+                        "userId": 9,
+                        "paymentTypeId": 1,
+                        "billStatusId": 4
+                    },
+                    {
+                        "oId": 26,
+                        "total": 3600000,
+                        "paidDate": new ISODate("2022-10-08T21:33:21Z"),
+                        "createdAt": new Date(),
+                        "userId": 10,
+                        "paymentTypeId": 1,
+                        "billStatusId": 4
+                    },
+                    {
+                        "oId": 27,
+                        "total": 3700000,
+                        "paidDate": new ISODate("2022-10-08T21:33:21Z"),
+                        "createdAt": new Date(),
+                        "userId": 11,
+                        "paymentTypeId": 1,
+                        "billStatusId": 4
+                    }
+                ]
+            </ext:documents>
+        </ext:insertMany>
+        <rollback>
+            <ext:dropCollection collectionName="Bill"/>
+        </rollback>
+    </changeSet>
+</databaseChangeLog>

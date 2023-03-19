@@ -1,0 +1,23 @@
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.6.xsd
+        http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd">
+
+    <changeSet id="202211282230_init_master_database_structure" author="trungkien.nguyen"
+               labels="202210061000_init_master_database_structure">
+        <ext:createCollection collectionName="Avatar"/>
+        <ext:createCollection collectionName="Emergency"/>
+        <ext:createCollection collectionName="ParkingDetail"/>
+        <ext:createCollection collectionName="RoomDetail"/>
+        <ext:createCollection collectionName="User"/>
+        <rollback>
+            <ext:dropCollection collectionName="Avatar"/>
+            <ext:dropCollection collectionName="Emergency"/>
+            <ext:dropCollection collectionName="ParkingDetail"/>
+            <ext:dropCollection collectionName="RoomDetail"/>
+            <ext:dropCollection collectionName="User"/>
+        </rollback>
+    </changeSet>
+</databaseChangeLog>

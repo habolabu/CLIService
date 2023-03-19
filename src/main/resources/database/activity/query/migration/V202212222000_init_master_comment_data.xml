@@ -1,0 +1,120 @@
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.6.xsd
+        http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd">
+
+    <changeSet id="V202212222000_init_master_comment_data" author="trungkien.nguyen"
+               labels="V202212222000_init_master_comment_data">
+        <ext:insertMany collectionName="Comment">
+            <ext:documents>
+                [
+                    {
+                        "oId": 1,
+                        "content": "Ú là trời!",
+                        "totalEmotion": 3,
+                        "createdAt": new Date(),
+                        "userId": 1,
+                        "postId": 1,
+                        "commentId": null
+                    },
+                    {
+                        "oId": 2,
+                        "content": "Quá tuyệt vời",
+                        "totalEmotion": 2,
+                        "createdAt": new Date(),
+                        "userId": 2,
+                        "postId": 1,
+                        "commentId": 1
+                    },
+                    {
+                        "oId": 3,
+                        "content": "Hảo hảo 100",
+                        "totalEmotion": 4,
+                        "createdAt": new Date(),
+                        "userId": 3,
+                        "postId": 1,
+                        "commentId": 1
+                    },
+                    {
+                        "oId": 4,
+                        "content": "Hảo hảo chua cay",
+                        "totalEmotion": 2,
+                        "createdAt": new Date(),
+                        "userId": 5,
+                        "postId": 1,
+                        "commentId": 2
+                    },
+                    {
+                        "oId": 5,
+                        "content": "wán đờ phùn",
+                        "totalEmotion": 4,
+                        "createdAt": new Date(),
+                        "userId": 1,
+                        "postId": 2,
+                        "commentId": null
+                    },
+                    {
+                        "oId": 6,
+                        "content": "wán đờ phèng",
+                        "totalEmotion": 2,
+                        "createdAt": new Date(),
+                        "userId": 2,
+                        "postId": 2,
+                        "commentId": 5
+                    },
+                    {
+                        "oId": 7,
+                        "content": "wán đờ phàng",
+                        "totalEmotion": 0,
+                        "createdAt": new Date(),
+                        "userId": 3,
+                        "postId": 2,
+                        "commentId": 5
+                    },
+                    {
+                        "oId": 8,
+                        "content": "wán đờ phìn",
+                        "totalEmotion": 0,
+                        "createdAt": new Date(),
+                        "userId": 2,
+                        "postId": 2,
+                        "commentId": null
+                    },
+                    {
+                        "oId": 9,
+                        "content": "wán đờ phồng",
+                        "totalEmotion": 1,
+                        "createdAt": new Date(),
+                        "userId": 5,
+                        "postId": 2,
+                        "commentId": 8
+                    },
+                    {
+                        "oId": 10,
+                        "content": "ahihi",
+                        "totalEmotion": 1,
+                        "createdAt": new Date(),
+                        "userId": 1,
+                        "postId": 3,
+                        "commentId": null
+                    },
+                    {
+                        "oId": 11,
+                        "content": "ahoho",
+                        "totalEmotion": 0,
+                        "createdAt": new Date(),
+                        "userId": 1,
+                        "postId": 4,
+                        "commentId": null
+                    }
+                ]
+            </ext:documents>
+        </ext:insertMany>
+        <rollback>
+            <ext:dropCollection collectionName="Comment"/>
+        </rollback>
+    </changeSet>
+
+</databaseChangeLog>

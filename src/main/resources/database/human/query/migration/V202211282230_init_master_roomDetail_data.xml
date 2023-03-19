@@ -1,0 +1,70 @@
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.6.xsd
+        http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd">
+
+    <changeSet id="V202211282230_init_master_roomDetail_data" author="trungkien.nguyen"
+               labels="V202211282230_init_master_roomDetail_data">
+        <ext:insertMany collectionName="RoomDetail">
+            <ext:documents>
+                [
+                    {
+                        "userId": 1,
+                        "roomId": 1
+                        "joinDate": new Date()
+                    },
+                    {
+                        "userId": 2,
+                        "roomId": 2
+                        "joinDate": new Date()
+                    },
+                    {
+                        "userId": 3,
+                        "roomId": 3
+                        "joinDate": new Date()
+                    },
+                    {
+                        "userId": 4,
+                        "roomId": 4
+                        "joinDate": new Date()
+                    },
+                    {
+                        "userId": 5,
+                        "roomId": 5
+                        "joinDate": new Date()
+                    },
+                    {
+                        "userId": 6,
+                        "roomId": 6
+                        "joinDate": new Date()
+                    },
+                    {
+                        "userId": 7,
+                        "roomId": 7
+                        "joinDate": new Date()
+                    },
+                    {
+                        "userId": 8,
+                        "roomId": 8
+                        "joinDate": new Date()
+                    },
+                    {
+                        "userId": 9,
+                        "roomId": 9
+                        "joinDate": new Date()
+                    },
+                    {
+                        "userId": 10,
+                        "roomId": 10
+                        "joinDate": new Date()
+                    }
+                ]
+            </ext:documents>
+        </ext:insertMany>
+        <rollback>
+            <ext:dropCollection collectionName="RoomDetail"/>
+        </rollback>
+    </changeSet>
+</databaseChangeLog>

@@ -1,0 +1,40 @@
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.6.xsd
+        http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd">
+
+    <changeSet id="V202211282230_init_master_billStatus_data" author="trungkien.nguyen"
+               labels="V202211282230_init_master_billStatus_data">
+        <ext:insertMany collectionName="BillStatus">
+            <ext:documents>
+                [
+                    {
+                        "oId": 1,
+                        "name": "Khởi tạo",
+                        "slug": "khoi-tao"
+                    },
+                    {
+                        "oId": 2,
+                        "name": "Chưa thanh toán",
+                        "slug": "chua-thanh-toan"
+                    },
+                    {
+                        "oId": 3,
+                        "name": "Hủy bỏ",
+                        "slug": "huy-bo"
+                    },
+                    {
+                        "oId": 4,
+                        "name": "Đã thanh toán",
+                        "slug": "da-thanh-toan"
+                    }
+                ]
+            </ext:documents>
+        </ext:insertMany>
+        <rollback>
+            <ext:dropCollection collectionName="BillStatus"/>
+        </rollback>
+    </changeSet>
+</databaseChangeLog>

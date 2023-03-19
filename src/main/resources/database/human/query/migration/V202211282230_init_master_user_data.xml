@@ -1,0 +1,163 @@
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.6.xsd
+        http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd">
+
+    <changeSet id="V202211282230_init_master_user_data" author="trungkien.nguyen"
+               labels="V202211282230_init_master_user_data">
+        <ext:insertMany collectionName="User">
+            <ext:documents>
+                [
+                    {
+                        "oId": 1,
+                        "firstName": "An",
+                        "lastName": "Nguyễn Văn",
+                        "address": "123/0 Nguyễn Văn Cừ, Quận 1, TP.HCM",
+                        "idCard": "000000000000",
+                        "phoneNumber": "0000000000",
+                        "email": "ouproject2223@gmail.com",
+                        "gender": 1,
+                        "dateOfBirth": new ISODate("2001-01-01T00:00:00Z"),
+                        "nationality": "Việt Nam",
+                        "createdAt": new Date()
+                    },
+                    {
+                        "oId": 2,
+                        "firstName": "Bình",
+                        "lastName": "Nguyễn Thị",
+                        "address": "123/1 Nguyễn Tuân, Quận 2, TP.HCM",
+                        "idCard": "000000000001",
+                        "phoneNumber": "0000000001",
+                        "email": "ouproject2223@gmail.com",
+                        "gender": 0,
+                        "dateOfBirth": new ISODate("2001-01-02T00:00:00Z"),
+                        "nationality": "Việt Nam",
+                        "createdAt": new Date()
+                    },
+                    {
+                        "oId": 3,
+                        "firstName": "Chi",
+                        "lastName": "Nguyễn Hoàng Thùy",
+                        "address": "123/3 Mai Thị Lựu, Quận 1, TP.HCM",
+                        "idCard": "000000000002",
+                        "phoneNumber": "0000000002",
+                        "email": "ouproject2223@gmail.com",
+                        "gender": 0,
+                        "dateOfBirth": new ISODate("2001-01-03T00:00:00Z"),
+                        "nationality": "Việt Nam",
+                        "createdAt": new Date()
+                    },
+                    {
+                        "oId": 4,
+                        "firstName": "Dương",
+                        "lastName": "Hoàng Đình",
+                        "address": "123/4 Nguyễn Văn Trỗi, Quận 5, TP.HCM",
+                        "idCard": "000000000003",
+                        "phoneNumber": "0000000003",
+                        "email": "ouproject2223@gmail.com",
+                        "gender": 1,
+                        "dateOfBirth": new ISODate("2001-01-04T00:00:00Z"),
+                        "nationality": "Việt Nam",
+                        "createdAt": new Date()
+                    },
+                    {
+                        "oId": 5,
+                        "firstName": "Emmy",
+                        "lastName": "Nguyễn",
+                        "address": "123/5 Hoàng Mai, Quận 1, TP.HCM",
+                        "idCard": "000000000004",
+                        "phoneNumber": "0000000004",
+                        "email": "ouproject2223@gmail.com",
+                        "gender": 0,
+                        "dateOfBirth": new ISODate("2001-01-05T00:00:00Z"),
+                        "nationality": "Việt Nam",
+                        "createdAt": new Date()
+                    },
+                    {
+                        "oId": 6,
+                        "firstName": "Giang",
+                        "lastName": "Hoàng",
+                        "address": "123/6 Nguyễn Đình Chiểu, Quận 6, TP.HCM",
+                        "idCard": "000000000005",
+                        "phoneNumber": "0000000005",
+                        "email": "ouproject2223@gmail.com",
+                        "gender": 1,
+                        "dateOfBirth": new ISODate("2001-01-06T00:00:00Z"),
+                        "nationality": "Việt Nam",
+                        "createdAt": new Date()
+                    },
+                    {
+                        "oId": 7,
+                        "firstName": "Huy",
+                        "lastName": "Đinh Văn",
+                        "address": "123/7 Nguyễn Kiệm, Quận 2, TP.HCM",
+                        "idCard": "000000000006",
+                        "phoneNumber": "0000000006",
+                        "email": "ouproject2223@gmail.com",
+                        "gender": 1,
+                        "dateOfBirth": new ISODate("2001-01-07T00:00:00Z"),
+                        "nationality": "Việt Nam",
+                        "createdAt": new Date()
+                    },
+                    {
+                        "oId": 8,
+                        "firstName": "Khang",
+                        "lastName": "Nguyễn Tiến",
+                        "address": "123/8 Nguyễn Kiệm, Quận 2, TP.HCM",
+                        "idCard": "000000000007",
+                        "phoneNumber": "0000000007",
+                        "email": "ouproject2223@gmail.com",
+                        "gender": 1,
+                        "dateOfBirth": new ISODate("2001-01-01T00:00:00Z"),
+                        "nationality": "Việt Nam",
+                        "createdAt": new Date()
+                    },
+                    {
+                        "oId": 9,
+                        "firstName": "Linh",
+                        "lastName": "Mai Thị",
+                        "address": "123/9 Nguyễn Hoàng, Quận 3, TP.HCM",
+                        "idCard": "000000000008",
+                        "phoneNumber": "0000000008",
+                        "email": "ouproject2223@gmail.com",
+                        "gender": 0,
+                        "dateOfBirth": new ISODate("2001-01-09T00:00:00Z"),
+                        "nationality": "Việt Nam",
+                        "createdAt": new Date()
+                    },
+                    {
+                        "oId": 10,
+                        "firstName": "Nga",
+                        "lastName": "Đinh Thị",
+                        "address": "123/10 Nguyễn Tuân, Quận 2, TP.HCM",
+                        "idCard": "000000000009",
+                        "phoneNumber": "0000000009",
+                        "email": "ouproject2223@gmail.com",
+                        "gender": 0,
+                        "dateOfBirth": new ISODate("2001-01-10T00:00:00Z"),
+                        "nationality": "Việt Nam",
+                        "createdAt": new Date()
+                    },
+                    {
+                        "oId": 11,
+                        "firstName": "Minh",
+                        "lastName": "Khương Văn",
+                        "address": "123/11 Nguyễn Thị Bé, Quận 1, TP.HCM",
+                        "idCard": "000000000010",
+                        "phoneNumber": "0000000010",
+                        "email": "ouproject2223@gmail.com",
+                        "gender": 1,
+                        "dateOfBirth": new ISODate("2001-01-11T00:00:00Z"),
+                        "nationality": "Việt Nam",
+                        "createdAt": new Date()
+                    }
+                ]
+            </ext:documents>
+        </ext:insertMany>
+        <rollback>
+            <ext:dropCollection collectionName="User"/>
+        </rollback>
+    </changeSet>
+</databaseChangeLog>

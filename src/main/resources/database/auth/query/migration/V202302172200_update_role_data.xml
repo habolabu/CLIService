@@ -1,0 +1,85 @@
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.6.xsd
+        http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd">
+
+    <changeSet id="V202211282230_init_master_role_data" author="trungkien.nguyen"
+               labels="V202211282230_init_master_role_data">
+        <ext:runCommand>
+            <ext:command>
+                {
+                    update: "Role",
+                    updates: [
+                        { q: {
+                                name: "quan-tri-vien"
+                           },
+                           u: {
+                                $set: {
+                                        name: "ADMINISTRATOR",
+                                        display: "ADMINISTRATOR"
+                                }
+                           },
+                           multi: true
+                        },
+                        { q: {
+                                name: "nguoi-dung-thuong"
+                           },
+                          u: {
+                               $set: {
+                                        name: "NORMAL_USER",
+                                        display: "NORMAL USER"
+                               }
+                          },
+                          multi: true
+                        }
+                    ],
+                    ordered: false,
+                    writeConcern: {
+                        w: "majority",
+                        wtimeout: 5000
+                    }
+                }
+            </ext:command>
+        </ext:runCommand>
+        <rollback>
+            <ext:runCommand>
+                <ext:command>
+                    {
+                        update: "Role",
+                        updates: [
+                            { q: {
+                                    name: "ADMINISTRATOR"
+                               },
+                               u: {
+                                    $set: {
+                                        name: "quan-tri-vien",
+                                        display: "Quản trị viên"
+                                    }
+                               },
+                               multi: true
+                            },
+                            { q: {
+                                    name: "NORMAL"
+                               },
+                               u: {
+                                    $set: {
+                                        name: "nguoi-dung-thuong",
+                                        display: "người dùng thường"
+                                    }
+                               },
+                               multi: true
+                            }
+                        ],
+                        ordered: false,
+                        writeConcern: {
+                            w: "majority",
+                            wtimeout: 5000
+                        }
+                    }
+                </ext:command>
+            </ext:runCommand>
+        </rollback>
+    </changeSet>
+</databaseChangeLog>

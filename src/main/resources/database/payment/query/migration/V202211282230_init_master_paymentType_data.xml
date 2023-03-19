@@ -1,0 +1,25 @@
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.6.xsd
+        http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd">
+
+    <changeSet id="V202211282230_init_master_paymentType_data" author="trungkien.nguyen"
+               labels="V202211282230_init_master_paymentType_data">
+        <ext:insertMany collectionName="PaymentType">
+            <ext:documents>
+                [
+                    {
+                        "oId": 1,
+                        "name": "Thanh toán MOMO",
+                        "slug": "thanh-toan-momo"
+                    }
+                ]
+            </ext:documents>
+        </ext:insertMany>
+        <rollback>
+            <ext:dropCollection collectionName="PaymentType"/>
+        </rollback>
+    </changeSet>
+</databaseChangeLog>

@@ -1,0 +1,27 @@
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.6.xsd
+        http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd">
+
+    <changeSet id="V202212222000_init_master_database_structure" author="trungkien.nguyen"
+               labels="V202212222000_init_master_database_structure">
+        <ext:createCollection collectionName="FeedBackType"/>
+        <ext:createCollection collectionName="FeedBack"/>
+        <ext:createCollection collectionName="Post"/>
+        <ext:createCollection collectionName="Emotion"/>
+        <ext:createCollection collectionName="Comment"/>
+        <ext:createCollection collectionName="CommentEmotion"/>
+        <ext:createCollection collectionName="PostEmotion"/>
+        <rollback>
+            <ext:dropCollection collectionName="FeedBackType"/>
+            <ext:dropCollection collectionName="FeedBack"/>
+            <ext:dropCollection collectionName="Post"/>
+            <ext:dropCollection collectionName="Emotion"/>
+            <ext:dropCollection collectionName="Comment"/>
+            <ext:dropCollection collectionName="CommentEmotion"/>
+            <ext:dropCollection collectionName="PostEmotion"/>
+        </rollback>
+    </changeSet>
+</databaseChangeLog>

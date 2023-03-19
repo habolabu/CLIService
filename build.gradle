@@ -1,0 +1,50 @@
+buildscript {
+	ext {
+		springBootVersion = "2.7.4"
+		liquibaseVersion = "4.17.2"
+		mySqlVersion = "8.0.30"
+		springBootStarterJdbcVersion = "2.7.5"
+		liquibaseMongoDbVersion = "4.17.2"
+	}
+
+	repositories {
+		mavenCentral()
+	}
+
+	dependencies {
+		classpath "org.springframework.boot:spring-boot-gradle-plugin:${springBootVersion}"
+	}
+}
+
+
+plugins {
+	id 'java'
+	id 'org.springframework.boot' version '2.7.5'
+	id 'io.spring.dependency-management' version '1.0.15.RELEASE'
+}
+
+group = 'edu.ou'
+version = '0.0.1-SNAPSHOT'
+sourceCompatibility = '17'
+
+repositories {
+	mavenCentral()
+}
+
+dependencies {
+	implementation "org.springframework.boot:spring-boot-starter:${springBootVersion}"
+	implementation "org.liquibase:liquibase-core:${liquibaseVersion}"
+	runtimeOnly "mysql:mysql-connector-java:${mySqlVersion}"
+	implementation "org.springframework.boot:spring-boot-starter-jdbc:${springBootStarterJdbcVersion}"
+	implementation "org.liquibase.ext:liquibase-mongodb:${liquibaseMongoDbVersion}"
+	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+
+}
+
+tasks.named('test') {
+	useJUnitPlatform()
+}
+
+bootRun {
+	args = ["--spring.profiles.active=${project.properties['profile'] ?: 'prod'}"]
+}
