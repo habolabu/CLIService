@@ -1,0 +1,56 @@
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.6.xsd
+        http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd">
+
+    <changeSet id="V202212222000_init_master_emotion_data" author="trungkien.nguyen"
+               labels="V202212222000_init_master_emotion_data">
+        <ext:insertMany collectionName="Emotion">
+            <ext:documents>
+                [
+                    {
+                        "oId": 1,
+                        "name": "Thích",
+                        "icon": "https://res.cloudinary.com/dzd9sonxs/image/upload/v1672239478/emoji/like_uxq9ok.svg"
+                    },
+                    {
+                        "oId": 2,
+                        "name": "Tim",
+                        "icon": "https://res.cloudinary.com/dzd9sonxs/image/upload/v1672239478/emoji/love_vhjhlb.svg"
+                    },
+                    {
+                        "oId": 3,
+                        "name": "Thương thương",
+                        "icon": "https://res.cloudinary.com/dzd9sonxs/image/upload/v1672239479/emoji/care_rjzmav.svg"
+                    },
+                    {
+                        "oId": 4,
+                        "name": "Haha",
+                        "icon": "https://res.cloudinary.com/dzd9sonxs/image/upload/v1672239478/emoji/haha_hwgo3u.svg"
+                    },
+                    {
+                        "oId": 5,
+                        "name": "Wow",
+                        "icon": "https://res.cloudinary.com/dzd9sonxs/image/upload/v1672239477/emoji/wow_jmezta.svg"
+                    },
+                    {
+                        "oId": 6,
+                        "name": "Buồn",
+                        "icon": "https://res.cloudinary.com/dzd9sonxs/image/upload/v1672239478/emoji/sad_ttzf24.svg"
+                    },
+                    {
+                        "oId": 7,
+                        "name": "Giận dữ",
+                        "icon": "https://res.cloudinary.com/dzd9sonxs/image/upload/v1672239478/emoji/angry_voavkr.svg"
+                    }
+                ]
+            </ext:documents>
+        </ext:insertMany>
+        <rollback>
+            <ext:dropCollection collectionName="Emotion"/>
+        </rollback>
+    </changeSet>
+
+</databaseChangeLog>

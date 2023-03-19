@@ -1,0 +1,135 @@
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.6.xsd
+        http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd">
+
+    <changeSet id="V202212222000_init_master_commentEmotion_data" author="trungkien.nguyen"
+               labels="V202212222000_init_master_commentEmotion_data">
+        <ext:insertMany collectionName="CommentEmotion">
+            <ext:documents>
+                [
+                    {
+                        "oId": 1,
+                        "commentId": 1,
+                        "userId": 1,
+                        "emotionId": 1
+                    },
+                    {
+                        "oId": 2,
+                        "commentId": 2,
+                        "userId": 2,
+                        "emotionId": 2
+                    },
+                    {
+                        "oId": 3,
+                        "commentId": 3,
+                        "userId": 3,
+                        "emotionId": 3
+                    },
+                    {
+                        "oId": 4,
+                        "commentId": 4,
+                        "userId": 4,
+                        "emotionId": 4
+                    },
+                    {
+                        "oId": 5,
+                        "commentId": 5,
+                        "userId": 5,
+                        "emotionId": 5
+                    },
+                    {
+                        "oId": 6,
+                        "commentId": 6,
+                        "userId": 6,
+                        "emotionId": 6
+                    },
+                    {
+                        "oId": 7,
+                        "commentId": 7,
+                        "userId": 7,
+                        "emotionId": 7
+                    },
+                    {
+                        "oId": 8,
+                        "commentId": 8,
+                        "userId": 8,
+                        "emotionId": 1
+                    },
+                    {
+                        "oId": 9,
+                        "commentId": 9,
+                        "userId": 9,
+                        "emotionId": 2
+                    },
+                    {
+                        "oId": 10,
+                        "commentId": 10,
+                        "userId": 10,
+                        "emotionId": 3
+                    },
+                    {
+                        "oId": 11,
+                        "commentId": 11,
+                        "userId": 1,
+                        "emotionId": 4
+                    },
+                    {
+                        "oId": 12,
+                        "commentId": 1,
+                        "userId": 2,
+                        "emotionId": 5
+                    },
+                    {
+                        "oId": 13,
+                        "commentId": 2,
+                        "userId": 3,
+                        "emotionId": 6
+                    },
+                    {
+                        "oId": 14,
+                        "commentId": 3,
+                        "userId": 4,
+                        "emotionId": 7
+                    },
+                    {
+                        "oId": 15,
+                        "commentId": 4,
+                        "userId": 5,
+                        "emotionId": 1
+                    },
+                    {
+                        "oId": 16,
+                        "commentId": 5,
+                        "userId": 6,
+                        "emotionId": 2
+                    },
+                    {
+                        "oId": 17,
+                        "commentId": 6,
+                        "userId": 7,
+                        "emotionId": 3
+                    },
+                    {
+                        "oId": 18,
+                        "commentId": 7,
+                        "userId": 8,
+                        "emotionId": 4
+                    },
+                    {
+                        "oId": 19,
+                        "commentId": 8,
+                        "userId": 9,
+                        "emotionId": 5
+                    }
+                ]
+            </ext:documents>
+        </ext:insertMany>
+        <rollback>
+            <ext:dropCollection collectionName="CommentEmotion"/>
+        </rollback>
+    </changeSet>
+
+</databaseChangeLog>

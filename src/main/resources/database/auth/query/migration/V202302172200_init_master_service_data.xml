@@ -1,0 +1,45 @@
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.6.xsd
+        http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd">
+
+    <changeSet id="V202302172200_init_master_service_data" author="trungkien.nguyen"
+               labels="V202302172200_init_master_service_data">
+        <ext:insertMany collectionName="Service">
+            <ext:documents>
+                [
+                    {
+                        "oId": 1,
+                        "name": "Activity",
+                        "createdAt": new Date()
+                    },
+                    {
+                        "oId": 2,
+                        "name": "Auth",
+                        "createdAt": new Date()
+                    },
+                    {
+                        "oId": 3,
+                        "name": "Building",
+                        "createdAt": new Date()
+                    },
+                    {
+                        "oId": 4,
+                        "name": "Human",
+                        "createdAt": new Date()
+                    },
+                    {
+                        "oId": 5,
+                        "name": "Payment",
+                        "createdAt": new Date()
+                    },
+                ]
+            </ext:documents>
+        </ext:insertMany>
+        <rollback>
+            <ext:dropCollection collectionName="Service"/>
+        </rollback>
+    </changeSet>
+</databaseChangeLog>

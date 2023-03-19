@@ -1,0 +1,63 @@
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.6.xsd
+        http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd">
+
+    <changeSet id="V202211282230_init_master_parking_data" author="trungkien.nguyen"
+               labels="V202211282230_init_master_parking_data">
+        <ext:insertMany collectionName="Parking">
+            <ext:documents>
+                [
+                    {
+                        "oId": 1,
+                        "name": "Tầng hầm A1",
+                        "slug": "tang-ham-a1",
+                        "apartmentId": 1
+                    },
+                    {
+                        "oId": 2,
+                        "name": "Tầng hầm A2",
+                        "slug": "tang-ham-a2",
+                        "apartmentId": 2
+                    },
+                    {
+                        "oId": 3,
+                        "name": "Tầng hầm B1",
+                        "slug": "tang-ham-b1",
+                        "apartmentId": 2
+                    },
+                    {
+                        "oId": 4,
+                        "name": "Tầng hầm C1",
+                        "slug": "tang-ham-c1",
+                        "apartmentId": 3
+                    },
+                    {
+                        "oId": 5,
+                        "name": "Tầng hầm D1",
+                        "slug": "tang-ham-d1",
+                        "apartmentId": 4
+                    },
+                    {
+                        "oId": 6,
+                        "name": "Tầng hầm D2",
+                        "slug": "tang-ham-d2",
+                        "apartmentId": 4
+                    },
+                    {
+                        "oId": 7,
+                        "name": "Tầng hầm E1",
+                        "slug": "tang-ham-e1",
+                        "apartmentId": 5
+                    }
+                ]
+            </ext:documents>
+        </ext:insertMany>
+        <rollback>
+            <ext:dropCollection collectionName="Parking"/>
+        </rollback>
+    </changeSet>
+
+</databaseChangeLog>

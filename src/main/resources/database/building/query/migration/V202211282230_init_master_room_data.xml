@@ -1,0 +1,77 @@
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.6.xsd
+        http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd">
+
+    <changeSet id="V202211282230_init_master_room_data" author="trungkien.nguyen"
+               labels="V202211282230_init_master_room_data">
+        <ext:insertMany collectionName="Room">
+            <ext:documents>
+                [
+                    {
+                        "oId": 1,
+                        "name": "Phòng Xuân",
+                        "slug": "phong-xuan",
+                        "floorNumber": 7,
+                        "apartmentId": 1,
+                        "priceTagId": 1
+                    },
+                    {
+                        "oId": 2,
+                        "name": "Phòng Hạ",
+                        "slug": "phong-ha",
+                        "floorNumber": 21,
+                        "apartmentId": 2,
+                        "priceTagId": 2
+                    },
+                    {
+                        "oId": 3,
+                        "name": "Phòng Thu",
+                        "slug": "phong-thu",
+                        "floorNumber": 15,
+                        "apartmentId": 3,
+                        "priceTagId": 3
+                    },
+                    {
+                        "oId": 4,
+                        "name": "Phòng Đông",
+                        "slug": "phong-dong",
+                        "floorNumber": 0,
+                        "apartmentId": 4,
+                        "priceTagId": 4
+                    },
+                    {
+                        "oId": 5,
+                        "name": "Phòng Mưa",
+                        "slug": "phong-mua",
+                        "floorNumber": 5,
+                        "apartmentId": 5,
+                        "priceTagId": 1
+                    },
+                    {
+                        "oId": 6,
+                        "name": "Phòng Nắng",
+                        "slug": "phong-nang",
+                        "floorNumber": 10,
+                        "apartmentId": 1,
+                        "priceTagId": 2
+                    },
+                    {
+                        "oId": 7,
+                        "name": "Phòng Âm U",
+                        "slug": "phong-am-u",
+                        "floorNumber": 15,
+                        "apartmentId": 2,
+                        "priceTagId": 3
+                    },
+                ]
+            </ext:documents>
+        </ext:insertMany>
+        <rollback>
+            <ext:dropCollection collectionName="Room"/>
+        </rollback>
+    </changeSet>
+
+</databaseChangeLog>

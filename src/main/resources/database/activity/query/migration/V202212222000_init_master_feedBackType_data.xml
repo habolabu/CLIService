@@ -1,0 +1,33 @@
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.6.xsd
+        http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd">
+
+    <changeSet id="V202212222000_init_master_feedBackType_data" author="trungkien.nguyen"
+               labels="V202212222000_init_master_feedBackType_data">
+        <ext:insertMany collectionName="FeedBackType">
+            <ext:documents>
+                [
+                    {
+                        "oId": 1,
+                        "name": "Phản hồi lỗi hệ thống",
+                        "slug": "phan-hoi-loi-he-thong",
+                        "createdAt": new Date()
+                    },
+                    {
+                        "oId": 2,
+                        "name": "Phản hồi dịch vụ",
+                        "slug": "phan-hoi-dich-vu",
+                        "createdAt": new Date()
+                    }
+                ]
+            </ext:documents>
+        </ext:insertMany>
+        <rollback>
+            <ext:dropCollection collectionName="FeedBackType"/>
+        </rollback>
+    </changeSet>
+
+</databaseChangeLog>

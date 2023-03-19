@@ -1,0 +1,75 @@
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.6.xsd
+        http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd">
+
+    <changeSet id="V202211282230_init_master_parkingSpace_data" author="trungkien.nguyen"
+               labels="V202211282230_init_master_parkingSpace_data">
+        <ext:insertMany collectionName="ParkingSpace">
+            <ext:documents>
+                [
+                    {
+                        "parkingId": 1,
+                        "parkingTypeId": 1,
+                        "capacity": 20,
+                        "availableSpace": 15
+                    },
+                    {
+                        "parkingId": 1,
+                        "parkingTypeId": 2,
+                        "capacity": 100,
+                        "availableSpace": 50
+                    },
+                    {
+                        "parkingId": 1,
+                        "parkingTypeId": 3,
+                        "capacity": 50,
+                        "availableSpace": 35
+                    },
+                    {
+                        "parkingId": 1,
+                        "parkingTypeId": 4,
+                        "capacity": 30,
+                        "availableSpace": 10
+                    },
+                    {
+                        "parkingId": 2,
+                        "parkingTypeId": 1,
+                        "capacity": 40,
+                        "availableSpace": 0
+                    },
+                    {
+                        "parkingId": 2,
+                        "parkingTypeId": 2,
+                        "capacity": 150,
+                        "availableSpace": 50
+                    },
+                    {
+                        "parkingId": 2,
+                        "parkingTypeId": 3,
+                        "capacity": 30,
+                        "availableSpace": 32
+                    },
+                    {
+                        "parkingId": 3,
+                        "parkingTypeId": 2,
+                        "capacity": 200,
+                        "availableSpace": 19
+                    },
+                    {
+                        "parkingId": 4,
+                        "parkingTypeId": 1,
+                        "capacity": 150,
+                        "availableSpace": 20
+                    }
+                ]
+            </ext:documents>
+        </ext:insertMany>
+        <rollback>
+            <ext:dropCollection collectionName="ParkingSpace"/>
+        </rollback>
+    </changeSet>
+
+</databaseChangeLog>

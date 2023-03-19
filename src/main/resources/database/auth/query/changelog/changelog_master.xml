@@ -1,0 +1,16 @@
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.6.xsd">
+
+    <include file="database/auth/query/migration/V202211282230_init_master_database_structure.xml"/>
+    <include file="database/auth/query/migration/V202211282230_init_master_account_data.xml"/>
+    <include file="database/auth/query/migration/V202211282230_init_master_password_data.xml"/>
+    <include file="database/auth/query/migration/V202211282230_init_master_role_data.xml"/>
+    <include file="database/auth/query/migration/V202302172200_add_permission_table_structure.xml"/>
+    <include file="database/auth/query/migration/V202302172200_init_master_service_data.xml"/>
+    <include file="database/auth/query/migration/V202302172200_update_role_data.xml"/>
+    <include file="database/auth/query/migration/V202302172200_init_master_permission_data.xml"/>
+    <include file="database/auth/query/migration/V202302172200_init_master_accountSetting_data.xml"/>
+    <include file="database/auth/query/migration/V202302172200_remove_role_id_account_table.xml"/>
+</databaseChangeLog>

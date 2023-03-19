@@ -1,0 +1,45 @@
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.6.xsd
+        http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd">
+
+    <changeSet id="V202211282230_init_master_apartment_data" author="trungkien.nguyen"
+               labels="V202211282230_init_master_apartment_data">
+        <ext:insertMany collectionName="Area">
+            <ext:documents>
+                [
+                    {
+                        "oId": 1,
+                        "name": "Khu đất hoàng gia",
+                        "slug": "khu-dat-hoang-gia",
+                        "address": "Quận 3, Tp Hồ Chí Minh",
+                    },
+                    {
+                        "oId": 2,
+                        "name": "Khu đất thượng lưu",
+                        "slug": "khu-dat-thuong-luu",
+                        "address": "Quận 1, Tp Hồ Chí Minh",
+                    },
+                    {
+                        "oId": 3,
+                        "name": "Khu đất quý tộc",
+                        "slug": "khu-dat-quy-toc",
+                        "address": "Quận 7, Tp Hồ Chí Minh",
+                    },
+                    {
+                        "oId": 4,
+                        "name": "Khu đất bình dân",
+                        "slug": "khu-dat-binh-dan",
+                        "address": "Quận 2, Tp Hồ Chí Minh",
+                    }
+                ]
+            </ext:documents>
+        </ext:insertMany>
+        <rollback>
+            <ext:dropCollection collectionName="Area"/>
+        </rollback>
+    </changeSet>
+
+</databaseChangeLog>

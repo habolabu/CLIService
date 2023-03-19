@@ -1,0 +1,92 @@
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.6.xsd
+        http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd">
+
+    <changeSet id="V202211282230_init_master_parkingDetail_data" author="trungkien.nguyen"
+               labels="V202211282230_init_master_parkingDetail_data">
+        <ext:insertMany collectionName="ParkingDetail">
+            <ext:documents>
+                [
+                    {
+                        "userId": 1,
+                        "parkingId": 1,
+                        "parkingTypeId": 1,
+                        "joinDate": new Date()
+                    },
+                    {
+                        "userId": 2,
+                        "parkingId": 1,
+                        "parkingTypeId": 2,
+                        "joinDate": new Date()
+                    },
+                    {
+                        "userId": 2,
+                        "parkingId": 2,
+                        "parkingTypeId": 1,
+                        "joinDate": new Date()
+                    },
+                    {
+                        "userId": 2,
+                        "parkingId": 3,
+                        "parkingTypeId": 2,
+                        "joinDate": new Date()
+                    },
+                    {
+                        "userId": 3,
+                        "parkingId": 4,
+                        "parkingTypeId": 1,
+                        "joinDate": new Date()
+                    },
+                    {
+                        "userId": 4,
+                        "parkingId": 1,
+                        "parkingTypeId": 3,
+                        "joinDate": new Date()
+                    },
+                    {
+                        "userId": 5,
+                        "parkingId": 2,
+                        "parkingTypeId": 2,
+                        "joinDate": new Date()
+                    },
+                    {
+                        "userId": 6,
+                        "parkingId": 3,
+                        "parkingTypeId": 2,
+                        "joinDate": new Date()
+                    },
+                    {
+                        "userId": 7,
+                        "parkingId": 1,
+                        "parkingTypeId": 2,
+                        "joinDate": new Date()
+                    },
+                    {
+                        "userId": 8,
+                        "parkingId": 2,
+                        "parkingTypeId": 2,
+                        "joinDate": new Date()
+                    },
+                    {
+                        "userId": 9,
+                        "parkingId": 3,
+                        "parkingTypeId": 2,
+                        "joinDate": new Date()
+                    },
+                    {
+                        "userId": 10,
+                        "parkingId": 4,
+                        "parkingTypeId": 1,
+                        "joinDate": new Date()
+                    }
+                ]
+            </ext:documents>
+        </ext:insertMany>
+        <rollback>
+            <ext:dropCollection collectionName="ParkingDetail"/>
+        </rollback>
+    </changeSet>
+</databaseChangeLog>

@@ -1,0 +1,111 @@
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.6.xsd
+        http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd">
+
+    <changeSet id="V202212222000_init_master_postEmotion_data" author="trungkien.nguyen"
+               labels="V202212222000_init_master_postEmotion_data">
+        <ext:insertMany collectionName="PostEmotion">
+            <ext:documents>
+                [
+                    {
+                        "postId": 1,
+                        "userId": 1,
+                        "emotionId": 1
+                    },
+                    {
+                        "postId": 1,
+                        "userId": 2,
+                        "emotionId": 2
+                    },
+                    {
+                        "postId": 1,
+                        "userId": 3,
+                        "emotionId": 3
+                    },
+                    {
+                        "postId": 1,
+                        "userId": 4,
+                        "emotionId": 4
+                    },
+                    {
+                        "postId": 2,
+                        "userId": 1,
+                        "emotionId": 5
+                    },
+                    {
+                        "postId": 2,
+                        "userId": 2,
+                        "emotionId": 6
+                    },
+                    {
+                        "postId": 2,
+                        "userId": 3,
+                        "emotionId": 7
+                    },
+                    {
+                        "postId": 2,
+                        "userId": 4,
+                        "emotionId": 1
+                    },
+                    {
+                        "postId": 2,
+                        "userId": 5,
+                        "emotionId": 1
+                    },
+                    {
+                        "postId": 3,
+                        "userId": 1,
+                        "emotionId": 2
+                    },
+                    {
+                        "postId": 4,
+                        "userId": 2,
+                        "emotionId": 3
+                    },
+                    {
+                        "postId": 4,
+                        "userId": 3,
+                        "emotionId": 4
+                    },
+                    {
+                        "postId": 4,
+                        "userId": 4,
+                        "emotionId": 5
+                    },
+                    {
+                        "postId": 4,
+                        "userId": 5,
+                        "emotionId": 6
+                    },
+                    {
+                        "postId": 4,
+                        "userId": 6,
+                        "emotionId": 7
+                    },
+                    {
+                        "postId": 4,
+                        "userId": 7,
+                        "emotionId": 1
+                    },
+                    {
+                        "postId": 4,
+                        "userId": 8,
+                        "emotionId": 2
+                    },
+                    {
+                        "postId": 4,
+                        "userId": 9,
+                        "emotionId": 3
+                    }
+                ]
+            </ext:documents>
+        </ext:insertMany>
+        <rollback>
+            <ext:dropCollection collectionName="PostEmotion"/>
+        </rollback>
+    </changeSet>
+
+</databaseChangeLog>

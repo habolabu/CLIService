@@ -1,0 +1,67 @@
+datasource:
+  auth-group:
+    command:
+      jdbc-url: ${AUTH_GROUP_COMMAND_URL}
+      username: ${AUTH_GROUP_COMMAND_USERNAME}
+      password: ${AUTH_GROUP_COMMAND_PASSWORD}
+      driver-class-name: ${AUTH_GROUP_COMMAND_DRIVER_CLASS_NAME}
+      liquibase:
+        enabled: ${AUTH_GROUP_COMMAND_LIQUIBASE_ENABLED}
+        change-log: ${AUTH_GROUP_COMMAND_LIQUIBASE_CHANGE_LOG}
+    query:
+      jdbc-url: ${AUTH_GROUP_QUERY_URL}
+      liquibase:
+        change-log: ${AUTH_GROUP_QUERY_LIQUIBASE_CHANGE_LOG}
+
+  building-group:
+    command:
+      jdbc-url: ${BUILDING_GROUP_COMMAND_URL}
+      username: ${BUILDING_GROUP_COMMAND_USERNAME}
+      password: ${BUILDING_GROUP_COMMAND_PASSWORD}
+      driver-class-name: ${BUILDING_GROUP_COMMAND_DRIVER_CLASS_NAME}
+      liquibase:
+        enabled: ${BUILDING_GROUP_COMMAND_LIQUIBASE_ENABLED}
+        change-log: ${BUILDING_GROUP_COMMAND_LIQUIBASE_CHANGE_LOG}
+      query:
+        jdbc-url: ${BUILDING_GROUP_QUERY_URL}
+        liquibase:
+          change-log: ${BUILDING_GROUP_QUERY_LIQUIBASE_CHANGE_LOG}
+
+  human-group:
+    jdbc-url: ${HUMAN_GROUP_COMMAND_URL}
+    username: ${HUMAN_GROUP_COMMAND_USERNAME}
+    password: ${HUMAN_GROUP_COMMAND_PASSWORD}
+    driver-class-name: ${HUMAN_GROUP_COMMAND_DRIVER_CLASS_NAME}
+    liquibase:
+      enabled: ${HUMAN_GROUP_COMMAND_LIQUIBASE_ENABLED}
+      change-log: ${HUMAN_GROUP_COMMAND_LIQUIBASE_CHANGE_LOG}
+    query:
+      jdbc-url: ${HUMAN_GROUP_QUERY_URL}
+      liquibase:
+        change-log: ${HUMAN_GROUP_QUERY_LIQUIBASE_CHANGE_LOG}
+
+  payment-group:
+    jdbc-url: ${PAYMENT_GROUP_COMMAND_URL}
+    username: ${PAYMENT_GROUP_COMMAND_USERNAME}
+    password: ${PAYMENT_GROUP_COMMAND_PASSWORD}
+    driver-class-name: ${PAYMENT_GROUP_COMMAND_DRIVER_CLASS_NAME}
+    liquibase:
+      enabled: ${PAYMENT_GROUP_COMMAND_LIQUIBASE_ENABLED}
+      change-log: ${PAYMENT_GROUP_COMMAND_CHANGE_LOG}
+    query:
+      jdbc-url: ${PAYMENT_GROUP_QUERY_URL}
+      liquibase:
+        change-log: ${PAYMENT_GROUP_QUERY_LIQUIBASE_CHANGE_LOG}
+
+  activity-group:
+    jdbc-url: ${ACTTVITY_GROUP_COMMAND_URL}
+    username: ${ACTTVITY_GROUP_COMMAND_USERNAME}
+    password: ${ACTTVITY_GROUP_COMMAND_PASSWORD}
+    driver-class-name: ${ACTTVITY_GROUP_COMMAND_DRIVER_CLASS_NAME}
+    liquibase:
+      enabled: ${ACTTVITY_GROUP_COMMAND_LIQUIBASE_ENABLED}
+      change-log: ${ACTTVITY_GROUP_COMMAND_CHANGE_LOG}
+    query:
+      jdbc-url: ${ACTTVITY_GROUP_QUERY_URL}
+      liquibase:
+        change-log: ${ACTTVITY_GROUP_QUERY_LIQUIBASE_CHANGE_LOG}

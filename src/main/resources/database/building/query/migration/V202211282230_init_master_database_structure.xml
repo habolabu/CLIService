@@ -1,0 +1,29 @@
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.6.xsd
+        http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd">
+
+    <changeSet id="V202211282230_init_master_database_structure" author="trungkien.nguyen"
+               labels="V202210061000_init_master_database_structure">
+        <ext:createCollection collectionName="Apartment"/>
+        <ext:createCollection collectionName="Area"/>
+        <ext:createCollection collectionName="OwnerHistory"/>
+        <ext:createCollection collectionName="Parking"/>
+        <ext:createCollection collectionName="ParkingSpace"/>
+        <ext:createCollection collectionName="ParkingType"/>
+        <ext:createCollection collectionName="PriceTag"/>
+        <ext:createCollection collectionName="Room"/>
+        <rollback>
+            <ext:dropCollection collectionName="Apartment"/>
+            <ext:dropCollection collectionName="Area"/>
+            <ext:dropCollection collectionName="OwnerHistory"/>
+            <ext:dropCollection collectionName="Parking"/>
+            <ext:dropCollection collectionName="ParkingSpace"/>
+            <ext:dropCollection collectionName="ParkingType"/>
+            <ext:dropCollection collectionName="PriceTag"/>
+            <ext:dropCollection collectionName="Room"/>
+        </rollback>
+    </changeSet>
+</databaseChangeLog>

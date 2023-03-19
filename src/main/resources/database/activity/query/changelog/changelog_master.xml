@@ -1,0 +1,15 @@
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.6.xsd">
+
+    <include file="database/activity/query/migration/V202212222000_init_master_database_structure.xml"/>
+    <include file="database/activity/query/migration/V202212222000_init_master_feedBackType_data.xml"/>
+    <include file="database/activity/query/migration/V202212222000_init_master_feedBack_data.xml"/>
+    <include file="database/activity/query/migration/V202212222000_init_master_post_data.xml"/>
+    <include file="database/activity/query/migration/V202212222000_init_master_emotion_data.xml"/>
+    <include file="database/activity/query/migration/V202212222000_init_master_comment_data.xml"/>
+    <include file="database/activity/query/migration/V202212222000_init_master_commentEmotion_data.xml"/>
+    <include file="database/activity/query/migration/V202212222000_init_master_postEmotion_data.xml"/>
+
+</databaseChangeLog>

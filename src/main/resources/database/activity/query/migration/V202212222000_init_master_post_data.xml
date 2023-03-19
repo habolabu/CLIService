@@ -1,0 +1,61 @@
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.6.xsd
+        http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd">
+
+    <changeSet id="V202212222000_init_master_post_data" author="trungkien.nguyen"
+               labels="V202212222000_init_master_post_data">
+        <ext:insertMany collectionName="Post">
+            <ext:documents>
+                [
+                    {
+                        "oId": 1,
+                        "title": "Giới thiệu về hệ thống Habolabu",
+                        "slug": "gioi-thieu-ve-he-thong-habolabu",
+                        "content": "Hệ thống Habolabu là một hệ thống quản lý dân cư",
+                        "totalComment": 4,
+                        "totalEmotion": 4,
+                        "isEdited": false,
+                        "createdAt": new Date()
+                    },
+                    {
+                        "oId": 2,
+                        "title": "Nội quy tại habolabu",
+                        "slug": "noi-quy-tai-habolabu",
+                        "content": "Habolabu là nơi không có nội quy",
+                        "totalComment": 5,
+                        "totalEmotion": 5,
+                        "isEdited": false,
+                        "createdAt": new Date()
+                    },
+                    {
+                        "oId": 3,
+                        "title": "Ưu điểm của habolabu",
+                        "slug": "uu-diem-cua-habolabu",
+                        "content": "Ưu điểm của Habolabu là không có khuyết điểm",
+                        "totalComment": 1,
+                        "totalEmotion": 1,
+                        "isEdited": true,
+                        "createdAt": new Date()
+                    },
+                    {
+                        "oId": 1,
+                        "title": "Nhược điểm của habolabu",
+                        "slug": "nhuoc-diem-cua-habolabu",
+                        "content": "Nhược điểm của Habolabu là toàn ưu điểm",
+                        "totalComment": 1,
+                        "totalEmotion": 8,
+                        "isEdited": false,
+                        "createdAt": new Date()
+                    }
+                ]
+            </ext:documents>
+        </ext:insertMany>
+        <rollback>
+            <ext:dropCollection collectionName="Post"/>
+        </rollback>
+    </changeSet>
+
+</databaseChangeLog>

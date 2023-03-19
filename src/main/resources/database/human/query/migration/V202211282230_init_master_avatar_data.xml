@@ -1,0 +1,231 @@
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.6.xsd
+        http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd">
+
+    <changeSet id="V202211282230_init_master_avatar_data" author="trungkien.nguyen"
+               labels="V202211282230_init_master_avatar_data">
+        <ext:insertMany collectionName="Avatar">
+            <ext:documents>
+                [
+                    {
+                        "oId": 1,
+                        "url": "https://res.cloudinary.com/dzd9sonxs/image/upload/v1664544714/avatar/default-avatar_xh2rub.png",
+                        "createdAt": new Date(),
+                        "isSelected": false,
+                        "userId": 1
+                    },
+                    {
+                        "oId": 2,
+                        "url": "https://res.cloudinary.com/dzd9sonxs/image/upload/v1664544714/avatar/default-avatar_xh2rub.png",
+                        "createdAt": new Date(),
+                        "isSelected": false,
+                        "userId": 2
+                    },
+                    {
+                        "oId": 3,
+                        "url": "https://res.cloudinary.com/dzd9sonxs/image/upload/v1664544714/avatar/default-avatar_xh2rub.png",
+                        "createdAt": new Date(),
+                        "isSelected": false,
+                        "userId": 3
+                    },
+                    {
+                        "oId": 4,
+                        "url": "https://res.cloudinary.com/dzd9sonxs/image/upload/v1664544714/avatar/default-avatar_xh2rub.png",
+                        "createdAt": new Date(),
+                        "isSelected": false,
+                        "userId": 4
+                    },
+                    {
+                        "oId": 5,
+                        "url": "https://res.cloudinary.com/dzd9sonxs/image/upload/v1664544714/avatar/default-avatar_xh2rub.png",
+                        "createdAt": new Date(),
+                        "isSelected": false,
+                        "userId": 5
+                    },
+                    {
+                        "oId": 6,
+                        "url": "https://res.cloudinary.com/dzd9sonxs/image/upload/v1664544714/avatar/default-avatar_xh2rub.png",
+                        "createdAt": new Date(),
+                        "isSelected": false,
+                        "userId": 6
+                    },
+                    {
+                        "oId": 7,
+                        "url": "https://res.cloudinary.com/dzd9sonxs/image/upload/v1664544714/avatar/default-avatar_xh2rub.png",
+                        "createdAt": new Date(),
+                        "isSelected": false,
+                        "userId": 7
+                    },
+                    {
+                        "oId": 8,
+                        "url": "https://res.cloudinary.com/dzd9sonxs/image/upload/v1664544714/avatar/default-avatar_xh2rub.png",
+                        "createdAt": new Date(),
+                        "isSelected": false,
+                        "userId": 8
+                    },
+                    {
+                        "oId": 9,
+                        "url": "https://res.cloudinary.com/dzd9sonxs/image/upload/v1664544714/avatar/default-avatar_xh2rub.png",
+                        "createdAt": new Date(),
+                        "isSelected": false,
+                        "userId": 9
+                    },
+                    {
+                        "oId": 10,
+                        "url": "https://res.cloudinary.com/dzd9sonxs/image/upload/v1664544714/avatar/default-avatar_xh2rub.png",
+                        "createdAt": new Date(),
+                        "isSelected": false,
+                        "userId": 10
+                    },
+                    {
+                        "oId": 11,
+                        "url": "https://res.cloudinary.com/dzd9sonxs/image/upload/v1664544968/avatar/ava1_yb7y9c.jpg",
+                        "createdAt": new Date(),
+                        "isSelected": false,
+                        "userId": 1
+                    },
+                    {
+                        "oId": 12,
+                        "url": "https://res.cloudinary.com/dzd9sonxs/image/upload/v1664544966/avatar/ava19_wjij4f.jpg",
+                        "createdAt": new Date(),
+                        "isSelected": false,
+                        "userId": 1
+                    },
+                    {
+                        "oId": 13,
+                        "url": "https://res.cloudinary.com/dzd9sonxs/image/upload/v1664544966/avatar/ava20_v4tod1.jpg",
+                        "createdAt": new Date(),
+                        "isSelected": true,
+                        "userId": 1
+                    },
+                    {
+                        "oId": 14,
+                        "url": "https://res.cloudinary.com/dzd9sonxs/image/upload/v1664544968/avatar/ava2_d6kgjw.jpg",
+                        "createdAt": new Date(),
+                        "isSelected": false,
+                        "userId": 2
+                    },
+                    {
+                        "oId": 15,
+                        "url": "https://res.cloudinary.com/dzd9sonxs/image/upload/v1664544968/avatar/ava3_bmjenu.jpg",
+                        "createdAt": new Date(),
+                        "isSelected": false,
+                        "userId": 2
+                    },
+                    {
+                        "oId": 16,
+                        "url": "https://res.cloudinary.com/dzd9sonxs/image/upload/v1664544968/avatar/ava4_q0nooa.jpg",
+                        "createdAt": new Date(),
+                        "isSelected": false,
+                        "userId": 2
+                    },
+                    {
+                        "oId": 17,
+                        "url": "https://res.cloudinary.com/dzd9sonxs/image/upload/v1664544968/avatar/ava5_ay14jm.jpg",
+                        "createdAt": new Date(),
+                        "isSelected": true,
+                        "userId": 2
+                    },
+                    {
+                        "oId": 18,
+                        "url": "https://res.cloudinary.com/dzd9sonxs/image/upload/v1664544968/avatar/ava6_tnaprq.jpg",
+                        "createdAt": new Date(),
+                        "isSelected": false,
+                        "userId": 2
+                    },
+                    {
+                        "oId": 19,
+                        "url": "https://res.cloudinary.com/dzd9sonxs/image/upload/v1664544967/avatar/ava7_x8smg4.jpg",
+                        "createdAt": new Date(),
+                        "isSelected": false,
+                        "userId": 2
+                    },
+                    {
+                        "oId": 20,
+                        "url": "https://res.cloudinary.com/dzd9sonxs/image/upload/v1664544967/avatar/ava8_avmcha.jpg",
+                        "createdAt": new Date(),
+                        "isSelected": false,
+                        "userId": 2
+                    },
+                    {
+                        "oId": 21,
+                        "url": "https://res.cloudinary.com/dzd9sonxs/image/upload/v1664544967/avatar/ava9_qmhjey.jpg",
+                        "createdAt": new Date(),
+                        "isSelected": false,
+                        "userId": 2
+                    },
+                    {
+                        "oId": 22,
+                        "url": "https://res.cloudinary.com/dzd9sonxs/image/upload/v1664544967/avatar/ava10_upbds8.jpg",
+                        "createdAt": new Date(),
+                        "isSelected": false,
+                        "userId": 2
+                    },
+                    {
+                        "oId": 23,
+                        "url": "https://res.cloudinary.com/dzd9sonxs/image/upload/v1664545117/avatar/ava11_frdqci.jpg",
+                        "createdAt": new Date(),
+                        "isSelected": true,
+                        "userId": 3
+                    },
+                    {
+                        "oId": 24,
+                        "url": "https://res.cloudinary.com/dzd9sonxs/image/upload/v1664544967/avatar/ava12_y4xvyy.jpg",
+                        "createdAt": new Date(),
+                        "isSelected": true,
+                        "userId": 4
+                    },
+                    {
+                        "oId": 25,
+                        "url": "https://res.cloudinary.com/dzd9sonxs/image/upload/v1664544967/avatar/ava13_vqpfgc.jpg",
+                        "createdAt": new Date(),
+                        "isSelected": true,
+                        "userId": 5
+                    },
+                    {
+                        "oId": 26,
+                        "url": "https://res.cloudinary.com/dzd9sonxs/image/upload/v1664544966/avatar/ava14_fpzkxi.jpg",
+                        "createdAt": new Date(),
+                        "isSelected": true,
+                        "userId": 6
+                    },
+                    {
+                        "oId": 27,
+                        "url": "https://res.cloudinary.com/dzd9sonxs/image/upload/v1664544966/avatar/ava15_caii4p.jpg",
+                        "createdAt": new Date(),
+                        "isSelected": true,
+                        "userId": 7
+                    },
+                    {
+                        "oId": 28,
+                        "url": "https://res.cloudinary.com/dzd9sonxs/image/upload/v1664544966/avatar/ava16_yqz0k0.jpg",
+                        "createdAt": new Date(),
+                        "isSelected": true,
+                        "userId": 8
+                    },
+                    {
+                        "oId": 29,
+                        "url": "https://res.cloudinary.com/dzd9sonxs/image/upload/v1664544966/avatar/ava17_xlmvlw.jpg",
+                        "createdAt": new Date(),
+                        "isSelected": true,
+                        "userId": 9
+                    },
+                    {
+                        "oId": 30,
+                        "url": "https://res.cloudinary.com/dzd9sonxs/image/upload/v1664544966/avatar/ava18_qse8nu.jpg",
+                        "createdAt": new Date(),
+                        "isSelected": true,
+                        "userId": 10
+                    }
+                ]
+            </ext:documents>
+        </ext:insertMany>
+        <rollback>
+            <ext:dropCollection collectionName="Avatar"/>
+        </rollback>
+    </changeSet>
+
+</databaseChangeLog>

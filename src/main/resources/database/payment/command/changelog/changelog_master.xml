@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+    http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-latest.xsd">
+
+    <changeSet id="V202210091000_init_master_database_structure" author="trungkien.nguyen"
+               labels="V202210091000_init_master_database_structure">
+        <sqlFile
+                path="../command/migration/V202210091000_init_master_database_structure.sql"
+                dbms="mysql"
+                encoding="UTF-8"
+                endDelimiter=";"
+                relativeToChangelogFile="true"
+                splitStatements="true"
+                stripComments="true"/>
+        <rollback>
+            <sqlFile
+                    path="../command/rollback/V202210091000_init_master_database_structure.sql"
+                    dbms="mysql"
+                    encoding="UTF-8"
+                    endDelimiter=";"
+                    relativeToChangelogFile="true"
+                    splitStatements="true"
+                    stripComments="true"/>
+        </rollback>
+    </changeSet>
+
+    <changeSet id="V202210091000_init_master_database_data" author="trungkien.nguyen"
+               labels="V202210091000_init_master_database_data">
+        <sqlFile
+                path="../command/migration/V202210081000_init_master_database_data.sql"
+                dbms="mysql"
+                encoding="UTF-8"
+                endDelimiter=";"
+                relativeToChangelogFile="true"
+                splitStatements="true"
+                stripComments="true"/>
+        <rollback>
+            <sqlFile
+                    path="../command/rollback/V202210081000_init_master_database_data.sql"
+                    dbms="mysql"
+                    encoding="UTF-8"
+                    endDelimiter=";"
+                    relativeToChangelogFile="true"
+                    splitStatements="true"
+                    stripComments="true"/>
+        </rollback>
+    </changeSet>
+
+</databaseChangeLog>

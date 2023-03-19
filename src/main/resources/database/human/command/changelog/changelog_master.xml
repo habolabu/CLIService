@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+    http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-latest.xsd">
+
+    <changeSet id="V202209302200_init_master_database_structure" author="trungkien.nguyen"
+               labels="V202209302200_init_master_database_structure">
+        <sqlFile
+                path="../command/migration/V202209302200_init_master_database_structure.sql"
+                dbms="mysql"
+                encoding="UTF-8"
+                endDelimiter=";"
+                relativeToChangelogFile="true"
+                splitStatements="true"
+                stripComments="true"/>
+        <rollback>
+            <sqlFile
+                    path="../command/rollback/V202209302200_init_master_database_structure.sql"
+                    dbms="mysql"
+                    encoding="UTF-8"
+                    endDelimiter=";"
+                    relativeToChangelogFile="true"
+                    splitStatements="true"
+                    stripComments="true"/>
+        </rollback>
+    </changeSet>
+
+    <changeSet id="V202209302200_init_master_database_data" author="trungkien.nguyen"
+               labels="V202209302200_init_master_database_data">
+        <sqlFile
+                path="../command/migration/V202209302200_init_master_database_data.sql"
+                dbms="mysql"
+                encoding="UTF-8"
+                endDelimiter=";"
+                relativeToChangelogFile="true"
+                splitStatements="true"
+                stripComments="true"/>
+        <rollback>
+            <sqlFile
+                    path="../command/rollback/V202209302200_init_master_database_data.sql"
+                    dbms="mysql"
+                    encoding="UTF-8"
+                    endDelimiter=";"
+                    relativeToChangelogFile="true"
+                    splitStatements="true"
+                    stripComments="true"/>
+        </rollback>
+    </changeSet>
+
+    <changeSet id="V202302261000_add_keycloak_id_column_into_user_table" author="trungkien.nguyen"
+               labels="V202302261000_add_keycloak_id_column_into_user_table">
+        <sqlFile
+                path="../command/migration/V202302261000_add_keycloak_id_column_into_user_table.sql"
+                dbms="mysql"
+                encoding="UTF-8"
+                endDelimiter=";"
+                relativeToChangelogFile="true"
+                splitStatements="true"
+                stripComments="true"/>
+        <rollback>
+            <sqlFile
+                    path="../command/rollback/V202302261000_add_keycloak_id_column_into_user_table.sql"
+                    dbms="mysql"
+                    encoding="UTF-8"
+                    endDelimiter=";"
+                    relativeToChangelogFile="true"
+                    splitStatements="true"
+                    stripComments="true"/>
+        </rollback>
+    </changeSet>
+
+</databaseChangeLog>

@@ -1,0 +1,148 @@
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.6.xsd
+        http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd">
+
+    <changeSet id="V202211282230_init_master_parkingBill_data" author="trungkien.nguyen"
+               labels="V202211282230_init_master_parkingBill_data">
+        <ext:insertMany collectionName="ParkingBill">
+            <ext:documents>
+                [
+                    {
+                        "oId": 1,
+                        "billId": 1,
+                        "parkingId": 1,
+                        "parkingTypeId": 1,
+                        "dayAmount": 7,
+                        "total": 100000
+                    },
+                    {
+                        "oId": 2,
+                        "billId": 2,
+                        "parkingId": 2,
+                        "parkingTypeId": 2,
+                        "dayAmount": 8,
+                        "total": 200000
+                    },
+                    {
+                        "oId": 3,
+                        "billId": 3,
+                        "parkingId": 3,
+                        "parkingTypeId": 2,
+                        "dayAmount": 9,
+                        "total": 300000
+                    },
+                    {
+                        "oId": 4,
+                        "billId": 4,
+                        "parkingId": 1,
+                        "parkingTypeId": 1,
+                        "dayAmount": 12,
+                        "total": 100000
+                    },
+                    {
+                        "oId": 5,
+                        "billId": 5,
+                        "parkingId": 2,
+                        "parkingTypeId": 2,
+                        "dayAmount": 16,
+                        "total": 200000
+                    },
+                    {
+                        "oId": 6,
+                        "billId": 6,
+                        "parkingId": 3,
+                        "parkingTypeId": 2,
+                        "dayAmount": 7,
+                        "total": 300000
+                    },
+                    {
+                        "oId": 7,
+                        "billId": 7,
+                        "parkingId": 1,
+                        "parkingTypeId": 1,
+                        "dayAmount": 6,
+                        "total": 100000
+                    },
+                    {
+                        "oId": 8,
+                        "billId": 8,
+                        "parkingId": 2,
+                        "parkingTypeId": 2,
+                        "dayAmount": 11,
+                        "total": 200000
+                    },
+                    {
+                        "oId": 9,
+                        "billId": 9,
+                        "parkingId": 3,
+                        "parkingTypeId": 2,
+                        "dayAmount": 18,
+                        "total": 300000
+                    },
+                    {
+                        "oId": 10,
+                        "billId": 10,
+                        "parkingId": 1,
+                        "parkingTypeId": 1,
+                        "dayAmount": 20,
+                        "total": 100000
+                    },
+                    {
+                        "oId": 11,
+                        "billId": 11,
+                        "parkingId": 2,
+                        "parkingTypeId": 2,
+                        "dayAmount": 18,
+                        "total": 200000
+                    },
+                    {
+                        "oId": 12,
+                        "billId": 12,
+                        "parkingId": 3,
+                        "parkingTypeId": 3,
+                        "dayAmount": 15,
+                        "total": 300000
+                    },
+                    {
+                        "oId": 13,
+                        "billId": 13,
+                        "parkingId": 1,
+                        "parkingTypeId": 3,
+                        "dayAmount": 15,
+                        "total": 100000
+                    },
+                    {
+                        "oId": 14,
+                        "billId": 14,
+                        "parkingId": 1,
+                        "parkingTypeId": 3,
+                        "dayAmount": 12,
+                        "total": 200000
+                    },
+                    {
+                        "oId": 14,
+                        "billId": 14,
+                        "parkingId": 2,
+                        "parkingTypeId": 2,
+                        "dayAmount": 17,
+                        "total": 300000
+                    },
+                    {
+                        "oId": 14,
+                        "billId": 14,
+                        "parkingId": 3,
+                        "parkingTypeId": 2,
+                        "dayAmount": 17,
+                        "total": 400000
+                    }
+                ]
+            </ext:documents>
+        </ext:insertMany>
+        <rollback>
+            <ext:dropCollection collectionName="ParkingBill"/>
+        </rollback>
+    </changeSet>
+</databaseChangeLog>

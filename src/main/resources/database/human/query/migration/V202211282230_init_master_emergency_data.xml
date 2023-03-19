@@ -1,0 +1,104 @@
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.6.xsd
+        http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd">
+
+    <changeSet id="V202211282230_init_master_emergency_data" author="trungkien.nguyen"
+               labels="V202211282230_init_master_emergency_data">
+        <ext:insertMany collectionName="Emergency">
+            <ext:documents>
+                [
+                    {
+                        "oId": 1,
+                        "name": "Nguyễn Văn A",
+                        "address": "Quận 1, Tp. HCM",
+                        "phoneNumber": "0000000001",
+                        "userId": 1
+                    },
+                    {
+                        "oId": 2,
+                        "name": "Nguyễn Văn B",
+                        "address": "Quận 2, Tp. HCM",
+                        "phoneNumber": "0000000002",
+                        "userId": 1
+                    },
+                    {
+                        "oId": 3,
+                        "name": "Nguyễn Văn C",
+                        "address": "Quận 3, Tp. HCM",
+                        "phoneNumber": "0000000003",
+                        "userId": 2
+                    },
+                    {
+                        "oId": 4,
+                        "name": "Nguyễn Văn D",
+                        "address": "Quận 4, Tp. HCM",
+                        "phoneNumber": "0000000004",
+                        "userId": 2
+                    },
+                    {
+                        "oId": 5,
+                        "name": "Nguyễn Văn E",
+                        "address": "Quận 5, Tp. HCM",
+                        "phoneNumber": "0000000005",
+                        "userId": 3
+                    },
+                    {
+                        "oId": 6,
+                        "name": "Nguyễn Văn F",
+                        "address": "Quận 6, Tp. HCM",
+                        "phoneNumber": "0000000006",
+                        "userId": 4
+                    },
+                    {
+                        "oId": 7,
+                        "name": "Nguyễn Văn G",
+                        "address": "Quận 7, Tp. HCM",
+                        "phoneNumber": "0000000007",
+                        "userId": 5
+                    },
+                    {
+                        "oId": 8,
+                        "name": "Nguyễn Văn H",
+                        "address": "Quận 8, Tp. HCM",
+                        "phoneNumber": "0000000008",
+                        "userId": 6
+                    },
+                    {
+                        "oId": 9,
+                        "name": "Nguyễn Văn I",
+                        "address": "Quận 9, Tp. HCM",
+                        "phoneNumber": "0000000009",
+                        "userId": 7
+                    },
+                    {
+                        "oId": 10,
+                        "name": "Nguyễn Văn K",
+                        "address": "Quận 10, Tp. HCM",
+                        "phoneNumber": "0000000010",
+                        "userId": 8
+                    },
+                    {
+                        "oId": 11,
+                        "name": "Nguyễn Văn L",
+                        "address": "Quận 11, Tp. HCM",
+                        "phoneNumber": "0000000011",
+                        "userId": 9
+                    },
+                    {
+                        "oId": 12,
+                        "name": "Nguyễn Văn M",
+                        "address": "Quận 12, Tp. HCM",
+                        "phoneNumber": "0000000012",
+                        "userId": 10
+                    }
+                ]
+            </ext:documents>
+        </ext:insertMany>
+        <rollback>
+            <ext:dropCollection collectionName="Emergency"/>
+        </rollback>
+    </changeSet>
+</databaseChangeLog>
