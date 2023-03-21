@@ -14,13 +14,13 @@
                     updates: [
                         { q: {oId: 1},
                            u: {
-                                $set: {keyCloakId: "03be6fbe-c070-4535-91c4-ab2b707c68db"}
+                                $set: {keyCloakId: "d15245d4-ab63-4aef-b8a6-d912004043b3"}
                            },
                            multi: false
                         },
                         { q: {oId: 2},
                            u: {
-                                $set: {keyCloakId: "d5d45c16-901c-4833-92cd-9cd374aa1288"}
+                                $set: {keyCloakId: "af64f2e5-2651-4bd1-b24e-10ae5ffdded8"}
                            },
                            multi: false
                         },

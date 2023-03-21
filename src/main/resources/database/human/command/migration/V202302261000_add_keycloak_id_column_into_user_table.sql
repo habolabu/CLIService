@@ -6,9 +6,9 @@ ALTER TABLE User
     ADD COLUMN keyCloakId VARCHAR(255);
 
 UPDATE User
-SET keyCloakId = '03be6fbe-c070-4535-91c4-ab2b707c68db'
+SET keyCloakId = 'd15245d4-ab63-4aef-b8a6-d912004043b3'
 WHERE id = 1;
 
 UPDATE User
-SET keyCloakId = 'd5d45c16-901c-4833-92cd-9cd374aa1288'
+SET keyCloakId = 'af64f2e5-2651-4bd1-b24e-10ae5ffdded8'
 WHERE id = 2;
