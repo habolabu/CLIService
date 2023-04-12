@@ -102,7 +102,7 @@ public class LiquibaseCommandConfiguration {
     }
 
     @Bean
-    public SpringLiquibase paymentLiquibase(
+    public SpringLiquibase paymentGroupCommandLiquibase(
             @Autowired DataSource paymentGroupCommandDataSource,
             @Autowired LiquibaseProperties paymentGroupCommandLiquibaseProperties
     ) {
@@ -127,7 +127,7 @@ public class LiquibaseCommandConfiguration {
     }
 
     @Bean
-    public SpringLiquibase activityLiquibase(
+    public SpringLiquibase activityGroupCommandLiquibase(
             @Autowired DataSource activityGroupCommandDataSource,
             @Autowired LiquibaseProperties activityGroupCommandLiquibaseProperties
     ) {

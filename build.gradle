@@ -18,14 +18,15 @@ buildscript {
 
 
 plugins {
-	id 'java'
-	id 'org.springframework.boot' version '2.7.5'
-	id 'io.spring.dependency-management' version '1.0.15.RELEASE'
+	id "java"
+	id "org.springframework.boot" version "2.7.5"
+	id "io.spring.dependency-management" version "1.0.15.RELEASE"
 }
 
-group = 'edu.ou'
-version = '0.0.1-SNAPSHOT'
-sourceCompatibility = '17'
+group = "edu.ou"
+version = "1.0.0"
+sourceCompatibility = "17"
+archivesBaseName = "cli-service"
 
 repositories {
 	mavenCentral()
@@ -41,7 +42,7 @@ dependencies {
 
 }
 
-tasks.named('test') {
+test {
 	useJUnitPlatform()
 }
 

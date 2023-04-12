@@ -1,3 +1,6 @@
+server:
+  port: ${SERVER_PORT:8079}
+
 datasource:
   auth-group:
     command:
@@ -69,6 +72,6 @@ datasource:
       liquibase:
         change-log: ${ACTIVITY_GROUP_QUERY_LIQUIBASE_CHANGE_LOG:classpath:database/activity/query/changelog/changelog_master.xml}
 
-logging:
-  level:
-    liquibase: debug
+#logging:
+#  level:
+#    liquibase: debug
