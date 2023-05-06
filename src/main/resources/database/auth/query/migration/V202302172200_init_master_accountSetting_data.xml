@@ -503,6 +503,30 @@
                         "status": true
                     },
                     {
+                        "accountId": 1,
+                        "roleId": 1,
+                        "permissionId": 104,
+                        "status": true
+                    },
+                    {
+                        "accountId": 1,
+                        "roleId": 1,
+                        "permissionId": 105,
+                        "status": true
+                    },
+                    {
+                        "accountId": 1,
+                        "roleId": 1,
+                        "permissionId": 106,
+                        "status": true
+                    },
+                    {
+                        "accountId": 1,
+                        "roleId": 1,
+                        "permissionId": 107,
+                        "status": true
+                    },
+                    {
                         "accountId": 2,
                         "roleId": 2,
                         "permissionId": 2,
@@ -992,6 +1016,30 @@
                         "accountId": 2,
                         "roleId": 2,
                         "permissionId": 102,
+                        "status": false
+                    },
+                    {
+                        "accountId": 2,
+                        "roleId": 2,
+                        "permissionId": 104,
+                        "status": true
+                    },
+                    {
+                        "accountId": 2,
+                        "roleId": 2,
+                        "permissionId": 105,
+                        "status": false
+                    },
+                    {
+                        "accountId": 2,
+                        "roleId": 2,
+                        "permissionId": 106,
+                        "status": false
+                    },
+                    {
+                        "accountId": 2,
+                        "roleId": 2,
+                        "permissionId": 107,
                         "status": false
                     }
                 ]
