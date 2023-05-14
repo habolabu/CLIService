@@ -10,5 +10,5 @@ SET keyCloakId = 'd15245d4-ab63-4aef-b8a6-d912004043b3'
 WHERE id = 1;
 
 UPDATE User
-SET keyCloakId = 'af64f2e5-2651-4bd1-b24e-10ae5ffdded8'
+SET keyCloakId = 'cd191de0-7a1d-4a95-9e82-70d44fb23abc'
 WHERE id = 2;

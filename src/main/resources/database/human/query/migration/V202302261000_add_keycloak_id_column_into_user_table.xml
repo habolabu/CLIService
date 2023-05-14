@@ -20,7 +20,7 @@
                         },
                         { q: {oId: 2},
                            u: {
-                                $set: {keyCloakId: "af64f2e5-2651-4bd1-b24e-10ae5ffdded8"}
+                                $set: {keyCloakId: "cd191de0-7a1d-4a95-9e82-70d44fb23abc"}
                            },
                            multi: false
                         },
