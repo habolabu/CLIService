@@ -14,25 +14,85 @@
                         "oId": 1,
                         "name": "VIP 1",
                         "slug": "vip-1",
-                        "pricePerDay": 1000000
+                        "pricePerDay": 20000
                     },
                     {
                         "oId": 2,
                         "name": "VIP 2",
                         "slug": "vip-2",
-                        "pricePerDay": 2000000
+                        "pricePerDay": 21000
                     },
                     {
                         "oId": 3,
                         "name": "Bình dân 1",
                         "slug": "binh-dan-1",
-                        "pricePerDay": 500000
+                        "pricePerDay": 5000
                     },
                     {
                         "oId": 4,
                         "name": "Bình dân 2",
                         "slug": "binh-dan-2",
-                        "pricePerDay": 800000
+                        "pricePerDay": 8000
+                    },
+                    {
+                        "oId": 5,
+                        "name": "Giá 1",
+                        "slug": "gia-1",
+                        "pricePerDay": 10000
+                    },
+                    {
+                        "oId": 6,
+                        "name": "Giá 2",
+                        "slug": "gia-2",
+                        "pricePerDay":11000
+                    },
+                    {
+                        "oId": 7,
+                        "name": "Giá 3",
+                        "slug": "gia-3",
+                        "pricePerDay": 12000
+                    },
+                    {
+                        "oId": 8,
+                        "name": "Giá 4",
+                        "slug": "gia-4",
+                        "pricePerDay": 13000
+                    },
+                    {
+                        "oId": 9,
+                        "name": "Giá 5",
+                        "slug": "gia-5",
+                        "pricePerDay": 14000
+                    },
+                    {
+                        "oId": 10,
+                        "name": "Giá 6",
+                        "slug": "gia-6",
+                        "pricePerDay": 15000
+                    },
+                    {
+                        "oId": 11,
+                        "name": "Giá 7",
+                        "slug": "gia-7",
+                        "pricePerDay": 16000
+                    },
+                    {
+                        "oId": 12,
+                        "name": "Giá 8",
+                        "slug": "gia-8",
+                        "pricePerDay": 17000
+                    },
+                    {
+                        "oId": 13,
+                        "name": "Giá 9",
+                        "slug": "gia-9",
+                        "pricePerDay": 18000
+                    },
+                    {
+                        "oId": 14,
+                        "name": "Giá 10",
+                        "slug": "gia-10",
+                        "pricePerDay": 19000
                     }
                 ]
             </ext:documents>

@@ -3,18 +3,35 @@
 -- changeset trungkien.nguyen:202209172000_init_master_database_structure
 
 INSERT INTO PriceTag (name, slug, pricePerDay)
-VALUES (N'VIP 1', 'vip-1', 1000000),
-       (N'VIP 2', 'vip-2',2000000),
-       (N'Bình dân 1', 'binh-dan-1', 500000),
-       (N'Bình dân 2', 'binh-dan-2',800000);
+VALUES (N'VIP 1', 'vip-1', 20000),
+       (N'VIP 2', 'vip-2', 21000),
+       (N'Bình dân 1', 'binh-dan-1', 5000),
+       (N'Bình dân 2', 'binh-dan-2',8000),
+       (N'Giá 1', 'gia-1', 10000),
+       (N'Giá 2', 'gia-2', 11000),
+       (N'Giá 3', 'gia-3', 12000),
+       (N'Giá 4', 'gia-4', 13000),
+       (N'Giá 5', 'gia-5', 14000),
+       (N'Giá 6', 'gia-6', 15000),
+       (N'Giá 7', 'gia-7', 16000),
+       (N'Giá 8', 'gia-8', 17000),
+       (N'Giá 9', 'gia-9', 18000),
+       (N'Giá 10', 'gia-10', 19000);
 
-UPDATE Room SET priceTagId = 1 WHERE id = 1;
-UPDATE Room SET priceTagId = 2 WHERE id = 2;
-UPDATE Room SET priceTagId = 3 WHERE id = 3;
-UPDATE Room SET priceTagId = 4 WHERE id = 4;
-UPDATE Room SET priceTagId = 1 WHERE id = 5;
-UPDATE Room SET priceTagId = 2 WHERE id = 6;
-UPDATE Room SET priceTagId = 3 WHERE id = 7;
+UPDATE Room SET priceTagId = 1 WHERE id < 50;
+UPDATE Room SET priceTagId = 2 WHERE id BETWEEN 50 AND 100;
+UPDATE Room SET priceTagId = 3 WHERE id BETWEEN 101 AND 120;
+UPDATE Room SET priceTagId = 4 WHERE id BETWEEN 121 AND 131;
+UPDATE Room SET priceTagId = 5 WHERE id BETWEEN 132 AND 140;
+UPDATE Room SET priceTagId = 6 WHERE id BETWEEN 141 AND 150;
+UPDATE Room SET priceTagId = 7 WHERE id BETWEEN 151 AND 170;
+UPDATE Room SET priceTagId = 8 WHERE id BETWEEN 171 AND 180;
+UPDATE Room SET priceTagId = 9 WHERE id BETWEEN 181 AND 190;
+UPDATE Room SET priceTagId = 10 WHERE id BETWEEN 191 AND 192;
+UPDATE Room SET priceTagId = 11 WHERE id BETWEEN 193 AND 194;
+UPDATE Room SET priceTagId = 12 WHERE id BETWEEN 195 AND 196;
+UPDATE Room SET priceTagId = 13 WHERE id BETWEEN 197 AND 200;
+UPDATE Room SET priceTagId = 14 WHERE id > 200;
 
 INSERT INTO Parking (name, slug, apartmentId)
 VALUES (N'Tầng hầm A1', 'tang-ham-a1', 1),
@@ -43,10 +60,24 @@ VALUES (1, 1, 20, 15),
        (4, 1, 150, 20);
 
 INSERT INTO OwnerHistory (ownerId, roomId, joinDate)
-VALUES (1, 1, '2022-09-18 09:35:33'),
-       (2, 2, '2022-09-18 09:35:33'),
-       (3, 3, '2022-09-18 09:35:33'),
-       (4, 4, '2022-09-18 09:35:33'),
-       (5, 5, '2022-09-18 09:35:33'),
-       (6, 6, '2022-09-18 09:35:33'),
-       (7, 7, '2022-09-18 09:35:33');
+VALUES (1, 1, NOW()),
+       (2, 2,  NOW()),
+       (3, 3, NOW()),
+       (4, 4, NOW()),
+       (5, 5, NOW()),
+       (6, 6, NOW()),
+       (7, 7, NOW()),
+       (1, 8, NOW()),
+       (1, 9, NOW()),
+       (1, 30, NOW()),
+       (1, 41, NOW()),
+       (1, 52, NOW()),
+       (1, 74, NOW()),
+       (1, 75, NOW()),
+       (1, 78, NOW()),
+       (1, 100, NOW()),
+       (1, 120, NOW()),
+       (1, 125, NOW()),
+       (2, 42, NOW()),
+       (2, 26, NOW()),
+       (2, 33, NOW());

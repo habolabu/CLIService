@@ -14,25 +14,181 @@
                         "oId": 1,
                         "name": "Khu đất hoàng gia",
                         "slug": "khu-dat-hoang-gia",
-                        "address": "Quận 3, Tp Hồ Chí Minh",
+                        "address": "Quận 3, Tp Hồ Chí Minh"
                     },
                     {
                         "oId": 2,
                         "name": "Khu đất thượng lưu",
                         "slug": "khu-dat-thuong-luu",
-                        "address": "Quận 1, Tp Hồ Chí Minh",
+                        "address": "Quận 1, Tp Hồ Chí Minh"
                     },
                     {
                         "oId": 3,
                         "name": "Khu đất quý tộc",
                         "slug": "khu-dat-quy-toc",
-                        "address": "Quận 7, Tp Hồ Chí Minh",
+                        "address": "Quận 7, Tp Hồ Chí Minh"
                     },
                     {
                         "oId": 4,
                         "name": "Khu đất bình dân",
                         "slug": "khu-dat-binh-dan",
-                        "address": "Quận 2, Tp Hồ Chí Minh",
+                        "address": "Quận 2, Tp Hồ Chí Minh"
+                    },
+                    {
+                        "oId": 5,
+                        "name": "Khu đất 1",
+                        "slug": "khu-dat-1",
+                        "address": "Địa chỉ 1"
+                    },
+                    {
+                        "oId": 6,
+                        "name": "Khu đất 2",
+                        "slug": "khu-dat-2",
+                        "address": "Địa chi 2̉"
+                    },
+                    {
+                        "oId": 7,
+                        "name": "Khu đất 3",
+                        "slug": "khu-dat-3",
+                        "address": "Địa chỉ 3"
+                    },
+                    {
+                        "oId": 8,
+                        "name": "Khu đất 4",
+                        "slug": "khu-dat-4",
+                        "address": "Địa chỉ 4"
+                    },
+                    {
+                        "oId": 9,
+                        "name": "Khu đất 5",
+                        "slug": "khu-dat-5",
+                        "address": "Địa chỉ 5"
+                    },
+                    {
+                        "oId": 10,
+                        "name": "Khu đất 6",
+                        "slug": "khu-dat-6",
+                        "address": "Địa chỉ 6"
+                    },
+                    {
+                        "oId": 11,
+                        "name": "Khu đất 7",
+                        "slug": "khu-dat-7",
+                        "address": "Địa chỉ 7"
+                    },
+                    {
+                        "oId": 12,
+                        "name": "Khu đất 8",
+                        "slug": "khu-dat-8",
+                        "address": "Địa chỉ 8"
+                    },
+                    {
+                        "oId": 13,
+                        "name": "Khu đất 9",
+                        "slug": "khu-dat-9",
+                        "address": "Địa chỉ 9"
+                    },
+                    {
+                        "oId": 14,
+                        "name": "Khu đất 10",
+                        "slug": "khu-dat-10",
+                        "address": "Địa chỉ 10"
+                    },
+                    {
+                        "oId": 15,
+                        "name": "Khu đất 11",
+                        "slug": "khu-dat-11",
+                        "address": "Địa chỉ 11"
+                    },
+                    {
+                        "oId": 16,
+                        "name": "Khu đất 12",
+                        "slug": "khu-dat-12",
+                        "address": "Địa chỉ 12"
+                    },
+                    {
+                        "oId": 17,
+                        "name": "Khu đất 13",
+                        "slug": "khu-dat-13",
+                        "address": "Địa chỉ 13"
+                    },
+                    {
+                        "oId": 18,
+                        "name": "Khu đất 14",
+                        "slug": "khu-dat-14",
+                        "address": "Địa chỉ 14"
+                    },
+                    {
+                        "oId": 19,
+                        "name": "Khu đất 15",
+                        "slug": "khu-dat-15",
+                        "address": "Địa chỉ 15"
+                    },
+                    {
+                        "oId": 20,
+                        "name": "Khu đất 16",
+                        "slug": "khu-dat-16",
+                        "address": "Địa chỉ 16"
+                    },
+                    {
+                        "oId": 21,
+                        "name": "Khu đất 17",
+                        "slug": "khu-dat-17",
+                        "address": "Địa chỉ 17"
+                    },
+                    {
+                        "oId": 22,
+                        "name": "Khu đất 18",
+                        "slug": "khu-dat-18",
+                        "address": "Địa chỉ 18"
+                    },
+                    {
+                        "oId": 23,
+                        "name": "Khu đất 19",
+                        "slug": "khu-dat-19",
+                        "address": "Địa chỉ 19"
+                    },
+                    {
+                        "oId": 24,
+                        "name": "Khu đất 20",
+                        "slug": "khu-dat-20",
+                        "address": "Địa chỉ 20"
+                    },
+                    {
+                        "oId": 25,
+                        "name": "Khu đất 21",
+                        "slug": "khu-dat-21",
+                        "address": "Địa chỉ 21"
+                    },
+                    {
+                        "oId": 26,
+                        "name": "Khu đất 22",
+                        "slug": "khu-dat-22",
+                        "address": "Địa chỉ 22"
+                    },
+                    {
+                        "oId": 27,
+                        "name": "Khu đất 23",
+                        "slug": "khu-dat-23",
+                        "address": "Địa chỉ 23"
+                    },
+                    {
+                        "oId": 28,
+                        "name": "Khu đất 24",
+                        "slug": "khu-dat-24",
+                        "address": "Địa chỉ 24"
+                    },
+                    {
+                        "oId": 29,
+                        "name": "Khu đất 25",
+                        "slug": "khu-dat-25",
+                        "address": "Địa chỉ 25"
+                    },
+                    {
+                        "oId": 30,
+                        "name": "Khu đất 26",
+                        "slug": "khu-dat-26",
+                        "address": "Địa chỉ 26"
                     }
                 ]
             </ext:documents>

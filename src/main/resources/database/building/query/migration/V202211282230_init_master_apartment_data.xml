@@ -44,6 +44,496 @@
                         "slug": "can-ho-van-an",
                         "floorAmount": 15,
                         "areaId": 1
+                    },
+                    {
+                        "oId": 6,
+                        "name": "Căn hộ 1",
+                        "slug": "can-ho-1",
+                        "floorAmount": 10,
+                        "areaId": 1
+                    },
+                    {
+                        "oId": 7,
+                        "name": "Căn hộ 2",
+                        "slug": "can-ho-2",
+                        "floorAmount": 10,
+                        "areaId": 1
+                    },
+                    {
+                        "oId": 8,
+                        "name": "Căn hộ 3",
+                        "slug": "can-ho-3",
+                        "floorAmount": 10,
+                        "areaId": 1
+                    },
+                    {
+                        "oId": 9,
+                        "name": "Căn hộ 4",
+                        "slug": "can-ho-4",
+                        "floorAmount": 10,
+                        "areaId": 1
+                    },
+                    {
+                        "oId": 10,
+                        "name": "Căn hộ 5",
+                        "slug": "can-ho-5",
+                        "floorAmount": 10,
+                        "areaId": 1
+                    },
+                    {
+                        "oId": 11,
+                        "name": "Căn hộ 6",
+                        "slug": "can-ho-6",
+                        "floorAmount": 10,
+                        "areaId": 1
+                    },
+                    {
+                        "oId": 12,
+                        "name": "Căn hộ 7",
+                        "slug": "can-ho-7",
+                        "floorAmount": 10,
+                        "areaId": 1
+                    },
+                    {
+                        "oId": 13,
+                        "name": "Căn hộ 8",
+                        "slug": "can-ho-8",
+                        "floorAmount": 10,
+                        "areaId": 1
+                    },
+                    {
+                        "oId": 14,
+                        "name": "Căn hộ 9",
+                        "slug": "can-ho-9",
+                        "floorAmount": 10,
+                        "areaId": 1
+                    },
+                    {
+                        "oId": 15,
+                        "name": "Căn hộ 10",
+                        "slug": "can-ho-10",
+                        "floorAmount": 10,
+                        "areaId": 1
+                    },
+                    {
+                        "oId": 16,
+                        "name": "Căn hộ 11",
+                        "slug": "can-ho-11",
+                        "floorAmount": 10,
+                        "areaId": 1
+                    },
+                    {
+                        "oId": 17,
+                        "name": "Căn hộ 12",
+                        "slug": "can-ho-12",
+                        "floorAmount": 10,
+                        "areaId": 1
+                    },
+                    {
+                        "oId": 18,
+                        "name": "Căn hộ 13",
+                        "slug": "can-ho-13",
+                        "floorAmount": 10,
+                        "areaId": 1
+                    },
+                    {
+                        "oId": 19,
+                        "name": "Căn hộ 14",
+                        "slug": "can-ho-14",
+                        "floorAmount": 10,
+                        "areaId": 1
+                    },
+                    {
+                        "oId": 20,
+                        "name": "Căn hộ 15",
+                        "slug": "can-ho-15",
+                        "floorAmount": 10,
+                        "areaId": 1
+                    },
+                    {
+                        "oId": 21,
+                        "name": "Căn hộ 16",
+                        "slug": "can-ho-16",
+                        "floorAmount": 10,
+                        "areaId": 1
+                    },
+                    {
+                        "oId": 22,
+                        "name": "Căn hộ 17",
+                        "slug": "can-ho-17",
+                        "floorAmount": 10,
+                        "areaId": 1
+                    },
+                    {
+                        "oId": 23,
+                        "name": "Căn hộ 18",
+                        "slug": "can-ho-18",
+                        "floorAmount": 10,
+                        "areaId": 1
+                    },
+                    {
+                        "oId": 24,
+                        "name": "Căn hộ 19",
+                        "slug": "can-ho-19",
+                        "floorAmount": 10,
+                        "areaId": 1
+                    },
+                    {
+                        "oId": 25,
+                        "name": "Căn hộ 20",
+                        "slug": "can-ho-20",
+                        "floorAmount": 10,
+                        "areaId": 2
+                    },
+                    {
+                        "oId": 26,
+                        "name": "Căn hộ 21",
+                        "slug": "can-ho-21",
+                        "floorAmount": 10,
+                        "areaId": 2
+                    },
+                    {
+                        "oId": 27,
+                        "name": "Căn hộ 22",
+                        "slug": "can-ho-22",
+                        "floorAmount": 10,
+                        "areaId": 2
+                    },
+                    {
+                        "oId": 28,
+                        "name": "Căn hộ 23",
+                        "slug": "can-ho-23",
+                        "floorAmount": 10,
+                        "areaId": 2
+                    },
+                    {
+                        "oId": 29,
+                        "name": "Căn hộ 24",
+                        "slug": "can-ho-24",
+                        "floorAmount": 10,
+                        "areaId": 2
+                    },
+                    {
+                        "oId": 30,
+                        "name": "Căn hộ 25",
+                        "slug": "can-ho-25",
+                        "floorAmount": 10,
+                        "areaId": 2
+                    },
+                    {
+                        "oId": 31,
+                        "name": "Căn hộ 26",
+                        "slug": "can-ho-26",
+                        "floorAmount": 10,
+                        "areaId": 2
+                    },
+                    {
+                        "oId": 32,
+                        "name": "Căn hộ 27",
+                        "slug": "can-ho-27",
+                        "floorAmount": 10,
+                        "areaId": 2
+                    },
+                    {
+                        "oId": 33,
+                        "name": "Căn hộ 28",
+                        "slug": "can-ho-28",
+                        "floorAmount": 10,
+                        "areaId": 2
+                    },
+                    {
+                        "oId": 34,
+                        "name": "Căn hộ 29",
+                        "slug": "can-ho-29",
+                        "floorAmount": 10,
+                        "areaId": 2
+                    },
+                    {
+                        "oId": 35,
+                        "name": "Căn hộ 30",
+                        "slug": "can-ho-30",
+                        "floorAmount": 10,
+                        "areaId": 2
+                    },
+                    {
+                        "oId": 36,
+                        "name": "Căn hộ 31",
+                        "slug": "can-ho-31",
+                        "floorAmount": 10,
+                        "areaId": 2
+                    },
+                    {
+                        "oId": 37,
+                        "name": "Căn hộ 32",
+                        "slug": "can-ho-32",
+                        "floorAmount": 10,
+                        "areaId":2
+                    },
+                    {
+                        "oId": 38,
+                        "name": "Căn hộ 33",
+                        "slug": "can-ho-33",
+                        "floorAmount": 10,
+                        "areaId": 3
+                    },
+                    {
+                        "oId": 39,
+                        "name": "Căn hộ 34",
+                        "slug": "can-ho-34",
+                        "floorAmount": 10,
+                        "areaId": 4
+                    },
+                    {
+                        "oId": 40,
+                        "name": "Căn hộ 35",
+                        "slug": "can-ho-35",
+                        "floorAmount": 10,
+                        "areaId": 5
+                    },
+                    {
+                        "oId": 41,
+                        "name": "Căn hộ 36",
+                        "slug": "can-ho-36",
+                        "floorAmount": 10,
+                        "areaId": 6
+                    },
+                    {
+                        "oId": 42,
+                        "name": "Căn hộ 37",
+                        "slug": "can-ho-37",
+                        "floorAmount": 10,
+                        "areaId": 7
+                    },
+                    {
+                        "oId": 43,
+                        "name": "Căn hộ 38",
+                        "slug": "can-ho-38",
+                        "floorAmount": 10,
+                        "areaId": 8
+                    },
+                    {
+                        "oId": 44,
+                        "name": "Căn hộ 39",
+                        "slug": "can-ho-39",
+                        "floorAmount": 10,
+                        "areaId": 9
+                    },
+                    {
+                        "oId": 45,
+                        "name": "Căn hộ 40",
+                        "slug": "can-ho-40",
+                        "floorAmount": 10,
+                        "areaId": 10
+                    },
+                    {
+                        "oId": 46,
+                        "name": "Căn hộ 41",
+                        "slug": "can-ho-41",
+                        "floorAmount": 10,
+                        "areaId": 11
+                    },
+                    {
+                        "oId": 47,
+                        "name": "Căn hộ 42",
+                        "slug": "can-ho-42",
+                        "floorAmount": 10,
+                        "areaId": 12
+                    },
+                    {
+                        "oId": 48,
+                        "name": "Căn hộ 43",
+                        "slug": "can-ho-43",
+                        "floorAmount": 10,
+                        "areaId": 13
+                    },
+                    {
+                        "oId": 49,
+                        "name": "Căn hộ 44",
+                        "slug": "can-ho-44",
+                        "floorAmount": 10,
+                        "areaId": 14
+                    },
+                    {
+                        "oId": 50,
+                        "name": "Căn hộ 45",
+                        "slug": "can-ho-45",
+                        "floorAmount": 10,
+                        "areaId": 15
+                    },
+                    {
+                        "oId": 51,
+                        "name": "Căn hộ 46",
+                        "slug": "can-ho-46",
+                        "floorAmount": 10,
+                        "areaId": 16
+                    },
+                    {
+                        "oId": 52,
+                        "name": "Căn hộ 47",
+                        "slug": "can-ho-47",
+                        "floorAmount": 10,
+                        "areaId": 17
+                    },
+                    {
+                        "oId": 53,
+                        "name": "Căn hộ 48",
+                        "slug": "can-ho-48",
+                        "floorAmount": 10,
+                        "areaId": 18
+                    },
+                    {
+                        "oId": 54,
+                        "name": "Căn hộ 49",
+                        "slug": "can-ho-49",
+                        "floorAmount": 10,
+                        "areaId": 19
+                    },
+                    {
+                        "oId": 55,
+                        "name": "Căn hộ 50",
+                        "slug": "can-ho-50",
+                        "floorAmount": 10,
+                        "areaId": 10
+                    },
+                    {
+                        "oId": 56,
+                        "name": "Căn hộ 51",
+                        "slug": "can-ho-51",
+                        "floorAmount": 10,
+                        "areaId": 11
+                    },
+                    {
+                        "oId": 57,
+                        "name": "Căn hộ 52",
+                        "slug": "can-ho-52",
+                        "floorAmount": 10,
+                        "areaId": 12
+                    },
+                    {
+                        "oId": 58,
+                        "name": "Căn hộ 53",
+                        "slug": "can-ho-53",
+                        "floorAmount": 10,
+                        "areaId": 13
+                    },
+                    {
+                        "oId": 59,
+                        "name": "Căn hộ 54",
+                        "slug": "can-ho-54",
+                        "floorAmount": 10,
+                        "areaId": 14
+                    },
+                    {
+                        "oId": 60,
+                        "name": "Căn hộ 55",
+                        "slug": "can-ho-55",
+                        "floorAmount": 10,
+                        "areaId": 15
+                    },
+                    {
+                        "oId": 61,
+                        "name": "Căn hộ 56",
+                        "slug": "can-ho-56",
+                        "floorAmount": 10,
+                        "areaId": 16
+                    },
+                    {
+                        "oId": 62,
+                        "name": "Căn hộ 57",
+                        "slug": "can-ho-57",
+                        "floorAmount": 10,
+                        "areaId": 17
+                    },
+                    {
+                        "oId": 63,
+                        "name": "Căn hộ 58",
+                        "slug": "can-ho-58",
+                        "floorAmount": 10,
+                        "areaId": 18
+                    },
+                    {
+                        "oId": 64,
+                        "name": "Căn hộ 59",
+                        "slug": "can-ho-59",
+                        "floorAmount": 10,
+                        "areaId": 19
+                    },
+                    {
+                        "oId": 65,
+                        "name": "Căn hộ 60",
+                        "slug": "can-ho-60",
+                        "floorAmount": 10,
+                        "areaId": 20
+                    },
+                    {
+                        "oId": 66,
+                        "name": "Căn hộ 61",
+                        "slug": "can-ho-61",
+                        "floorAmount": 10,
+                        "areaId": 21
+                    },
+                    {
+                        "oId": 67,
+                        "name": "Căn hộ 62",
+                        "slug": "can-ho-62",
+                        "floorAmount": 10,
+                        "areaId": 22
+                    },
+                    {
+                        "oId": 68,
+                        "name": "Căn hộ 63",
+                        "slug": "can-ho-63",
+                        "floorAmount": 10,
+                        "areaId": 23
+                    },
+                    {
+                        "oId": 69,
+                        "name": "Căn hộ 64",
+                        "slug": "can-ho-64",
+                        "floorAmount": 10,
+                        "areaId": 24
+                    },
+                    {
+                        "oId": 70,
+                        "name": "Căn hộ 65",
+                        "slug": "can-ho-65",
+                        "floorAmount": 10,
+                        "areaId": 25
+                    },
+                    {
+                        "oId": 71,
+                        "name": "Căn hộ 66",
+                        "slug": "can-ho-66",
+                        "floorAmount": 10,
+                        "areaId": 26
+                    },
+                    {
+                        "oId": 72,
+                        "name": "Căn hộ 67",
+                        "slug": "can-ho-67",
+                        "floorAmount": 10,
+                        "areaId": 27
+                    },
+                    {
+                        "oId": 73,
+                        "name": "Căn hộ 68",
+                        "slug": "can-ho-68",
+                        "floorAmount": 10,
+                        "areaId": 28
+                    },
+                    {
+                        "oId": 74,
+                        "name": "Căn hộ 69",
+                        "slug": "can-ho-69",
+                        "floorAmount": 10,
+                        "areaId": 29
+                    },
+                    {
+                        "oId": 75,
+                        "name": "Căn hộ 70",
+                        "slug": "can-ho-70",
+                        "floorAmount": 10,
+                        "areaId": 30
                     }
                 ]
             </ext:documents>

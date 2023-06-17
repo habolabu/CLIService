@@ -16,7 +16,7 @@
                         "parkingId": 1,
                         "parkingTypeId": 1,
                         "dayAmount": 7,
-                        "total": 100000
+                        "total": 10000
                     },
                     {
                         "oId": 2,
@@ -24,7 +24,7 @@
                         "parkingId": 2,
                         "parkingTypeId": 2,
                         "dayAmount": 8,
-                        "total": 200000
+                        "total": 20000
                     },
                     {
                         "oId": 3,
@@ -32,7 +32,7 @@
                         "parkingId": 3,
                         "parkingTypeId": 2,
                         "dayAmount": 9,
-                        "total": 300000
+                        "total": 30000
                     },
                     {
                         "oId": 4,
@@ -40,7 +40,7 @@
                         "parkingId": 1,
                         "parkingTypeId": 1,
                         "dayAmount": 12,
-                        "total": 100000
+                        "total": 10000
                     },
                     {
                         "oId": 5,
@@ -48,7 +48,7 @@
                         "parkingId": 2,
                         "parkingTypeId": 2,
                         "dayAmount": 16,
-                        "total": 200000
+                        "total": 20000
                     },
                     {
                         "oId": 6,
@@ -56,7 +56,7 @@
                         "parkingId": 3,
                         "parkingTypeId": 2,
                         "dayAmount": 7,
-                        "total": 300000
+                        "total": 30000
                     },
                     {
                         "oId": 7,
@@ -64,7 +64,7 @@
                         "parkingId": 1,
                         "parkingTypeId": 1,
                         "dayAmount": 6,
-                        "total": 100000
+                        "total": 10000
                     },
                     {
                         "oId": 8,
@@ -72,7 +72,7 @@
                         "parkingId": 2,
                         "parkingTypeId": 2,
                         "dayAmount": 11,
-                        "total": 200000
+                        "total": 20000
                     },
                     {
                         "oId": 9,
@@ -80,7 +80,7 @@
                         "parkingId": 3,
                         "parkingTypeId": 2,
                         "dayAmount": 18,
-                        "total": 300000
+                        "total": 30000
                     },
                     {
                         "oId": 10,
@@ -88,7 +88,7 @@
                         "parkingId": 1,
                         "parkingTypeId": 1,
                         "dayAmount": 20,
-                        "total": 100000
+                        "total": 10000
                     },
                     {
                         "oId": 11,
@@ -96,7 +96,7 @@
                         "parkingId": 2,
                         "parkingTypeId": 2,
                         "dayAmount": 18,
-                        "total": 200000
+                        "total": 20000
                     },
                     {
                         "oId": 12,
@@ -104,7 +104,7 @@
                         "parkingId": 3,
                         "parkingTypeId": 3,
                         "dayAmount": 15,
-                        "total": 300000
+                        "total": 30000
                     },
                     {
                         "oId": 13,
@@ -112,7 +112,7 @@
                         "parkingId": 1,
                         "parkingTypeId": 3,
                         "dayAmount": 15,
-                        "total": 100000
+                        "total": 10000
                     },
                     {
                         "oId": 14,
@@ -120,7 +120,7 @@
                         "parkingId": 1,
                         "parkingTypeId": 3,
                         "dayAmount": 12,
-                        "total": 200000
+                        "total": 20000
                     },
                     {
                         "oId": 14,
@@ -128,7 +128,7 @@
                         "parkingId": 2,
                         "parkingTypeId": 2,
                         "dayAmount": 17,
-                        "total": 300000
+                        "total": 30000
                     },
                     {
                         "oId": 14,
@@ -136,7 +136,7 @@
                         "parkingId": 3,
                         "parkingTypeId": 2,
                         "dayAmount": 17,
-                        "total": 400000
+                        "total": 40000
                     }
                 ]
             </ext:documents>

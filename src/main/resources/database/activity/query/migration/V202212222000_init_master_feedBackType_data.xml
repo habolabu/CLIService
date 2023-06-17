@@ -21,6 +21,96 @@
                         "name": "Phản hồi dịch vụ",
                         "slug": "phan-hoi-dich-vu",
                         "createdAt": new Date()
+                    },
+                    {
+                        "oId": 3,
+                        "name": "Loại phản hồi 1",
+                        "slug": "loai-phan-hoi-1",
+                        "createdAt": new Date()
+                    },
+                    {
+                        "oId": 4,
+                        "name": "Loại phản hồi 2",
+                        "slug": "loai-phan-hoi-2",
+                        "createdAt": new Date()
+                    },
+                    {
+                        "oId": 5,
+                        "name": "Loại phản hồi 3",
+                        "slug": "loai-phan-hoi-3",
+                        "createdAt": new Date()
+                    },
+                    {
+                        "oId": 6,
+                        "name": "Loại phản hồi 4",
+                        "slug": "loai-phan-hoi-4",
+                        "createdAt": new Date()
+                    },
+                    {
+                        "oId": 7,
+                        "name": "Loại phản hồi 5",
+                        "slug": "loai-phan-hoi-5",
+                        "createdAt": new Date()
+                    },
+                    {
+                        "oId": 8,
+                        "name": "Loại phản hồi 6",
+                        "slug": "loai-phan-hoi-6",
+                        "createdAt": new Date()
+                    },
+                    {
+                        "oId": 9,
+                        "name": "Loại phản hồi 7",
+                        "slug": "loai-phan-hoi-7",
+                        "createdAt": new Date()
+                    },
+                    {
+                        "oId": 10,
+                        "name": "Loại phản hồi 8",
+                        "slug": "loai-phan-hoi-8",
+                        "createdAt": new Date()
+                    },
+                    {
+                        "oId": 11,
+                        "name": "Loại phản hồi 9",
+                        "slug": "loai-phan-hoi-9",
+                        "createdAt": new Date()
+                    },
+                    {
+                        "oId": 12,
+                        "name": "Loại phản hồi 10",
+                        "slug": "loai-phan-hoi-10",
+                        "createdAt": new Date()
+                    },
+                    {
+                        "oId": 13,
+                        "name": "Loại phản hồi 11",
+                        "slug": "loai-phan-hoi-11",
+                        "createdAt": new Date()
+                    },
+                    {
+                        "oId": 14,
+                        "name": "Loại phản hồi 12",
+                        "slug": "loai-phan-hoi-12",
+                        "createdAt": new Date()
+                    },
+                   {
+                        "oId": 15,
+                        "name": "Loại phản hồi 13",
+                        "slug": "loai-phan-hoi-13",
+                        "createdAt": new Date()
+                    },
+                    {
+                        "oId": 16,
+                        "name": "Loại phản hồi 14",
+                        "slug": "loai-phan-hoi-14",
+                        "createdAt": new Date()
+                    },
+                    {
+                        "oId": 17,
+                        "name": "Loại phản hồi 15",
+                        "slug": "loai-phan-hoi-15",
+                        "createdAt": new Date()
                     }
                 ]
             </ext:documents>

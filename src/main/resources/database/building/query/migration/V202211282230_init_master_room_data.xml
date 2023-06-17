@@ -66,6 +66,1630 @@
                         "apartmentId": 2,
                         "priceTagId": 3
                     },
+                    {
+                        "oId": 8,
+                        "name": "Phòng 1",
+                        "slug": "phong-1",
+                        "floorNumber": 4,
+                        "apartmentId": 1,
+                        "priceTagId": 1
+                    },
+                    {
+                        "oId": 9,
+                        "name": "Phòng 2",
+                        "slug": "phong-2",
+                        "floorNumber": 4,
+                        "apartmentId": 1,
+                        "priceTagId": 1
+                    },
+                    {
+                        "oId": 10,
+                        "name": "Phòng 3",
+                        "slug": "phong-3",
+                        "floorNumber": 4,
+                        "apartmentId": 1,
+                        "priceTagId": 1
+                    },
+                    {
+                        "oId": 11,
+                        "name": "Phòng 4",
+                        "slug": "phong-4",
+                        "floorNumber": 4,
+                        "apartmentId": 1,
+                        "priceTagId": 1
+                    },
+                    {
+                        "oId": 12,
+                        "name": "Phòng 5",
+                        "slug": "phong-5",
+                        "floorNumber": 4,
+                        "apartmentId": 1,
+                        "priceTagId": 1
+                    },
+                    {
+                        "oId": 13,
+                        "name": "Phòng 6",
+                        "slug": "phong-6",
+                        "floorNumber": 4,
+                        "apartmentId": 1,
+                        "priceTagId": 1
+                    },
+                    {
+                        "oId": 14,
+                        "name": "Phòng 7",
+                        "slug": "phong-7",
+                        "floorNumber": 4,
+                        "apartmentId": 1,
+                        "priceTagId": 1
+                    },
+                    {
+                        "oId": 15,
+                        "name": "Phòng 8",
+                        "slug": "phong-8",
+                        "floorNumber": 4,
+                        "apartmentId": 1,
+                        "priceTagId": 1
+                    },
+                    {
+                        "oId": 16,
+                        "name": "Phòng 9",
+                        "slug": "phong-9",
+                        "floorNumber": 4,
+                        "apartmentId": 1,
+                        "priceTagId": 1
+                    },
+                    {
+                        "oId": 17,
+                        "name": "Phòng 10",
+                        "slug": "phong-10",
+                        "floorNumber": 4,
+                        "apartmentId": 1,
+                        "priceTagId": 1
+                    },
+                    {
+                        "oId": 18,
+                        "name": "Phòng 11",
+                        "slug": "phong-11",
+                        "floorNumber": 4,
+                        "apartmentId": 1,
+                        "priceTagId": 1
+                    },
+                    {
+                        "oId": 19,
+                        "name": "Phòng 12",
+                        "slug": "phong-12",
+                        "floorNumber": 4,
+                        "apartmentId": 1,
+                        "priceTagId": 1
+                    },
+                    {
+                        "oId": 20,
+                        "name": "Phòng 13",
+                        "slug": "phong-13",
+                        "floorNumber": 4,
+                        "apartmentId": 1,
+                        "priceTagId": 1
+                    },
+                    {
+                        "oId": 21,
+                        "name": "Phòng 14",
+                        "slug": "phong-14",
+                        "floorNumber": 4,
+                        "apartmentId": 1,
+                        "priceTagId": 1
+                    },
+                    {
+                        "oId": 22,
+                        "name": "Phòng 15",
+                        "slug": "phong-15",
+                        "floorNumber": 4,
+                        "apartmentId": 1,
+                        "priceTagId": 1
+                    },
+                    {
+                        "oId": 23,
+                        "name": "Phòng 16",
+                        "slug": "phong-16",
+                        "floorNumber": 4,
+                        "apartmentId": 1,
+                        "priceTagId": 1
+                    },
+                    {
+                        "oId": 24,
+                        "name": "Phòng 17",
+                        "slug": "phong-17",
+                        "floorNumber": 4,
+                        "apartmentId": 1,
+                        "priceTagId": 1
+                    },
+                    {
+                        "oId": 25,
+                        "name": "Phòng 18",
+                        "slug": "phong-18",
+                        "floorNumber": 4,
+                        "apartmentId": 1,
+                        "priceTagId": 1
+                    },
+                    {
+                        "oId": 26,
+                        "name": "Phòng 19",
+                        "slug": "phong-19",
+                        "floorNumber": 4,
+                        "apartmentId": 1,
+                        "priceTagId": 1
+                    },
+                    {
+                        "oId": 27,
+                        "name": "Phòng 20",
+                        "slug": "phong-20",
+                        "floorNumber": 4,
+                        "apartmentId": 1,
+                        "priceTagId": 1
+                    },
+                    {
+                        "oId": 28,
+                        "name": "Phòng 21",
+                        "slug": "phong-21",
+                        "floorNumber": 4,
+                        "apartmentId": 1,
+                        "priceTagId": 1
+                    },
+                    {
+                        "oId": 29,
+                        "name": "Phòng 22",
+                        "slug": "phong-22",
+                        "floorNumber": 4,
+                        "apartmentId": 1,
+                        "priceTagId": 1
+                    },
+                    {
+                        "oId": 30,
+                        "name": "Phòng 23",
+                        "slug": "phong-23",
+                        "floorNumber": 4,
+                        "apartmentId": 1,
+                        "priceTagId": 1
+                    },
+                    {
+                        "oId": 31,
+                        "name": "Phòng 24",
+                        "slug": "phong-24",
+                        "floorNumber": 4,
+                        "apartmentId": 1,
+                        "priceTagId": 1
+                    },
+                    {
+                        "oId": 32,
+                        "name": "Phòng 25",
+                        "slug": "phong-25",
+                        "floorNumber": 4,
+                        "apartmentId": 1,
+                        "priceTagId": 1
+                    },
+                    {
+                        "oId": 33,
+                        "name": "Phòng 26",
+                        "slug": "phong-26",
+                        "floorNumber": 4,
+                        "apartmentId": 1,
+                        "priceTagId": 1
+                    },
+                    {
+                        "oId": 34,
+                        "name": "Phòng 27",
+                        "slug": "phong-27",
+                        "floorNumber": 4,
+                        "apartmentId": 1,
+                        "priceTagId": 1
+                    },
+                    {
+                        "oId": 35,
+                        "name": "Phòng 28",
+                        "slug": "phong-28",
+                        "floorNumber": 4,
+                        "apartmentId": 1,
+                        "priceTagId": 1
+                    },
+                    {
+                        "oId": 36,
+                        "name": "Phòng 29",
+                        "slug": "phong-29",
+                        "floorNumber": 4,
+                        "apartmentId": 1,
+                        "priceTagId": 1
+                    },
+                    {
+                        "oId": 37,
+                        "name": "Phòng 30",
+                        "slug": "phong-30",
+                        "floorNumber": 4,
+                        "apartmentId": 1,
+                        "priceTagId": 1
+                    },
+                    {
+                        "oId": 38,
+                        "name": "Phòng 31",
+                        "slug": "phong-31",
+                        "floorNumber": 4,
+                        "apartmentId": 1,
+                        "priceTagId": 1
+                    },
+                    {
+                        "oId": 39,
+                        "name": "Phòng 32",
+                        "slug": "phong-32",
+                        "floorNumber": 4,
+                        "apartmentId": 1,
+                        "priceTagId": 1
+                    },
+                    {
+                        "oId": 40,
+                        "name": "Phòng 33",
+                        "slug": "phong-33",
+                        "floorNumber": 4,
+                        "apartmentId": 1,
+                        "priceTagId": 1
+                    },
+                    {
+                        "oId": 41,
+                        "name": "Phòng 34",
+                        "slug": "phong-34",
+                        "floorNumber": 4,
+                        "apartmentId": 1,
+                        "priceTagId": 1
+                    },
+                    {
+                        "oId": 42,
+                        "name": "Phòng 35",
+                        "slug": "phong-35",
+                        "floorNumber": 4,
+                        "apartmentId": 1,
+                        "priceTagId": 1
+                    },
+                    {
+                        "oId": 43,
+                        "name": "Phòng 36",
+                        "slug": "phong-36",
+                        "floorNumber": 4,
+                        "apartmentId": 1,
+                        "priceTagId": 1
+                    },
+                    {
+                        "oId": 44,
+                        "name": "Phòng 37",
+                        "slug": "phong-37",
+                        "floorNumber": 4,
+                        "apartmentId": 1,
+                        "priceTagId": 1
+                    },
+                    {
+                        "oId": 45,
+                        "name": "Phòng 38",
+                        "slug": "phong-38",
+                        "floorNumber": 4,
+                        "apartmentId": 1,
+                        "priceTagId": 1
+                    },
+                    {
+                        "oId": 46,
+                        "name": "Phòng 39",
+                        "slug": "phong-39",
+                        "floorNumber": 4,
+                        "apartmentId": 1,
+                        "priceTagId": 1
+                    },
+                    {
+                        "oId": 47,
+                        "name": "Phòng 40",
+                        "slug": "phong-40",
+                        "floorNumber": 4,
+                        "apartmentId": 1,
+                        "priceTagId": 1
+                    },
+                    {
+                        "oId": 48,
+                        "name": "Phòng 41",
+                        "slug": "phong-41",
+                        "floorNumber": 4,
+                        "apartmentId": 1,
+                        "priceTagId": 1
+                    },
+                    {
+                        "oId": 49,
+                        "name": "Phòng 42",
+                        "slug": "phong-42",
+                        "floorNumber": 4,
+                        "apartmentId": 1,
+                        "priceTagId": 1
+                    },
+                    {
+                        "oId": 50,
+                        "name": "Phòng 43",
+                        "slug": "phong-43",
+                        "floorNumber": 4,
+                        "apartmentId": 1,
+                        "priceTagId": 2
+                    },
+                    {
+                        "oId": 51,
+                        "name": "Phòng 44",
+                        "slug": "phong-44",
+                        "floorNumber": 4,
+                        "apartmentId": 1,
+                        "priceTagId": 2
+                    },
+                    {
+                        "oId": 52,
+                        "name": "Phòng 45",
+                        "slug": "phong-45",
+                        "floorNumber": 4,
+                        "apartmentId": 1,
+                        "priceTagId": 2
+                    },
+                    {
+                        "oId": 53,
+                        "name": "Phòng 46",
+                        "slug": "phong-46",
+                        "floorNumber": 4,
+                        "apartmentId": 1,
+                        "priceTagId": 2
+                    },
+                    {
+                        "oId": 54,
+                        "name": "Phòng 47",
+                        "slug": "phong-47",
+                        "floorNumber": 4,
+                        "apartmentId": 1,
+                        "priceTagId": 2
+                    },
+                    {
+                        "oId": 55,
+                        "name": "Phòng 48",
+                        "slug": "phong-48",
+                        "floorNumber": 4,
+                        "apartmentId": 1,
+                        "priceTagId": 2
+                    },
+                    {
+                        "oId": 56,
+                        "name": "Phòng 49",
+                        "slug": "phong-49",
+                        "floorNumber": 4,
+                        "apartmentId": 1,
+                        "priceTagId": 2
+                    },
+                    {
+                        "oId": 57,
+                        "name": "Phòng 50",
+                        "slug": "phong-50",
+                        "floorNumber": 4,
+                        "apartmentId": 1,
+                        "priceTagId": 2
+                    },
+                    {
+                        "oId": 58,
+                        "name": "Phòng 51",
+                        "slug": "phong-51",
+                        "floorNumber": 4,
+                        "apartmentId": 1,
+                        "priceTagId": 2
+                    },
+                    {
+                        "oId": 59,
+                        "name": "Phòng 52",
+                        "slug": "phong-52",
+                        "floorNumber": 4,
+                        "apartmentId": 1,
+                        "priceTagId": 2
+                    },
+                    {
+                        "oId": 60,
+                        "name": "Phòng 53",
+                        "slug": "phong-53",
+                        "floorNumber": 4,
+                        "apartmentId": 1,
+                        "priceTagId": 2
+                    },
+                    {
+                        "oId": 61,
+                        "name": "Phòng 54",
+                        "slug": "phong-54",
+                        "floorNumber": 4,
+                        "apartmentId": 1,
+                        "priceTagId": 2
+                    },
+                    {
+                        "oId": 62,
+                        "name": "Phòng 55",
+                        "slug": "phong-55",
+                        "floorNumber": 4,
+                        "apartmentId": 1,
+                        "priceTagId": 2
+                    },
+                    {
+                        "oId": 63,
+                        "name": "Phòng 56",
+                        "slug": "phong-56",
+                        "floorNumber": 4,
+                        "apartmentId": 1,
+                        "priceTagId": 2
+                    },
+                    {
+                        "oId": 64,
+                        "name": "Phòng 57",
+                        "slug": "phong-57",
+                        "floorNumber": 4,
+                        "apartmentId": 1,
+                        "priceTagId": 2
+                    },
+                    {
+                        "oId": 65,
+                        "name": "Phòng 58",
+                        "slug": "phong-58",
+                        "floorNumber": 4,
+                        "apartmentId": 1,
+                        "priceTagId": 2
+                    },
+                    {
+                        "oId": 66,
+                        "name": "Phòng 59",
+                        "slug": "phong-59",
+                        "floorNumber": 4,
+                        "apartmentId": 1,
+                        "priceTagId": 2
+                    },
+                    {
+                        "oId": 67,
+                        "name": "Phòng 60",
+                        "slug": "phong-60",
+                        "floorNumber": 4,
+                        "apartmentId": 1,
+                        "priceTagId": 2
+                    },
+                    {
+                        "oId": 68,
+                        "name": "Phòng 61",
+                        "slug": "phong-61",
+                        "floorNumber": 4,
+                        "apartmentId": 1,
+                        "priceTagId": 2
+                    },
+                    {
+                        "oId": 69,
+                        "name": "Phòng 62",
+                        "slug": "phong-62",
+                        "floorNumber": 4,
+                        "apartmentId": 1,
+                        "priceTagId": 2
+                    },
+                    {
+                        "oId": 70,
+                        "name": "Phòng 63",
+                        "slug": "phong-63",
+                        "floorNumber": 4,
+                        "apartmentId": 1,
+                        "priceTagId": 2
+                    },
+                    {
+                        "oId": 71,
+                        "name": "Phòng 64",
+                        "slug": "phong-64",
+                        "floorNumber": 4,
+                        "apartmentId": 1,
+                        "priceTagId": 2
+                    },
+                    {
+                        "oId": 72,
+                        "name": "Phòng 65",
+                        "slug": "phong-65",
+                        "floorNumber": 4,
+                        "apartmentId": 1,
+                        "priceTagId": 2
+                    },
+                    {
+                        "oId": 73,
+                        "name": "Phòng 66",
+                        "slug": "phong-66",
+                        "floorNumber": 4,
+                        "apartmentId": 1,
+                        "priceTagId": 2
+                    },
+                    {
+                        "oId": 74,
+                        "name": "Phòng 67",
+                        "slug": "phong-67",
+                        "floorNumber": 4,
+                        "apartmentId": 1,
+                        "priceTagId": 2
+                    },
+                    {
+                        "oId": 75,
+                        "name": "Phòng 68",
+                        "slug": "phong-68",
+                        "floorNumber": 4,
+                        "apartmentId": 1,
+                        "priceTagId": 2
+                    },
+                    {
+                        "oId": 76,
+                        "name": "Phòng 69",
+                        "slug": "phong-69",
+                        "floorNumber": 4,
+                        "apartmentId": 1,
+                        "priceTagId": 2
+                    },
+                    {
+                        "oId": 77,
+                        "name": "Phòng 70",
+                        "slug": "phong-70",
+                        "floorNumber": 4,
+                        "apartmentId": 1,
+                        "priceTagId": 2
+                    },
+                    {
+                        "oId": 78,
+                        "name": "Phòng 71",
+                        "slug": "phong-71",
+                        "floorNumber": 4,
+                        "apartmentId": 1,
+                        "priceTagId": 2
+                    },
+                    {
+                        "oId": 79,
+                        "name": "Phòng 72",
+                        "slug": "phong-72",
+                        "floorNumber": 4,
+                        "apartmentId": 1,
+                        "priceTagId": 2
+                    },
+                    {
+                        "oId": 80,
+                        "name": "Phòng 73",
+                        "slug": "phong-73",
+                        "floorNumber": 4,
+                        "apartmentId": 1,
+                        "priceTagId": 2
+                    },
+                    {
+                        "oId": 81,
+                        "name": "Phòng 74",
+                        "slug": "phong-74",
+                        "floorNumber": 4,
+                        "apartmentId": 1,
+                        "priceTagId": 2
+                    },
+                    {
+                        "oId": 82,
+                        "name": "Phòng 75",
+                        "slug": "phong-75",
+                        "floorNumber": 4,
+                        "apartmentId": 1,
+                        "priceTagId": 2
+                    },
+                    {
+                        "oId": 83,
+                        "name": "Phòng 76",
+                        "slug": "phong-76",
+                        "floorNumber": 4,
+                        "apartmentId": 1,
+                        "priceTagId": 2
+                    },
+                    {
+                        "oId": 84,
+                        "name": "Phòng 77",
+                        "slug": "phong-77",
+                        "floorNumber": 4,
+                        "apartmentId": 1,
+                        "priceTagId": 2
+                    },
+                    {
+                        "oId": 85,
+                        "name": "Phòng 78",
+                        "slug": "phong-78",
+                        "floorNumber": 4,
+                        "apartmentId": 1,
+                        "priceTagId": 2
+                    },
+                    {
+                        "oId": 86,
+                        "name": "Phòng 79",
+                        "slug": "phong-79",
+                        "floorNumber": 4,
+                        "apartmentId": 1,
+                        "priceTagId": 2
+                    },
+                    {
+                        "oId": 87,
+                        "name": "Phòng 80",
+                        "slug": "phong-80",
+                        "floorNumber": 4,
+                        "apartmentId": 1,
+                        "priceTagId": 2
+                    },
+                    {
+                        "oId": 88,
+                        "name": "Phòng 81",
+                        "slug": "phong-81",
+                        "floorNumber": 4,
+                        "apartmentId": 1,
+                        "priceTagId": 2
+                    },
+                    {
+                        "oId": 89,
+                        "name": "Phòng 82",
+                        "slug": "phong-82",
+                        "floorNumber": 4,
+                        "apartmentId": 1,
+                        "priceTagId": 2
+                    },
+                    {
+                        "oId": 90,
+                        "name": "Phòng 83",
+                        "slug": "phong-83",
+                        "floorNumber": 4,
+                        "apartmentId": 1,
+                        "priceTagId": 2
+                    },
+                    {
+                        "oId": 91,
+                        "name": "Phòng 84",
+                        "slug": "phong-84",
+                        "floorNumber": 4,
+                        "apartmentId": 1,
+                        "priceTagId": 2
+                    },
+                    {
+                        "oId": 92,
+                        "name": "Phòng 85",
+                        "slug": "phong-85",
+                        "floorNumber": 4,
+                        "apartmentId": 1,
+                        "priceTagId": 2
+                    },
+                    {
+                        "oId": 93,
+                        "name": "Phòng 86",
+                        "slug": "phong-86",
+                        "floorNumber": 4,
+                        "apartmentId": 1,
+                        "priceTagId": 2
+                    },
+                    {
+                        "oId": 94,
+                        "name": "Phòng 87",
+                        "slug": "phong-87",
+                        "floorNumber": 4,
+                        "apartmentId": 1,
+                        "priceTagId": 2
+                    },
+                    {
+                        "oId": 95,
+                        "name": "Phòng 88",
+                        "slug": "phong-88",
+                        "floorNumber": 4,
+                        "apartmentId": 1,
+                        "priceTagId": 2
+                    },
+                    {
+                        "oId": 96,
+                        "name": "Phòng 89",
+                        "slug": "phong-89",
+                        "floorNumber": 4,
+                        "apartmentId": 1,
+                        "priceTagId": 2
+                    },
+                    {
+                        "oId": 97,
+                        "name": "Phòng 90",
+                        "slug": "phong-90",
+                        "floorNumber": 4,
+                        "apartmentId": 1,
+                        "priceTagId": 2
+                    },
+                    {
+                        "oId": 98,
+                        "name": "Phòng 91",
+                        "slug": "phong-91",
+                        "floorNumber": 4,
+                        "apartmentId": 1,
+                        "priceTagId": 2
+                    },
+                    {
+                        "oId": 99,
+                        "name": "Phòng 92",
+                        "slug": "phong-92",
+                        "floorNumber": 4,
+                        "apartmentId": 1,
+                        "priceTagId": 2
+                    },
+                    {
+                        "oId": 100,
+                        "name": "Phòng 93",
+                        "slug": "phong-93",
+                        "floorNumber": 4,
+                        "apartmentId": 1,
+                        "priceTagId": 2
+                    },
+                    {
+                        "oId": 101,
+                        "name": "Phòng 94",
+                        "slug": "phong-94",
+                        "floorNumber": 4,
+                        "apartmentId": 1,
+                        "priceTagId": 3
+                    },
+                    {
+                        "oId": 102,
+                        "name": "Phòng 95",
+                        "slug": "phong-95",
+                        "floorNumber": 4,
+                        "apartmentId": 1,
+                        "priceTagId": 3
+                    },
+                    {
+                        "oId": 103,
+                        "name": "Phòng 96",
+                        "slug": "phong-96",
+                        "floorNumber": 4,
+                        "apartmentId": 1,
+                        "priceTagId": 3
+                    },
+                    {
+                        "oId": 104,
+                        "name": "Phòng 97",
+                        "slug": "phong-97",
+                        "floorNumber": 4,
+                        "apartmentId": 1,
+                        "priceTagId": 3
+                    },
+                    {
+                        "oId": 105,
+                        "name": "Phòng 98",
+                        "slug": "phong-98",
+                        "floorNumber": 4,
+                        "apartmentId": 1,
+                        "priceTagId": 3
+                    },
+                    {
+                        "oId": 106,
+                        "name": "Phòng 99",
+                        "slug": "phong-99",
+                        "floorNumber": 4,
+                        "apartmentId": 1,
+                        "priceTagId": 3
+                    },
+                    {
+                        "oId": 107,
+                        "name": "Phòng 100",
+                        "slug": "phong-100",
+                        "floorNumber": 4,
+                        "apartmentId": 1,
+                        "priceTagId": 3
+                    },
+                    {
+                        "oId": 108,
+                        "name": "Phòng 101",
+                        "slug": "phong-101",
+                        "floorNumber": 4,
+                        "apartmentId": 1,
+                        "priceTagId": 3
+                    },
+                    {
+                        "oId": 109,
+                        "name": "Phòng 102",
+                        "slug": "phong-102",
+                        "floorNumber": 4,
+                        "apartmentId": 1,
+                        "priceTagId": 3
+                    },
+                    {
+                        "oId": 110,
+                        "name": "Phòng 103",
+                        "slug": "phong-103",
+                        "floorNumber": 4,
+                        "apartmentId": 1,
+                        "priceTagId": 3
+                    },
+                    {
+                        "oId": 111,
+                        "name": "Phòng 104",
+                        "slug": "phong-104",
+                        "floorNumber": 4,
+                        "apartmentId": 1,
+                        "priceTagId": 3
+                    },
+                    {
+                        "oId": 112,
+                        "name": "Phòng 105",
+                        "slug": "phong-105",
+                        "floorNumber": 4,
+                        "apartmentId": 1,
+                        "priceTagId": 3
+                    },
+                    {
+                        "oId": 113,
+                        "name": "Phòng 106",
+                        "slug": "phong-106",
+                        "floorNumber": 4,
+                        "apartmentId": 1,
+                        "priceTagId": 3
+                    },
+                    {
+                        "oId": 114,
+                        "name": "Phòng 107",
+                        "slug": "phong-107",
+                        "floorNumber": 4,
+                        "apartmentId": 1,
+                        "priceTagId": 3
+                    },
+                    {
+                        "oId": 115,
+                        "name": "Phòng 108",
+                        "slug": "phong-108",
+                        "floorNumber": 4,
+                        "apartmentId": 1,
+                        "priceTagId": 3
+                    },
+                    {
+                        "oId": 116,
+                        "name": "Phòng 109",
+                        "slug": "phong-109",
+                        "floorNumber": 4,
+                        "apartmentId": 1,
+                        "priceTagId": 3
+                    },
+                    {
+                        "oId": 117,
+                        "name": "Phòng 110",
+                        "slug": "phong-110",
+                        "floorNumber": 4,
+                        "apartmentId": 1,
+                        "priceTagId": 3
+                    },
+                    {
+                        "oId": 118,
+                        "name": "Phòng 111",
+                        "slug": "phong-111",
+                        "floorNumber": 4,
+                        "apartmentId": 1,
+                        "priceTagId": 3
+                    },
+                    {
+                        "oId": 119,
+                        "name": "Phòng 112",
+                        "slug": "phong-112",
+                        "floorNumber": 4,
+                        "apartmentId": 1,
+                        "priceTagId": 3
+                    },
+                    {
+                        "oId": 120,
+                        "name": "Phòng 113",
+                        "slug": "phong-113",
+                        "floorNumber": 4,
+                        "apartmentId": 1,
+                        "priceTagId": 3
+                    },
+                    {
+                        "oId": 121,
+                        "name": "Phòng 114",
+                        "slug": "phong-114",
+                        "floorNumber": 4,
+                        "apartmentId": 1,
+                        "priceTagId": 4
+                    },
+                    {
+                        "oId": 122,
+                        "name": "Phòng 115",
+                        "slug": "phong-115",
+                        "floorNumber": 4,
+                        "apartmentId": 1,
+                        "priceTagId": 4
+                    },
+                    {
+                        "oId": 123,
+                        "name": "Phòng 116",
+                        "slug": "phong-116",
+                        "floorNumber": 4,
+                        "apartmentId": 1,
+                        "priceTagId": 4
+                    },
+                    {
+                        "oId": 124,
+                        "name": "Phòng 117",
+                        "slug": "phong-117",
+                        "floorNumber": 4,
+                        "apartmentId": 1,
+                        "priceTagId": 4
+                    },
+                    {
+                        "oId": 125,
+                        "name": "Phòng 118",
+                        "slug": "phong-118",
+                        "floorNumber": 4,
+                        "apartmentId": 1,
+                        "priceTagId": 4
+                    },
+                    {
+                        "oId": 126,
+                        "name": "Phòng 119",
+                        "slug": "phong-119",
+                        "floorNumber": 4,
+                        "apartmentId": 1,
+                        "priceTagId": 4
+                    },
+                    {
+                        "oId": 127,
+                        "name": "Phòng 120",
+                        "slug": "phong-120",
+                        "floorNumber": 4,
+                        "apartmentId": 1,
+                        "priceTagId": 4
+                    },
+                    {
+                        "oId": 128,
+                        "name": "Phòng 121",
+                        "slug": "phong-121",
+                        "floorNumber": 4,
+                        "apartmentId": 1,
+                        "priceTagId": 4
+                    },
+                    {
+                        "oId": 129,
+                        "name": "Phòng 122",
+                        "slug": "phong-122",
+                        "floorNumber": 4,
+                        "apartmentId": 1,
+                        "priceTagId": 4
+                    },
+                    {
+                        "oId": 130,
+                        "name": "Phòng 123",
+                        "slug": "phong-123",
+                        "floorNumber": 4,
+                        "apartmentId": 1,
+                        "priceTagId": 4
+                    },
+                    {
+                        "oId": 131,
+                        "name": "Phòng 124",
+                        "slug": "phong-124",
+                        "floorNumber": 4,
+                        "apartmentId": 1,
+                        "priceTagId": 4
+                    },
+                    {
+                        "oId": 132,
+                        "name": "Phòng 125",
+                        "slug": "phong-125",
+                        "floorNumber": 4,
+                        "apartmentId": 1,
+                        "priceTagId": 5
+                    },
+                    {
+                        "oId": 133,
+                        "name": "Phòng 126",
+                        "slug": "phong-126",
+                        "floorNumber": 4,
+                        "apartmentId": 1,
+                        "priceTagId": 5
+                    },
+                    {
+                        "oId": 134,
+                        "name": "Phòng 127",
+                        "slug": "phong-127",
+                        "floorNumber": 4,
+                        "apartmentId": 1,
+                        "priceTagId": 5
+                    },
+                    {
+                        "oId": 135,
+                        "name": "Phòng 128",
+                        "slug": "phong-128",
+                        "floorNumber": 4,
+                        "apartmentId": 1,
+                        "priceTagId": 5
+                    },
+                    {
+                        "oId": 136,
+                        "name": "Phòng 129",
+                        "slug": "phong-129",
+                        "floorNumber": 4,
+                        "apartmentId": 1,
+                        "priceTagId": 5
+                    },
+                    {
+                        "oId": 137,
+                        "name": "Phòng 130",
+                        "slug": "phong-130",
+                        "floorNumber": 4,
+                        "apartmentId": 1,
+                        "priceTagId": 5
+                    },
+                    {
+                        "oId": 138,
+                        "name": "Phòng 131",
+                        "slug": "phong-131",
+                        "floorNumber": 4,
+                        "apartmentId": 1,
+                        "priceTagId": 5
+                    },
+                    {
+                        "oId": 139,
+                        "name": "Phòng 132",
+                        "slug": "phong-132",
+                        "floorNumber": 4,
+                        "apartmentId": 1,
+                        "priceTagId": 5
+                    },
+                    {
+                        "oId": 140,
+                        "name": "Phòng 133",
+                        "slug": "phong-133",
+                        "floorNumber": 4,
+                        "apartmentId": 1,
+                        "priceTagId": 5
+                    },
+                    {
+                        "oId": 141,
+                        "name": "Phòng 134",
+                        "slug": "phong-134",
+                        "floorNumber": 4,
+                        "apartmentId": 1,
+                        "priceTagId": 6
+                    },
+                    {
+                        "oId": 142,
+                        "name": "Phòng 135",
+                        "slug": "phong-135",
+                        "floorNumber": 4,
+                        "apartmentId": 1,
+                        "priceTagId": 6
+                    },
+                    {
+                        "oId": 143,
+                        "name": "Phòng 136",
+                        "slug": "phong-136",
+                        "floorNumber": 4,
+                        "apartmentId": 1,
+                        "priceTagId": 6
+                    },
+                    {
+                        "oId": 144,
+                        "name": "Phòng 137",
+                        "slug": "phong-137",
+                        "floorNumber": 4,
+                        "apartmentId": 1,
+                        "priceTagId": 6
+                    },
+                    {
+                        "oId": 145,
+                        "name": "Phòng 138",
+                        "slug": "phong-138",
+                        "floorNumber": 4,
+                        "apartmentId": 1,
+                        "priceTagId": 6
+                    },
+                    {
+                        "oId": 146,
+                        "name": "Phòng 139",
+                        "slug": "phong-139",
+                        "floorNumber": 4,
+                        "apartmentId": 1,
+                        "priceTagId": 6
+                    },
+                    {
+                        "oId": 147,
+                        "name": "Phòng 140",
+                        "slug": "phong-140",
+                        "floorNumber": 4,
+                        "apartmentId": 1,
+                        "priceTagId": 6
+                    },
+                    {
+                        "oId": 148,
+                        "name": "Phòng 141",
+                        "slug": "phong-141",
+                        "floorNumber": 4,
+                        "apartmentId": 1,
+                        "priceTagId": 6
+                    },
+                    {
+                        "oId": 149,
+                        "name": "Phòng 142",
+                        "slug": "phong-142",
+                        "floorNumber": 4,
+                        "apartmentId": 1,
+                        "priceTagId": 6
+                    },
+                    {
+                        "oId": 150,
+                        "name": "Phòng 143",
+                        "slug": "phong-143",
+                        "floorNumber": 4,
+                        "apartmentId": 1,
+                        "priceTagId": 6
+                    },
+                    {
+                        "oId": 151,
+                        "name": "Phòng 144",
+                        "slug": "phong-144",
+                        "floorNumber": 4,
+                        "apartmentId": 1,
+                        "priceTagId": 7
+                    },
+                    {
+                        "oId": 152,
+                        "name": "Phòng 145",
+                        "slug": "phong-145",
+                        "floorNumber": 4,
+                        "apartmentId": 1,
+                        "priceTagId": 7
+                    },
+                    {
+                        "oId": 153,
+                        "name": "Phòng 146",
+                        "slug": "phong-146",
+                        "floorNumber": 4,
+                        "apartmentId": 1,
+                        "priceTagId": 7
+                    },
+                    {
+                        "oId": 154,
+                        "name": "Phòng 147",
+                        "slug": "phong-147",
+                        "floorNumber": 4,
+                        "apartmentId": 1,
+                        "priceTagId": 7
+                    },
+                    {
+                        "oId": 155,
+                        "name": "Phòng 148",
+                        "slug": "phong-148",
+                        "floorNumber": 4,
+                        "apartmentId": 1,
+                        "priceTagId": 7
+                    },
+                    {
+                        "oId": 156,
+                        "name": "Phòng 149",
+                        "slug": "phong-149",
+                        "floorNumber": 4,
+                        "apartmentId": 1,
+                        "priceTagId": 7
+                    },
+                    {
+                        "oId": 157,
+                        "name": "Phòng 150",
+                        "slug": "phong-150",
+                        "floorNumber": 4,
+                        "apartmentId": 1,
+                        "priceTagId": 7
+                    },
+                    {
+                        "oId": 158,
+                        "name": "Phòng 151",
+                        "slug": "phong-151",
+                        "floorNumber": 4,
+                        "apartmentId": 1,
+                        "priceTagId": 7
+                    },
+                    {
+                        "oId": 159,
+                        "name": "Phòng 152",
+                        "slug": "phong-152",
+                        "floorNumber": 4,
+                        "apartmentId": 1,
+                        "priceTagId": 7
+                    },
+                    {
+                        "oId": 160,
+                        "name": "Phòng 153",
+                        "slug": "phong-153",
+                        "floorNumber": 4,
+                        "apartmentId": 1,
+                        "priceTagId": 7
+                    },
+                    {
+                        "oId": 161,
+                        "name": "Phòng 154",
+                        "slug": "phong-154",
+                        "floorNumber": 4,
+                        "apartmentId": 1,
+                        "priceTagId": 7
+                    },
+                    {
+                        "oId": 162,
+                        "name": "Phòng 155",
+                        "slug": "phong-155",
+                        "floorNumber": 4,
+                        "apartmentId": 1,
+                        "priceTagId": 7
+                    },
+                    {
+                        "oId": 163,
+                        "name": "Phòng 156",
+                        "slug": "phong-156",
+                        "floorNumber": 4,
+                        "apartmentId": 1,
+                        "priceTagId": 7
+                    },
+                    {
+                        "oId": 164,
+                        "name": "Phòng 157",
+                        "slug": "phong-157",
+                        "floorNumber": 4,
+                        "apartmentId": 1,
+                        "priceTagId": 7
+                    },
+                    {
+                        "oId": 165,
+                        "name": "Phòng 158",
+                        "slug": "phong-158",
+                        "floorNumber": 4,
+                        "apartmentId": 1,
+                        "priceTagId": 7
+                    },
+                    {
+                        "oId": 166,
+                        "name": "Phòng 159",
+                        "slug": "phong-159",
+                        "floorNumber": 4,
+                        "apartmentId": 1,
+                        "priceTagId": 7
+                    },
+                    {
+                        "oId": 167,
+                        "name": "Phòng 160",
+                        "slug": "phong-160",
+                        "floorNumber": 4,
+                        "apartmentId": 1,
+                        "priceTagId": 7
+                    },
+                    {
+                        "oId": 168,
+                        "name": "Phòng 161",
+                        "slug": "phong-161",
+                        "floorNumber": 4,
+                        "apartmentId": 1,
+                        "priceTagId": 7
+                    },
+                    {
+                        "oId": 169,
+                        "name": "Phòng 162",
+                        "slug": "phong-162",
+                        "floorNumber": 4,
+                        "apartmentId": 1,
+                        "priceTagId": 7
+                    },
+                    {
+                        "oId": 170,
+                        "name": "Phòng 163",
+                        "slug": "phong-163",
+                        "floorNumber": 4,
+                        "apartmentId": 1,
+                        "priceTagId": 7
+                    },
+                    {
+                        "oId": 171,
+                        "name": "Phòng 164",
+                        "slug": "phong-164",
+                        "floorNumber": 4,
+                        "apartmentId": 1,
+                        "priceTagId": 8
+                    },
+                    {
+                        "oId": 172,
+                        "name": "Phòng 165",
+                        "slug": "phong-165",
+                        "floorNumber": 4,
+                        "apartmentId": 1,
+                        "priceTagId": 8
+                    },
+                    {
+                        "oId": 173,
+                        "name": "Phòng 166",
+                        "slug": "phong-166",
+                        "floorNumber": 4,
+                        "apartmentId": 1,
+                        "priceTagId": 8
+                    },
+                    {
+                        "oId": 174,
+                        "name": "Phòng 167",
+                        "slug": "phong-167",
+                        "floorNumber": 4,
+                        "apartmentId": 1,
+                        "priceTagId": 8
+                    },
+                    {
+                        "oId": 175,
+                        "name": "Phòng 168",
+                        "slug": "phong-168",
+                        "floorNumber": 4,
+                        "apartmentId": 1,
+                        "priceTagId": 8
+                    },
+                    {
+                        "oId": 176,
+                        "name": "Phòng 169",
+                        "slug": "phong-169",
+                        "floorNumber": 4,
+                        "apartmentId": 1,
+                        "priceTagId": 8
+                    },
+                    {
+                        "oId": 177,
+                        "name": "Phòng 170",
+                        "slug": "phong-170",
+                        "floorNumber": 4,
+                        "apartmentId": 1,
+                        "priceTagId": 8
+                    },
+                    {
+                        "oId": 178,
+                        "name": "Phòng 171",
+                        "slug": "phong-171",
+                        "floorNumber": 4,
+                        "apartmentId": 1,
+                        "priceTagId": 8
+                    },
+                    {
+                        "oId": 179,
+                        "name": "Phòng 172",
+                        "slug": "phong-172",
+                        "floorNumber": 4,
+                        "apartmentId": 1,
+                        "priceTagId": 8
+                    },
+                    {
+                        "oId": 180,
+                        "name": "Phòng 173",
+                        "slug": "phong-173",
+                        "floorNumber": 4,
+                        "apartmentId": 1,
+                        "priceTagId": 8
+                    },
+                    {
+                        "oId": 181,
+                        "name": "Phòng 174",
+                        "slug": "phong-174",
+                        "floorNumber": 4,
+                        "apartmentId": 1,
+                        "priceTagId": 9
+                    },
+                    {
+                        "oId": 182,
+                        "name": "Phòng 175",
+                        "slug": "phong-175",
+                        "floorNumber": 4,
+                        "apartmentId": 1,
+                        "priceTagId": 9
+                    },
+                    {
+                        "oId": 183,
+                        "name": "Phòng 176",
+                        "slug": "phong-176",
+                        "floorNumber": 4,
+                        "apartmentId": 1,
+                        "priceTagId": 9
+                    },
+                    {
+                        "oId": 184,
+                        "name": "Phòng 177",
+                        "slug": "phong-177",
+                        "floorNumber": 4,
+                        "apartmentId": 1,
+                        "priceTagId": 9
+                    },
+                    {
+                        "oId": 185,
+                        "name": "Phòng 178",
+                        "slug": "phong-178",
+                        "floorNumber": 4,
+                        "apartmentId": 1,
+                        "priceTagId": 9
+                    },
+                    {
+                        "oId": 186,
+                        "name": "Phòng 179",
+                        "slug": "phong-179",
+                        "floorNumber": 4,
+                        "apartmentId": 1,
+                        "priceTagId": 9
+                    },
+                    {
+                        "oId": 187,
+                        "name": "Phòng 180",
+                        "slug": "phong-180",
+                        "floorNumber": 4,
+                        "apartmentId": 1,
+                        "priceTagId": 9
+                    },
+                    {
+                        "oId": 188,
+                        "name": "Phòng 181",
+                        "slug": "phong-181",
+                        "floorNumber": 4,
+                        "apartmentId": 1,
+                        "priceTagId": 9
+                    },
+                    {
+                        "oId": 189,
+                        "name": "Phòng 182",
+                        "slug": "phong-182",
+                        "floorNumber": 4,
+                        "apartmentId": 1,
+                        "priceTagId": 9
+                    },
+                    {
+                        "oId": 190,
+                        "name": "Phòng 183",
+                        "slug": "phong-183",
+                        "floorNumber": 4,
+                        "apartmentId": 1,
+                        "priceTagId": 9
+                    },
+                    {
+                        "oId": 191,
+                        "name": "Phòng 184",
+                        "slug": "phong-184",
+                        "floorNumber": 4,
+                        "apartmentId": 1,
+                        "priceTagId": 10
+                    },
+                    {
+                        "oId": 192,
+                        "name": "Phòng 185",
+                        "slug": "phong-185",
+                        "floorNumber": 4,
+                        "apartmentId": 1,
+                        "priceTagId": 10
+                    },
+                    {
+                        "oId": 193,
+                        "name": "Phòng 186",
+                        "slug": "phong-186",
+                        "floorNumber": 4,
+                        "apartmentId": 1,
+                        "priceTagId": 11
+                    },
+                    {
+                        "oId": 194,
+                        "name": "Phòng 187",
+                        "slug": "phong-187",
+                        "floorNumber": 4,
+                        "apartmentId": 1,
+                        "priceTagId": 11
+                    },
+                    {
+                        "oId": 195,
+                        "name": "Phòng 188",
+                        "slug": "phong-188",
+                        "floorNumber": 4,
+                        "apartmentId": 1,
+                        "priceTagId": 12
+                    },
+                    {
+                        "oId": 196,
+                        "name": "Phòng 189",
+                        "slug": "phong-189",
+                        "floorNumber": 4,
+                        "apartmentId": 1,
+                        "priceTagId": 12
+                    },
+                    {
+                        "oId": 197,
+                        "name": "Phòng 190",
+                        "slug": "phong-190",
+                        "floorNumber": 4,
+                        "apartmentId": 1,
+                        "priceTagId": 13
+                    },
+                    {
+                        "oId": 198,
+                        "name": "Phòng 191",
+                        "slug": "phong-191",
+                        "floorNumber": 4,
+                        "apartmentId": 1,
+                        "priceTagId": 13
+                    },
+                    {
+                        "oId": 199,
+                        "name": "Phòng 192",
+                        "slug": "phong-192",
+                        "floorNumber": 4,
+                        "apartmentId": 1,
+                        "priceTagId": 13
+                    },
+                    {
+                        "oId": 200,
+                        "name": "Phòng 193",
+                        "slug": "phong-193",
+                        "floorNumber": 4,
+                        "apartmentId": 1,
+                        "priceTagId": 13
+                    },
+                    {
+                        "oId": 201,
+                        "name": "Phòng 194",
+                        "slug": "phong-194",
+                        "floorNumber": 4,
+                        "apartmentId": 1,
+                        "priceTagId": 14
+                    },
+                    {
+                        "oId": 202,
+                        "name": "Phòng 195",
+                        "slug": "phong-195",
+                        "floorNumber": 4,
+                        "apartmentId": 1,
+                        "priceTagId": 14
+                    },
+                    {
+                        "oId": 203,
+                        "name": "Phòng 196",
+                        "slug": "phong-196",
+                        "floorNumber": 4,
+                        "apartmentId": 1,
+                        "priceTagId": 14
+                    },
+                    {
+                        "oId": 204,
+                        "name": "Phòng 197",
+                        "slug": "phong-197",
+                        "floorNumber": 4,
+                        "apartmentId": 1,
+                        "priceTagId": 14
+                    },
+                    {
+                        "oId": 205,
+                        "name": "Phòng 198",
+                        "slug": "phong-198",
+                        "floorNumber": 4,
+                        "apartmentId": 1,
+                        "priceTagId": 14
+                    },
+                    {
+                        "oId": 206,
+                        "name": "Phòng 199",
+                        "slug": "phong-199",
+                        "floorNumber": 4,
+                        "apartmentId": 1,
+                        "priceTagId": 14
+                    },
+                    {
+                        "oId": 207,
+                        "name": "Phòng 200",
+                        "slug": "phong-200",
+                        "floorNumber": 4,
+                        "apartmentId": 1,
+                        "priceTagId": 14
+                    },
+                    {
+                        "oId": 208,
+                        "name": "Phòng 201",
+                        "slug": "phong-201",
+                        "floorNumber": 4,
+                        "apartmentId": 1,
+                        "priceTagId": 14
+                    },
+                    {
+                        "oId": 209,
+                        "name": "Phòng 202",
+                        "slug": "phong-202",
+                        "floorNumber": 4,
+                        "apartmentId": 1,
+                        "priceTagId": 14
+                    },
+                    {
+                        "oId": 210,
+                        "name": "Phòng 203",
+                        "slug": "phong-203",
+                        "floorNumber": 4,
+                        "apartmentId": 1,
+                        "priceTagId": 14
+                    }
                 ]
             </ext:documents>
         </ext:insertMany>

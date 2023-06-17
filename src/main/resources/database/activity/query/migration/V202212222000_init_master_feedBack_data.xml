@@ -37,7 +37,7 @@
                         "userId": 3,
                         "feedBackTypeId": 2
                     },
-                   {
+                    {
                         "oId": 4,
                         "title": "Hệ thống không bình luận được",
                         "slug": "he-thong-khong-binh-luan-duoc",
@@ -46,6 +46,672 @@
                         "userId": 5,
                         "feedBackTypeId": 1
                     },
+                    {
+                        "oId": 5,
+                        "title": "Tiêu đề phản hồi 1",
+                        "slug": "tieu-de-phan-hoi-1",
+                        "content": "Nội dung phản hồi 1",
+                        "createdAt": new Date(),
+                        "userId": 1,
+                        "feedBackTypeId": 1
+                    },
+                    {
+                        "oId": 6,
+                        "title": "Tiêu đề phản hồi 2",
+                        "slug": "tieu-de-phan-hoi-2",
+                        "content": "Nội dung phản hồi 2",
+                        "createdAt": new Date(),
+                        "userId": 2,
+                        "feedBackTypeId": 2
+                    },
+                    {
+                        "oId": 7,
+                        "title": "Tiêu đề phản hồi 3",
+                        "slug": "tieu-de-phan-hoi-3",
+                        "content": "Nội dung phản hồi 3",
+                        "createdAt": new Date(),
+                        "userId": 3,
+                        "feedBackTypeId": 1
+                    },
+                    {
+                        "oId": 8,
+                        "title": "Tiêu đề phản hồi 4",
+                        "slug": "tieu-de-phan-hoi-4",
+                        "content": "Nội dung phản hồi 4",
+                        "createdAt": new Date(),
+                        "userId": 4,
+                        "feedBackTypeId": 2
+                    },
+                    {
+                        "oId": 9,
+                        "title": "Tiêu đề phản hồi 5",
+                        "slug": "tieu-de-phan-hoi-5",
+                        "content": "Nội dung phản hồi 5",
+                        "createdAt": new Date(),
+                        "userId": 1,
+                        "feedBackTypeId": 3
+                    },
+                    {
+                        "oId": 10,
+                        "title": "Tiêu đề phản hồi 6",
+                        "slug": "tieu-de-phan-hoi-6",
+                        "content": "Nội dung phản hồi 6",
+                        "createdAt": new Date(),
+                        "userId": 1,
+                        "feedBackTypeId": 4
+                    },
+                    {
+                        "oId": 11,
+                        "title": "Tiêu đề phản hồi 7",
+                        "slug": "tieu-de-phan-hoi-7",
+                        "content": "Nội dung phản hồi 7",
+                        "createdAt": new Date(),
+                        "userId": 1,
+                        "feedBackTypeId": 5
+                    },
+                    {
+                        "oId": 12,
+                        "title": "Tiêu đề phản hồi 8",
+                        "slug": "tieu-de-phan-hoi-8",
+                        "content": "Nội dung phản hồi 8",
+                        "createdAt": new Date(),
+                        "userId": 1,
+                        "feedBackTypeId": 6
+                    },
+                    {
+                        "oId": 13,
+                        "title": "Tiêu đề phản hồi 9",
+                        "slug": "tieu-de-phan-hoi-9",
+                        "content": "Nội dung phản hồi 9",
+                        "createdAt": new Date(),
+                        "userId": 1,
+                        "feedBackTypeId": 7
+                    },
+                    {
+                        "oId": 14,
+                        "title": "Tiêu đề phản hồi 10",
+                        "slug": "tieu-de-phan-hoi-10",
+                        "content": "Nội dung phản hồi 10",
+                        "createdAt": new Date(),
+                        "userId": 1,
+                        "feedBackTypeId": 8
+                    },
+                    {
+                        "oId": 15,
+                        "title": "Tiêu đề phản hồi 11",
+                        "slug": "tieu-de-phan-hoi-11",
+                        "content": "Nội dung phản hồi 11",
+                        "createdAt": new Date(),
+                        "userId": 1,
+                        "feedBackTypeId": 9
+                    },
+                    {
+                        "oId": 16,
+                        "title": "Tiêu đề phản hồi 12",
+                        "slug": "tieu-de-phan-hoi-12",
+                        "content": "Nội dung phản hồi 12",
+                        "createdAt": new Date(),
+                        "userId": 1,
+                        "feedBackTypeId": 10
+                    },
+                    {
+                        "oId": 17,
+                        "title": "Tiêu đề phản hồi 13",
+                        "slug": "tieu-de-phan-hoi-13",
+                        "content": "Nội dung phản hồi 13",
+                        "createdAt": new Date(),
+                        "userId": 1,
+                        "feedBackTypeId": 11
+                    },
+                    {
+                        "oId": 18,
+                        "title": "Tiêu đề phản hồi 14",
+                        "slug": "tieu-de-phan-hoi-14",
+                        "content": "Nội dung phản hồi 14",
+                        "createdAt": new Date(),
+                        "userId": 1,
+                        "feedBackTypeId": 12
+                    },
+                    {
+                        "oId": 19,
+                        "title": "Tiêu đề phản hồi 15",
+                        "slug": "tieu-de-phan-hoi-15",
+                        "content": "Nội dung phản hồi 15",
+                        "createdAt": new Date(),
+                        "userId": 1,
+                        "feedBackTypeId": 13
+                    },
+                    {
+                        "oId": 20,
+                        "title": "Tiêu đề phản hồi 16",
+                        "slug": "tieu-de-phan-hoi-16",
+                        "content": "Nội dung phản hồi 16",
+                        "createdAt": new Date(),
+                        "userId": 2,
+                        "feedBackTypeId": 14
+                    },
+                    {
+                        "oId": 21,
+                        "title": "Tiêu đề phản hồi 17",
+                        "slug": "tieu-de-phan-hoi-17",
+                        "content": "Nội dung phản hồi 17",
+                        "createdAt": new Date(),
+                        "userId": 2,
+                        "feedBackTypeId": 15
+                    },
+                    {
+                        "oId": 22,
+                        "title": "Tiêu đề phản hồi 18",
+                        "slug": "tieu-de-phan-hoi-18",
+                        "content": "Nội dung phản hồi 18",
+                        "createdAt": new Date(),
+                        "userId": 2,
+                        "feedBackTypeId": 16
+                    },
+                    {
+                        "oId": 23,
+                        "title": "Tiêu đề phản hồi 19",
+                        "slug": "tieu-de-phan-hoi-19",
+                        "content": "Nội dung phản hồi 19",
+                        "createdAt": new Date(),
+                        "userId": 2,
+                        "feedBackTypeId": 17
+                    },
+                    {
+                        "oId": 24,
+                        "title": "Tiêu đề phản hồi 20",
+                        "slug": "tieu-de-phan-hoi-20",
+                        "content": "Nội dung phản hồi 20",
+                        "createdAt": new Date(),
+                        "userId": 2,
+                        "feedBackTypeId": 1
+                    },
+                    {
+                        "oId": 25,
+                        "title": "Tiêu đề phản hồi 21",
+                        "slug": "tieu-de-phan-hoi-21",
+                        "content": "Nội dung phản hồi 21",
+                        "createdAt": new Date(),
+                        "userId": 1,
+                        "feedBackTypeId": 2
+                    },
+                    {
+                        "oId": 26,
+                        "title": "Tiêu đề phản hồi 22",
+                        "slug": "tieu-de-phan-hoi-22",
+                        "content": "Nội dung phản hồi 22",
+                        "createdAt": new Date(),
+                        "userId": 1,
+                        "feedBackTypeId": 3
+                    },
+                    {
+                        "oId": 27,
+                        "title": "Tiêu đề phản hồi 23",
+                        "slug": "tieu-de-phan-hoi-23",
+                        "content": "Nội dung phản hồi 23",
+                        "createdAt": new Date(),
+                        "userId": 1,
+                        "feedBackTypeId": 4
+                    },
+                    {
+                        "oId": 28,
+                        "title": "Tiêu đề phản hồi 24",
+                        "slug": "tieu-de-phan-hoi-24",
+                        "content": "Nội dung phản hồi 24",
+                        "createdAt": new Date(),
+                        "userId": 2,
+                        "feedBackTypeId": 5
+                    },
+                    {
+                        "oId": 29,
+                        "title": "Tiêu đề phản hồi 25",
+                        "slug": "tieu-de-phan-hoi-25",
+                        "content": "Nội dung phản hồi 25",
+                        "createdAt": new Date(),
+                        "userId": 2,
+                        "feedBackTypeId": 6
+                    },
+                    {
+                        "oId": 30,
+                        "title": "Tiêu đề phản hồi 26",
+                        "slug": "tieu-de-phan-hoi-26",
+                        "content": "Nội dung phản hồi 26",
+                        "createdAt": new Date(),
+                        "userId": 1,
+                        "feedBackTypeId": 7
+                    },
+                    {
+                        "oId": 31,
+                        "title": "Tiêu đề phản hồi 27",
+                        "slug": "tieu-de-phan-hoi-27",
+                        "content": "Nội dung phản hồi 27",
+                        "createdAt": new Date(),
+                        "userId": 2,
+                        "feedBackTypeId": 8
+                    },
+                    {
+                        "oId": 32,
+                        "title": "Tiêu đề phản hồi 28",
+                        "slug": "tieu-de-phan-hoi-28",
+                        "content": "Nội dung phản hồi 28",
+                        "createdAt": new Date(),
+                        "userId": 1,
+                        "feedBackTypeId": 9
+                    },
+                    {
+                        "oId": 33,
+                        "title": "Tiêu đề phản hồi 29",
+                        "slug": "tieu-de-phan-hoi-29",
+                        "content": "Nội dung phản hồi 29",
+                        "createdAt": new Date(),
+                        "userId": 2,
+                        "feedBackTypeId": 10
+                    },
+                    {
+                        "oId": 34,
+                        "title": "Tiêu đề phản hồi 30",
+                        "slug": "tieu-de-phan-hoi-30",
+                        "content": "Nội dung phản hồi 30",
+                        "createdAt": new Date(),
+                        "userId": 2,
+                        "feedBackTypeId": 11
+                    },
+                    {
+                        "oId": 35,
+                        "title": "Tiêu đề phản hồi 31",
+                        "slug": "tieu-de-phan-hoi-31",
+                        "content": "Nội dung phản hồi 31",
+                        "createdAt": new Date(),
+                        "userId": 1,
+                        "feedBackTypeId": 12
+                    },
+                    {
+                        "oId": 36,
+                        "title": "Tiêu đề phản hồi 32",
+                        "slug": "tieu-de-phan-hoi-32",
+                        "content": "Nội dung phản hồi 32",
+                        "createdAt": new Date(),
+                        "userId": 1,
+                        "feedBackTypeId": 1
+                    },
+                    {
+                        "oId": 37,
+                        "title": "Tiêu đề phản hồi 33",
+                        "slug": "tieu-de-phan-hoi-33",
+                        "content": "Nội dung phản hồi 33",
+                        "createdAt": new Date(),
+                        "userId": 1,
+                        "feedBackTypeId": 1
+                    },
+                    {
+                        "oId": 38,
+                        "title": "Tiêu đề phản hồi 34",
+                        "slug": "tieu-de-phan-hoi-34",
+                        "content": "Nội dung phản hồi 34",
+                        "createdAt": new Date(),
+                        "userId": 1,
+                        "feedBackTypeId": 1
+                    },
+                    {
+                        "oId": 39,
+                        "title": "Tiêu đề phản hồi 35",
+                        "slug": "tieu-de-phan-hoi-35",
+                        "content": "Nội dung phản hồi 35",
+                        "createdAt": new Date(),
+                        "userId": 1,
+                        "feedBackTypeId": 1
+                    },
+                    {
+                        "oId": 40,
+                        "title": "Tiêu đề phản hồi 36",
+                        "slug": "tieu-de-phan-hoi-36",
+                        "content": "Nội dung phản hồi 36",
+                        "createdAt": new Date(),
+                        "userId": 1,
+                        "feedBackTypeId": 1
+                    },
+                    {
+                        "oId": 41,
+                        "title": "Tiêu đề phản hồi 37",
+                        "slug": "tieu-de-phan-hoi-37",
+                        "content": "Nội dung phản hồi 37",
+                        "createdAt": new Date(),
+                        "userId": 1,
+                        "feedBackTypeId": 1
+                    },
+                    {
+                        "oId": 42,
+                        "title": "Tiêu đề phản hồi 38",
+                        "slug": "tieu-de-phan-hoi-38",
+                        "content": "Nội dung phản hồi 38",
+                        "createdAt": new Date(),
+                        "userId": 1,
+                        "feedBackTypeId": 1
+                    },
+                    {
+                        "oId": 43,
+                        "title": "Tiêu đề phản hồi 39",
+                        "slug": "tieu-de-phan-hoi-39",
+                        "content": "Nội dung phản hồi 39",
+                        "createdAt": new Date(),
+                        "userId": 2,
+                        "feedBackTypeId": 1
+                    },
+                    {
+                        "oId": 44,
+                        "title": "Tiêu đề phản hồi 40",
+                        "slug": "tieu-de-phan-hoi-40",
+                        "content": "Nội dung phản hồi 40",
+                        "createdAt": new Date(),
+                        "userId": 2,
+                        "feedBackTypeId": 1
+                    },
+                    {
+                        "oId": 45,
+                        "title": "Tiêu đề phản hồi 41",
+                        "slug": "tieu-de-phan-hoi-41",
+                        "content": "Nội dung phản hồi 41",
+                        "createdAt": new Date(),
+                        "userId": 2,
+                        "feedBackTypeId": 2
+                    },
+                    {
+                        "oId": 46,
+                        "title": "Tiêu đề phản hồi 42",
+                        "slug": "tieu-de-phan-hoi-42",
+                        "content": "Nội dung phản hồi 42",
+                        "createdAt": new Date(),
+                        "userId": 1,
+                        "feedBackTypeId": 2
+                    },
+                    {
+                        "oId": 47,
+                        "title": "Tiêu đề phản hồi 43",
+                        "slug": "tieu-de-phan-hoi-43",
+                        "content": "Nội dung phản hồi 43",
+                        "createdAt": new Date(),
+                        "userId": 1,
+                        "feedBackTypeId": 2
+                    },
+                    {
+                        "oId": 48,
+                        "title": "Tiêu đề phản hồi 44",
+                        "slug": "tieu-de-phan-hoi-44",
+                        "content": "Nội dung phản hồi 44",
+                        "createdAt": new Date(),
+                        "userId": 1,
+                        "feedBackTypeId": 3
+                    },
+                    {
+                        "oId": 49,
+                        "title": "Tiêu đề phản hồi 45",
+                        "slug": "tieu-de-phan-hoi-45",
+                        "content": "Nội dung phản hồi 45",
+                        "createdAt": new Date(),
+                        "userId": 1,
+                        "feedBackTypeId": 3
+                    },
+                    {
+                        "oId": 50,
+                        "title": "Tiêu đề phản hồi 46",
+                        "slug": "tieu-de-phan-hoi-46",
+                        "content": "Nội dung phản hồi 46",
+                        "createdAt": new Date(),
+                        "userId": 1,
+                        "feedBackTypeId": 3
+                    },
+                    {
+                        "oId": 51,
+                        "title": "Tiêu đề phản hồi 47",
+                        "slug": "tieu-de-phan-hoi-47",
+                        "content": "Nội dung phản hồi 47",
+                        "createdAt": new Date(),
+                        "userId": 1,
+                        "feedBackTypeId": 1
+                    },
+                    {
+                        "oId": 52,
+                        "title": "Tiêu đề phản hồi 48",
+                        "slug": "tieu-de-phan-hoi-48",
+                        "content": "Nội dung phản hồi 48",
+                        "createdAt": new Date(),
+                        "userId": 1,
+                        "feedBackTypeId": 1
+                    },
+                    {
+                        "oId": 53,
+                        "title": "Tiêu đề phản hồi 49",
+                        "slug": "tieu-de-phan-hoi-49",
+                        "content": "Nội dung phản hồi 49",
+                        "createdAt": new Date(),
+                        "userId": 1,
+                        "feedBackTypeId": 1
+                    },
+                    {
+                        "oId": 54,
+                        "title": "Tiêu đề phản hồi 50",
+                        "slug": "tieu-de-phan-hoi-50",
+                        "content": "Nội dung phản hồi 50",
+                        "createdAt": new Date(),
+                        "userId": 1,
+                        "feedBackTypeId": 1
+                    },
+                    {
+                        "oId": 55,
+                        "title": "Tiêu đề phản hồi 51",
+                        "slug": "tieu-de-phan-hoi-51",
+                        "content": "Nội dung phản hồi 51",
+                        "createdAt": new Date(),
+                        "userId": 1,
+                        "feedBackTypeId": 1
+                    },
+                    {
+                        "oId": 56,
+                        "title": "Tiêu đề phản hồi 52",
+                        "slug": "tieu-de-phan-hoi-52",
+                        "content": "Nội dung phản hồi 52",
+                        "createdAt": new Date(),
+                        "userId": 2,
+                        "feedBackTypeId": 2
+                    },
+                    {
+                        "oId": 57,
+                        "title": "Tiêu đề phản hồi 53",
+                        "slug": "tieu-de-phan-hoi-53",
+                        "content": "Nội dung phản hồi 53",
+                        "createdAt": new Date(),
+                        "userId": 2,
+                        "feedBackTypeId": 2
+                    },
+                    {
+                        "oId": 58,
+                        "title": "Tiêu đề phản hồi 54",
+                        "slug": "tieu-de-phan-hoi-54",
+                        "content": "Nội dung phản hồi 54",
+                        "createdAt": new Date(),
+                        "userId": 2,
+                        "feedBackTypeId": 2
+                    },
+                    {
+                        "oId": 59,
+                        "title": "Tiêu đề phản hồi 55",
+                        "slug": "tieu-de-phan-hoi-55",
+                        "content": "Nội dung phản hồi 55",
+                        "createdAt": new Date(),
+                        "userId": 1,
+                        "feedBackTypeId": 2
+                    },
+                    {
+                        "oId": 60,
+                        "title": "Tiêu đề phản hồi 56",
+                        "slug": "tieu-de-phan-hoi-56",
+                        "content": "Nội dung phản hồi 56",
+                        "createdAt": new Date(),
+                        "userId": 1,
+                        "feedBackTypeId": 2
+                    },
+                    {
+                        "oId": 61,
+                        "title": "Tiêu đề phản hồi 57",
+                        "slug": "tieu-de-phan-hoi-57",
+                        "content": "Nội dung phản hồi 57",
+                        "createdAt": new Date(),
+                        "userId": 1,
+                        "feedBackTypeId": 2
+                    },
+                    {
+                        "oId": 62,
+                        "title": "Tiêu đề phản hồi 58",
+                        "slug": "tieu-de-phan-hoi-58",
+                        "content": "Nội dung phản hồi 58",
+                        "createdAt": new Date(),
+                        "userId": 1,
+                        "feedBackTypeId": 1
+                    },
+                    {
+                        "oId": 63,
+                        "title": "Tiêu đề phản hồi 59",
+                        "slug": "tieu-de-phan-hoi-59",
+                        "content": "Nội dung phản hồi 59",
+                        "createdAt": new Date(),
+                        "userId": 2,
+                        "feedBackTypeId": 1
+                    },
+                    {
+                        "oId": 64,
+                        "title": "Tiêu đề phản hồi 60",
+                        "slug": "tieu-de-phan-hoi-60",
+                        "content": "Nội dung phản hồi 60",
+                        "createdAt": new Date(),
+                        "userId": 2,
+                        "feedBackTypeId": 1
+                    },
+                    {
+                        "oId": 65,
+                        "title": "Tiêu đề phản hồi 61",
+                        "slug": "tieu-de-phan-hoi-61",
+                        "content": "Nội dung phản hồi 61",
+                        "createdAt": new Date(),
+                        "userId": 2,
+                        "feedBackTypeId": 1
+                    },
+                    {
+                        "oId": 65,
+                        "title": "Tiêu đề phản hồi 62",
+                        "slug": "tieu-de-phan-hoi-62",
+                        "content": "Nội dung phản hồi 62",
+                        "createdAt": new Date(),
+                        "userId": 2,
+                        "feedBackTypeId": 3
+                    },
+                    {
+                        "oId": 67,
+                        "title": "Tiêu đề phản hồi 63",
+                        "slug": "tieu-de-phan-hoi-63",
+                        "content": "Nội dung phản hồi 63",
+                        "createdAt": new Date(),
+                        "userId": 1,
+                        "feedBackTypeId": 5
+                    },
+                    {
+                        "oId": 68,
+                        "title": "Tiêu đề phản hồi 64",
+                        "slug": "tieu-de-phan-hoi-64",
+                        "content": "Nội dung phản hồi 64",
+                        "createdAt": new Date(),
+                        "userId": 1,
+                        "feedBackTypeId": 1
+                    },
+                    {
+                        "oId": 69,
+                        "title": "Tiêu đề phản hồi 65",
+                        "slug": "tieu-de-phan-hoi-65",
+                        "content": "Nội dung phản hồi 65",
+                        "createdAt": new Date(),
+                        "userId": 1,
+                        "feedBackTypeId": 1
+                    },
+                    {
+                        "oId": 70,
+                        "title": "Tiêu đề phản hồi 66",
+                        "slug": "tieu-de-phan-hoi-66",
+                        "content": "Nội dung phản hồi 66",
+                        "createdAt": new Date(),
+                        "userId": 5,
+                        "feedBackTypeId": 1
+                    },
+                    {
+                        "oId": 71,
+                        "title": "Tiêu đề phản hồi 67",
+                        "slug": "tieu-de-phan-hoi-67",
+                        "content": "Nội dung phản hồi 67",
+                        "createdAt": new Date(),
+                        "userId": 2,
+                        "feedBackTypeId": 1
+                    },
+                    {
+                        "oId": 72,
+                        "title": "Tiêu đề phản hồi 68",
+                        "slug": "tieu-de-phan-hoi-68",
+                        "content": "Nội dung phản hồi 68",
+                        "createdAt": new Date(),
+                        "userId": 1,
+                        "feedBackTypeId": 2
+                    },
+                    {
+                        "oId": 73,
+                        "title": "Tiêu đề phản hồi 69",
+                        "slug": "tieu-de-phan-hoi-69",
+                        "content": "Nội dung phản hồi 69",
+                        "createdAt": new Date(),
+                        "userId": 1,
+                        "feedBackTypeId": 2
+                    },
+                    {
+                        "oId": 74,
+                        "title": "Tiêu đề phản hồi 70",
+                        "slug": "tieu-de-phan-hoi-70",
+                        "content": "Nội dung phản hồi 70",
+                        "createdAt": new Date(),
+                        "userId": 1,
+                        "feedBackTypeId": 1
+                    },
+                    {
+                        "oId": 75,
+                        "title": "Tiêu đề phản hồi 71",
+                        "slug": "tieu-de-phan-hoi-71",
+                        "content": "Nội dung phản hồi 71",
+                        "createdAt": new Date(),
+                        "userId": 2,
+                        "feedBackTypeId": 2
+                    },
+                    {
+                        "oId": 76,
+                        "title": "Tiêu đề phản hồi 72",
+                        "slug": "tieu-de-phan-hoi-72",
+                        "content": "Nội dung phản hồi 72",
+                        "createdAt": new Date(),
+                        "userId": 1,
+                        "feedBackTypeId": 2
+                    },
+                    {
+                        "oId": 77,
+                        "title": "Tiêu đề phản hồi 73",
+                        "slug": "tieu-de-phan-hoi-73",
+                        "content": "Nội dung phản hồi 73",
+                        "createdAt": new Date(),
+                        "userId": 1,
+                        "feedBackTypeId": 5
+                    },
+                    {
+                        "oId": 78,
+                        "title": "Tiêu đề phản hồi 74",
+                        "slug": "tieu-de-phan-hoi-74",
+                        "content": "Nội dung phản hồi 74",
+                        "createdAt": new Date(),
+                        "userId": 2,
+                        "feedBackTypeId": 1
+                    }
                 ]
             </ext:documents>
         </ext:insertMany>

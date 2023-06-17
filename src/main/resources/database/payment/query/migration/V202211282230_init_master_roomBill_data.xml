@@ -15,112 +15,112 @@
                         "billId": 1,
                         "roomId": 1,
                         "dayAmount": 8,
-                        "total": 100000
+                        "total": 10000
                     },
                     {
                         "oId": 2,
                         "billId": 2,
                         "roomId": 1,
                         "dayAmount": 22,
-                        "total": 200000
+                        "total": 20000
                     },
                     {
                         "oId": 3,
                         "billId": 3,
                         "roomId": 1,
                         "dayAmount": 30,
-                        "total": 300000
+                        "total": 30000
                     },
                     {
                         "oId": 4,
                         "billId": 4,
                         "roomId": 2,
                         "dayAmount": 14,
-                        "total": 100000
+                        "total": 10000
                     },
                     {
                         "oId": 5,
                         "billId": 5,
                         "roomId": 2,
                         "dayAmount": 31,
-                        "total": 200000
+                        "total": 20000
                     },
                     {
                         "oId": 6,
                         "billId": 6,
                         "roomId": 2,
                         "dayAmount": 21,
-                        "total": 300000
+                        "total": 30000
                     },
                     {
                         "oId": 7,
                         "billId": 7,
                         "roomId": 2,
                         "dayAmount": 30,
-                        "total": 100000
+                        "total": 10000
                     },
                     {
                         "oId": 8,
                         "billId": 8,
                         "roomId": 2,
                         "dayAmount": 20,
-                        "total": 200000
+                        "total": 20000
                     },
                     {
                         "oId": 9,
                         "billId": 9,
                         "roomId": 2,
                         "dayAmount": 15,
-                        "total": 300000
+                        "total": 30000
                     },
                     {
                         "oId": 10,
                         "billId": 10,
                         "roomId": 2,
                         "dayAmount": 15,
-                        "total": 100000
+                        "total": 10000
                     },
                     {
                         "oId": 11,
                         "billId": 11,
                         "roomId": 2,
                         "dayAmount": 20,
-                        "total": 200000
+                        "total": 20000
                     },
                     {
                         "oId": 12,
                         "billId": 12,
                         "roomId": 2,
                         "dayAmount": 18,
-                        "total": 300000
+                        "total": 30000
                     },
                     {
                         "oId": 13,
                         "billId": 13,
                         "roomId": 2,
                         "dayAmount": 21,
-                        "total": 100000
+                        "total": 10000
                     },
                     {
                         "oId": 14,
                         "billId": 14,
                         "roomId": 2,
                         "dayAmount": 27,
-                        "total": 200000
+                        "total": 20000
                     },
                     {
                         "oId": 15,
                         "billId": 14,
                         "roomId": 2,
                         "dayAmount": 25,
-                        "total": 300000
+                        "total": 30000
                     },
                     {
                         "oId": 16,
                         "billId": 14,
                         "roomId": 2,
                         "dayAmount": 15,
-                        "total": 400000
+                        "total": 40000
                     }
                 ]
             </ext:documents>
