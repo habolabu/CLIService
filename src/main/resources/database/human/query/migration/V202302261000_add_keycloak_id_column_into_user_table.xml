@@ -19,11 +19,149 @@
                            multi: false
                         },
                         { q: {oId: 2},
-                           u: {
+                               u: {
                                 $set: {keyCloakId: "cd191de0-7a1d-4a95-9e82-70d44fb23abc"}
-                           },
+                            },
                            multi: false
                         },
+                        { q: {oId: 3},
+                            u: {
+                                $set: {keyCloakId: "58fc4240-3d16-499a-ad8c-6356f22dd20d"}
+                            },
+                        multi: false
+                        },
+                        { q: {oId: 4},
+                            u: {
+                                $set: {keyCloakId: "9d10bcf2-c08a-4222-b4cd-33c00fd64de5"}
+                            },
+                        multi: false
+                        },
+                        { q: {oId: 5},
+                            u: {
+                                $set: {keyCloakId: "fd9d8354-11e5-4b01-882c-71ea6e23767f"}
+                            },
+                        multi: false
+                        },
+                        { q: {oId: 6},
+                            u: {
+                                $set: {keyCloakId: "ff7d2fb6-0ec8-4538-bfd5-5ffc6b8a2b02"}
+                            },
+                        multi: false
+                        },
+                        { q: {oId: 7},
+                            u: {
+                                $set: {keyCloakId: "5ecc2a2c-97aa-4c06-9d27-04d5dae405a6"}
+                            },
+                        multi: false
+                        },
+                        { q: {oId: 8},
+                            u: {
+                                $set: {keyCloakId: "f1f670e4-6fab-4b3e-ad71-1acdaf1fc579"}
+                            },
+                        multi: false
+                        },
+                        { q: {oId: 9},
+                            u: {
+                                $set: {keyCloakId: "8b499a02-d568-40bd-b59b-652e59d4f295"}
+                            },
+                        multi: false
+                        },
+                        { q: {oId: 10},
+                            u: {
+                                $set: {keyCloakId: "45b7d292-c401-4581-ba99-b057d06a807d"}
+                            },
+                        multi: false
+                        },
+                        { q: {oId: 11},
+                            u: {
+                                $set: {keyCloakId: "54cb91d1-6c42-4126-ba2d-a808ee22313f"}
+                            },
+                        multi: false
+                        },
+                        { q: {oId: 12},
+                            u: {
+                                $set: {keyCloakId: "bac0d0d8-8aba-48a9-beb6-f109c34bb1a6"}
+                            },
+                        multi: false
+                        },
+                        { q: {oId: 13},
+                            u: {
+                                $set: {keyCloakId: "de380e41-fa0a-4008-82c1-13705952b282"}
+                            },
+                        multi: false
+                        },
+                        { q: {oId: 14},
+                            u: {
+                                $set: {keyCloakId: "75a51cf2-a101-4fb5-baaf-8847b00e6179"}
+                            },
+                        multi: false
+                        },
+                        { q: {oId: 15},
+                            u: {
+                                $set: {keyCloakId: "eb102194-7ec6-46cf-ba16-8ea2a86e456b"}
+                            },
+                        multi: false
+                        },
+                        { q: {oId: 16},
+                            u: {
+                                $set: {keyCloakId: "a7742aae-b8c7-4b44-8274-3eb47a44225c"}
+                            },
+                        multi: false
+                        },
+                        { q: {oId: 17},
+                            u: {
+                                $set: {keyCloakId: "508de1a9-842c-48cc-967f-59b2b7b8c5e1"}
+                            },
+                        multi: false
+                        },
+                        { q: {oId: 18},
+                            u: {
+                                $set: {keyCloakId: "4c0cf47e-ec35-449f-9dd0-a111c80a7bdf"}
+                            },
+                        multi: false
+                        },
+                        { q: {oId: 19},
+                            u: {
+                                $set: {keyCloakId: "0be57e58-9fb7-435c-a4e3-7f76a4673c47"}
+                            },
+                        multi: false
+                        },
+                        { q: {oId: 20},
+                            u: {
+                                $set: {keyCloakId: "e4f7217f-0c8e-4407-8a0e-2ece2f555f5d"}
+                            },
+                        multi: false
+                        },
+                        { q: {oId: 21},
+                            u: {
+                                $set: {keyCloakId: "93568d92-37f7-4a99-a792-59615490d4a6"}
+                            },
+                        multi: false
+                        },
+                        { q: {oId: 22},
+                            u: {
+                                $set: {keyCloakId: "1a7b9bb9-19fd-4056-851e-7ecda205f4b8"}
+                            },
+                        multi: false
+                        },
+                        { q: {oId: 23},
+                            u: {
+                                $set: {keyCloakId: "f539a383-5afc-4b1c-b1d1-d3b097c2544b"}
+                            },
+                        multi: false
+                        },
+                        { q: {oId: 24},
+                            u: {
+                                $set: {keyCloakId: "aea2c6fa-fe5b-4f78-b0d3-2281a28a74ee"}
+                            },
+                        multi: false
+                        },
+                        { q: {oId: 25},
+                            u: {
+                                $set: {keyCloakId: "8eaa0a1f-b348-440d-b17a-e66cc3726cc2"}
+                            },
+                        multi: false
+                        }
                     ],
                     ordered: false,
                     writeConcern: {
